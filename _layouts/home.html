@@ -46,6 +46,65 @@ layout: default
   {% endfor %}
 {% endif %}
 
+<section class="portfolio-hero" aria-labelledby="portfolio-hero-title">
+  <p class="hero-kicker">Information Security Student</p>
+
+  <h1 id="portfolio-hero-title">SOC / Blue Team / DFIR</h1>
+
+  <p class="hero-summary">
+    I am Vu Van Thong, focused on incident triage, Windows artifacts, C2 beacon detection,
+    ransomware response, CTF investigations, and AWS security fundamentals.
+  </p>
+
+  <div class="hero-actions" aria-label="Portfolio links">
+    <a class="btn btn-primary" href="{{ '/assets/portfolio-assets/CV_VuVanThong.pdf' | relative_url }}">
+      <i class="fas fa-file-arrow-down fa-fw"></i>
+      <span>Download CV</span>
+    </a>
+    <a class="btn btn-outline-secondary" href="{{ '/projects/' | relative_url }}">
+      <i class="fas fa-flask fa-fw"></i>
+      <span>Projects</span>
+    </a>
+    <a class="btn btn-outline-secondary" href="https://hackmd.io/@vinety" target="_blank" rel="noopener noreferrer">
+      <i class="fas fa-book-open fa-fw"></i>
+      <span>HackMD</span>
+    </a>
+    <a class="btn btn-outline-secondary" href="https://github.com/vanity1412" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-github fa-fw"></i>
+      <span>GitHub</span>
+    </a>
+    <a
+      class="btn btn-outline-secondary"
+      href="https://www.linkedin.com/in/th%C3%B4ng-v%C5%A9-v%C4%83n-506966200/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <i class="fab fa-linkedin fa-fw"></i>
+      <span>LinkedIn</span>
+    </a>
+  </div>
+
+  <dl class="hero-proof">
+    <div>
+      <dt>Focus</dt>
+      <dd>SOC triage, DFIR, threat hunting</dd>
+    </div>
+    <div>
+      <dt>Evidence</dt>
+      <dd>Labs, HackMD archive, reports, CTF awards</dd>
+    </div>
+    <div>
+      <dt>Tools</dt>
+      <dd>Windows logs, Sysmon, Wireshark, AWS</dd>
+    </div>
+  </dl>
+</section>
+
+<div class="section-heading">
+  <h2>Latest Writeups</h2>
+  <p>Short investigation notes with repeatable triage flow, evidence, and detection thinking.</p>
+</div>
+
 <div id="post-list" class="flex-grow-1 px-xl-1">
   {% for post in posts %}
     <article class="card-wrapper card">

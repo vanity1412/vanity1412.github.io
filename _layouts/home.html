@@ -47,13 +47,12 @@ layout: default
 {% endif %}
 
 <section class="portfolio-hero" aria-labelledby="portfolio-hero-title">
-  <p class="hero-kicker">Information Security Student</p>
+  <p class="hero-kicker">Vu Van Thong</p>
 
-  <h1 id="portfolio-hero-title">SOC / Blue Team / DFIR</h1>
+  <h1 id="portfolio-hero-title">Security Blog & Writeups</h1>
 
   <p class="hero-summary">
-    I am Vu Van Thong, focused on incident triage, Windows artifacts, C2 beacon detection,
-    ransomware response, CTF investigations, and AWS security fundamentals.
+    Cybersecurity notes, CTF writeups, labs, and research logs.
   </p>
 
   <div class="hero-actions" aria-label="Portfolio links">
@@ -84,25 +83,48 @@ layout: default
     </a>
   </div>
 
-  <dl class="hero-proof">
-    <div>
-      <dt>Focus</dt>
-      <dd>SOC triage, DFIR, threat hunting</dd>
-    </div>
-    <div>
-      <dt>Evidence</dt>
-      <dd>Labs, HackMD archive, reports, CTF awards</dd>
-    </div>
-    <div>
-      <dt>Tools</dt>
-      <dd>Windows logs, Sysmon, Wireshark, AWS</dd>
-    </div>
-  </dl>
+</section>
+
+<section class="content-tracks" aria-labelledby="content-tracks-title">
+  <h2 id="content-tracks-title">Explore</h2>
+
+  <div class="track-list">
+    <section>
+      <h3>Writeups</h3>
+      <ul>
+        <li><a href="{{ '/posts/picoctf-scan-surprise/' | relative_url }}">picoCTF - Scan Surprise</a></li>
+        <li><a href="{{ '/notes/hackmd-writeup-archive/' | relative_url }}">HackMD archive</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Research</h3>
+      <ul>
+        <li><a href="{{ '/notes/prototype-pollution-notes/' | relative_url }}">Prototype pollution notes</a></li>
+        <li><a href="{{ '/notes/nosql-injection-behavior/' | relative_url }}">NoSQL injection behavior</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Blog</h3>
+      <ul>
+        <li><a href="{{ '/notes/soc-learning-logs/' | relative_url }}">SOC learning logs</a></li>
+        <li><a href="{{ '/notes/security-reading-notes/' | relative_url }}">Security reading notes</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Code & Labs</h3>
+      <ul>
+        <li><a href="{{ '/notes/soc-lab-documents/' | relative_url }}">SOC lab documents</a></li>
+        <li><a href="{{ '/notes/small-security-tools/' | relative_url }}">Small security tools</a></li>
+      </ul>
+    </section>
+  </div>
 </section>
 
 <div class="section-heading">
-  <h2>Latest Writeups</h2>
-  <p>Short investigation notes with repeatable triage flow, evidence, and detection thinking.</p>
+  <h2>Latest Posts</h2>
 </div>
 
 <div id="post-list" class="flex-grow-1 px-xl-1">

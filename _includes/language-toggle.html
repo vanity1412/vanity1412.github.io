@@ -1,0 +1,104 @@
+<script>
+  (function () {
+    const STORAGE_KEY = 'site-language';
+    const DEFAULT_LANG = 'en';
+
+    const translations = {
+      en: {
+        'site.tagline': 'Security Notes',
+        'tabs.home': 'Home',
+        'tabs.projects': 'Projects',
+        'tabs.categories': 'Categories',
+        'tabs.tags': 'Tags',
+        'tabs.archives': 'Archives',
+        'tabs.about': 'About',
+        'search.hint': 'Search...',
+        'search.cancel': 'Cancel',
+        'panel.lastmod': 'Recently Updated',
+        'panel.trending_tags': 'Trending Tags',
+        'panel.toc': 'Contents',
+        'theme.light': 'Light',
+        'theme.dark': 'Dark',
+        'theme.system': 'System',
+        'post.posted': 'Posted',
+        'post.updated': 'Updated',
+        'post.written_by': 'By',
+        'post.relate_posts': 'Further Reading',
+        'post.share': 'Share',
+        'layout.post': 'Post',
+        'layout.category': 'Category',
+        'layout.tag': 'Tag'
+      },
+      vi: {
+        'site.tagline': 'Ghi chú bảo mật',
+        'tabs.home': 'Trang chủ',
+        'tabs.projects': 'Dự án',
+        'tabs.categories': 'Danh mục',
+        'tabs.tags': 'Thẻ',
+        'tabs.archives': 'Lưu trữ',
+        'tabs.about': 'Giới thiệu',
+        'search.hint': 'Tìm kiếm...',
+        'search.cancel': 'Hủy',
+        'panel.lastmod': 'Mới cập nhật',
+        'panel.trending_tags': 'Thẻ nổi bật',
+        'panel.toc': 'Mục lục',
+        'theme.light': 'Sáng',
+        'theme.dark': 'Tối',
+        'theme.system': 'Hệ thống',
+        'post.posted': 'Đăng lúc',
+        'post.updated': 'Cập nhật lúc',
+        'post.written_by': 'Viết bởi',
+        'post.relate_posts': 'Bài viết liên quan',
+        'post.share': 'Chia sẻ',
+        'layout.post': 'Bài viết',
+        'layout.category': 'Danh mục',
+        'layout.tag': 'Thẻ'
+      }
+    };
+
+    function normalize(lang) {
+      return lang === 'vi' ? 'vi' : 'en';
+    }
+
+    function getCurrentLanguage() {
+      return normalize(localStorage.getItem(STORAGE_KEY) || DEFAULT_LANG);
+    }
+
+    function applyLanguage(lang) {
+      const current = normalize(lang);
+      const dict = translations[current];
+
+      document.documentElement.dataset.contentLang = current;
+      document.documentElement.lang = current === 'vi' ? 'vi-VN' : 'en';
+      localStorage.setItem(STORAGE_KEY, current);
+
+      document.querySelectorAll('[data-i18n]').forEach((element) => {
+        const key = element.getAttribute('data-i18n');
+        const value = dict[key];
+        if (!value) return;
+        element.textContent = element.dataset.i18nUppercase === 'true' ? value.toUpperCase() : value;
+      });
+
+      document.querySelectorAll('[data-i18n-placeholder]').forEach((element) => {
+        const key = element.getAttribute('data-i18n-placeholder');
+        if (dict[key]) element.setAttribute('placeholder', dict[key]);
+      });
+
+      document.querySelectorAll('[data-lang-switch]').forEach((button) => {
+        button.classList.toggle('active', button.getAttribute('data-lang-switch') === current);
+        button.setAttribute('aria-pressed', String(button.getAttribute('data-lang-switch') === current));
+      });
+    }
+
+    window.setSiteLanguage = applyLanguage;
+
+    document.addEventListener('DOMContentLoaded', () => {
+      applyLanguage(getCurrentLanguage());
+
+      document.querySelectorAll('[data-lang-switch]').forEach((button) => {
+        button.addEventListener('click', () => applyLanguage(button.getAttribute('data-lang-switch')));
+      });
+    });
+  })();
+</script>
+

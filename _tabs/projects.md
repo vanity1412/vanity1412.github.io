@@ -5,13 +5,13 @@ order: 1
 
 # Projects & Labs
 
-Selected work, learning notes, code experiments, and archived writeups.
+Selected cybersecurity writeups, lab notes, CTF work, certificates, and supporting evidence.
 
 ## Content tracks
 
 ### Writeups
 
-CTF, Web Security Academy, TryHackMe, CyberDefenders, and challenge notes.
+Public writeup collections grouped by platform and event.
 
 - [HackTheBox Sherlocks - Blue Team Writeups](/posts/hackthebox-sherlocks-writeup/)
 - [CyberDefenders Writeups](/posts/cyberdefenders-writeups/)
@@ -19,6 +19,22 @@ CTF, Web Security Academy, TryHackMe, CyberDefenders, and challenge notes.
 - [Blue Team Labs Writeups](/posts/blueteamlabs-writeups/)
 - [Writeups CTF](/posts/writeups-ctf/)
 - [HackMD writeup archive](https://hackmd.io/@vinety)
+
+### Evidence
+
+Selected certificates, CTF results, and portfolio evidence.
+
+- [CV_VuVanThong.pdf](/assets/portfolio-assets/CV_VuVanThong.pdf)
+- [CTF 2024](/assets/portfolio-assets/img/CTF2024.png)
+- [CTF 2025](/assets/portfolio-assets/img/CTF2025.png)
+- [CTF 2024 second prize](/assets/portfolio-assets/img/GiaiNhiCTF2024.png)
+- [CTF 2025 consolation prize](/assets/portfolio-assets/img/GiaiKKCTF2025.png)
+- [CEH](/assets/portfolio-assets/img/Cert_CEH.png)
+- [CAPT](/assets/portfolio-assets/img/Cert_CAPT.png)
+- [AWS Security](/assets/portfolio-assets/img/Cert_AWS_Security.png)
+- [AWS Network](/assets/portfolio-assets/img/Cert_AWS_Network.png)
+- [AWS Database](/assets/portfolio-assets/img/Cert_AWS_DB.png)
+- [AWS EKS](/assets/portfolio-assets/img/Cert_AWS_EKS.png)
 
 ### Research notes
 
@@ -72,21 +88,3 @@ Small tools, lab documents, and experiments. More code projects can be added her
 | Feb 28, 2025 | TryHackMe - SOC Level 1 | SOC basics |
 | Jan 3, 2025 | TryHackMe - Wireshark: The Basics | Packet analysis |
 | Jan 2, 2025 | TryHackMe - Network - New Hire Old Artifacts | Network investigation |
-
-## Evidence
-
-- [CV_VuVanThong.pdf](/assets/portfolio-assets/CV_VuVanThong.pdf)
-- [CTF 2024](/assets/portfolio-assets/img/CTF2024.png)
-- [CTF 2025](/assets/portfolio-assets/img/CTF2025.png)
-- [CTF 2024 second prize](/assets/portfolio-assets/img/GiaiNhiCTF2024.png)
-- [CTF 2025 consolation prize](/assets/portfolio-assets/img/GiaiKKCTF2025.png)
-
-## Certificates
-
-- [CEH](/assets/portfolio-assets/img/Cert_CEH.png)
-- [CAPT](/assets/portfolio-assets/img/Cert_CAPT.png)
-- [MOS](/assets/portfolio-assets/img/Cert_MOS.png)
-- [AWS Security](/assets/portfolio-assets/img/Cert_AWS_Security.png)
-- [AWS Network](/assets/portfolio-assets/img/Cert_AWS_Network.png)
-- [AWS Database](/assets/portfolio-assets/img/Cert_AWS_DB.png)
-- [AWS EKS](/assets/portfolio-assets/img/Cert_AWS_EKS.png)

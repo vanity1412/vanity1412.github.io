@@ -103,4 +103,9 @@ Add lessons learned after completing the investigation.
 
 ## Conclusion
 
-This report was generated from the source PDF and should be reviewed while solving the Sherlock manually. Replace draft notes with your own investigation evidence before publishing.
+This writeup documents the investigation flow, key evidence, answers, and lessons learned from the Sherlock challenge.
+
+
+
+
+

@@ -112,10 +112,10 @@ A collection of HackTheBox Sherlocks Blue Team writeups. Click on each writeup t
     </div>
   </article>
   <article class="sherlock-card">
-    <img class="sherlock-card__cover" src="/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-03-constellation.png" alt="constellation PDF cover">
+    <img class="sherlock-card__cover" src="/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-03-constellation.png" alt="Constellation PDF cover">
     <div class="sherlock-card__body">
       <div class="sherlock-card__meta"><span>#03</span><span>Medium</span></div>
-      <h3 class="sherlock-card__title">constellation</h3>
+      <h3 class="sherlock-card__title">Constellation</h3>
       <p class="sherlock-card__summary">Follow memory-carved URLs to assess insider-threat leads, exfiltration evidence, and threat intelligence clues.</p>
       <div class="sherlock-card__actions"><a href="/writeups/htb-sherlocks-blue-team-writeups/sherlock-03-constellation/report/">Read report</a></div>
     </div>
@@ -139,10 +139,10 @@ A collection of HackTheBox Sherlocks Blue Team writeups. Click on each writeup t
     </div>
   </article>
   <article class="sherlock-card">
-    <img class="sherlock-card__cover" src="/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-06-einladen.png" alt="einladen PDF cover">
+    <img class="sherlock-card__cover" src="/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-06-einladen.png" alt="Einladen PDF cover">
     <div class="sherlock-card__body">
       <div class="sherlock-card__meta"><span>#06</span><span>Medium</span></div>
-      <h3 class="sherlock-card__title">einladen</h3>
+      <h3 class="sherlock-card__title">Einladen</h3>
       <p class="sherlock-card__summary">Analyze a suspected embassy-invite phishing email using binaries, packet capture, DLLs, and HTA artifacts.</p>
       <div class="sherlock-card__actions"><a href="/writeups/htb-sherlocks-blue-team-writeups/sherlock-06-einladen/report/">Read report</a></div>
     </div>
@@ -184,10 +184,10 @@ A collection of HackTheBox Sherlocks Blue Team writeups. Click on each writeup t
     </div>
   </article>
   <article class="sherlock-card">
-    <img class="sherlock-card__cover" src="/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-11-litter.png" alt="litter PDF cover">
+    <img class="sherlock-card__cover" src="/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-11-litter.png" alt="Litter PDF cover">
     <div class="sherlock-card__body">
       <div class="sherlock-card__meta"><span>#11</span><span>Easy</span></div>
-      <h3 class="sherlock-card__title">litter</h3>
+      <h3 class="sherlock-card__title">Litter</h3>
       <p class="sherlock-card__summary">Investigate traffic from a shared testing host to determine how it was compromised and what data was stolen.</p>
       <div class="sherlock-card__actions"><a href="/writeups/htb-sherlocks-blue-team-writeups/sherlock-11-litter/report/">Read report</a></div>
     </div>
@@ -310,10 +310,10 @@ A collection of HackTheBox Sherlocks Blue Team writeups. Click on each writeup t
     </div>
   </article>
   <article class="sherlock-card">
-    <img class="sherlock-card__cover" src="/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-25-ultimatum.png" alt="ultimatum PDF cover">
+    <img class="sherlock-card__cover" src="/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-25-ultimatum.png" alt="Ultimatum PDF cover">
     <div class="sherlock-card__body">
       <div class="sherlock-card__meta"><span>#25</span><span>Easy</span></div>
-      <h3 class="sherlock-card__title">ultimatum</h3>
+      <h3 class="sherlock-card__title">Ultimatum</h3>
       <p class="sherlock-card__summary">Investigate a compromised WordPress blog, identify the vulnerable plugin path, and restore the service.</p>
       <div class="sherlock-card__actions"><a href="/writeups/htb-sherlocks-blue-team-writeups/sherlock-25-ultimatum/report/">Read report</a></div>
     </div>
@@ -333,3 +333,4 @@ Each writeup includes:
 - **Tools Used**: Analysis toolkit
 
 Click on any **?? Read** button above to view the full writeup.
+

@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "Sherlock: constellation - Report"
+title: "Sherlock: Constellation - Report"
 permalink: /writeups/htb-sherlocks-blue-team-writeups/sherlock-03-constellation/report/
 ---
 
-![constellation cover](/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-03-constellation.png)
+![Constellation cover](/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-03-constellation.png)
 
-# constellation
+# Constellation
 
 ## Overview
 
@@ -125,4 +125,10 @@ Q1 When did the suspect first started
 
 ## Conclusion
 
-This report was generated from the source PDF and should be reviewed while solving the Sherlock manually. Replace draft notes with your own investigation evidence before publishing.
+This writeup documents the investigation flow, key evidence, answers, and lessons learned from the Sherlock challenge.
+
+
+
+
+
+

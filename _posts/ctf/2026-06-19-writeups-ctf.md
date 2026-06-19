@@ -4,12 +4,15 @@ date: 2026-06-19 09:15:00 +0700
 categories: [CTF, Writeups]
 tags: [ctf, capture-the-flag, web, crypto, reversing, forensics, pwn, writeup]
 description: "CTF competition writeups, solve notes, screenshots, payloads, and scripts."
+image:
+  path: /assets/portfolio-assets/img/wuctf/avt.png
+  alt: CTF Writeups
 pin: false
 ---
 
 ## Overview
 
-CTF writeup collection for competition solves. Each event page will be updated later with challenge notes, screenshots, payloads, scripts, and final solve paths.
+CTF writeup collection for competition solves. Each event page is organized for challenge notes, screenshots, payloads, scripts, and final solve paths.
 
 ## CTF Index
 
@@ -64,14 +67,14 @@ CTF writeup collection for competition solves. Each event page will be updated l
 
 <div class="ctf-grid">
   <article class="ctf-card">
-    <div class="ctf-card__meta"><span>2026</span><span>Draft</span></div>
+    <div class="ctf-card__meta"><span>2026</span><span>Planned</span></div>
     <h3>Google Capture The Flag 2026</h3>
     <p>Google CTF challenge writeups for web, crypto, reversing, pwn, forensics, scripts, and solve notes.</p>
     <a href="/writeups/google-capture-the-flag-2026/">Open event</a>
   </article>
 
   <article class="ctf-card">
-    <div class="ctf-card__meta"><span>7.0</span><span>Draft</span></div>
+    <div class="ctf-card__meta"><span>7.0</span><span>Planned</span></div>
     <h3>BCACTF 7.0</h3>
     <p>BCACTF challenge writeups for analysis notes, screenshots, payloads, scripts, and final solve paths.</p>
     <a href="/writeups/bcactf-7-0/">Open event</a>
@@ -82,10 +85,30 @@ CTF writeup collection for competition solves. Each event page will be updated l
 
 Use this structure when adding each challenge:
 
-1. Challenge Summary
-2. Files Provided
-3. Initial Observations
-4. Solve Path
-5. Exploit Or Script
-6. Flag
-7. Lessons Learned
+```md
+## Challenge Summary
+
+## Files Provided
+
+## Initial Observations
+
+## Solve Path
+
+### Step 1 - Understand The Challenge
+
+**Goal:**
+
+**Action:**
+
+**Evidence:**
+
+**Finding:**
+
+## Exploit Or Script
+
+## Flag
+
+## Lessons Learned
+```
+
+

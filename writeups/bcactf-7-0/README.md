@@ -15,4 +15,6 @@ Place BCACTF 7.0 challenge reports, solve scripts, and screenshots here.
 
 | # | Challenge | Category | Status | Writeup |
 | --- | --- | --- | --- | --- |
-| 1 | Coming soon | TBD | Draft | - |
+| 1 | Writeup queue | - | Planned | - |
+
+

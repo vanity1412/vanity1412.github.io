@@ -15,4 +15,6 @@ Place Google Capture The Flag 2026 challenge reports, solve scripts, and screens
 
 | # | Challenge | Category | Status | Writeup |
 | --- | --- | --- | --- | --- |
-| 1 | Coming soon | TBD | Draft | - |
+| 1 | Writeup queue | - | Planned | - |
+
+

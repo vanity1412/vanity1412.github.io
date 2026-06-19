@@ -4,6 +4,9 @@ date: 2026-06-19 09:00:00 +0700
 categories: [CyberDefenders, Blue Team]
 tags: [cyberdefenders, dfir, soc, blue-team, writeup]
 description: "CyberDefenders lab writeups and investigation notes."
+image:
+  path: /assets/portfolio-assets/img/cyberdefenders/avt.png
+  alt: CyberDefenders Writeups
 pin: false
 ---
 
@@ -15,7 +18,7 @@ CyberDefenders writeups focused on SOC triage, DFIR, malware analysis, threat hu
 
 | # | Lab | Category | Difficulty | Status | Writeup |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Coming soon | SOC / DFIR | TBD | Draft | - |
+| 1 | Writeup queue | SOC / DFIR | - | Planned | - |
 
 ## Screenshot Workspace
 
@@ -27,11 +30,44 @@ Screenshots and evidence images for this track live in:
 
 Use this structure for each lab:
 
-1. Scenario
-2. Artifacts
-3. Tools Used
-4. Investigation Steps
-5. Questions And Answers
-6. IOCs
-7. Timeline
-8. Lessons Learned
+```md
+## Scenario
+
+## Artifacts
+
+| Artifact | Purpose |
+| --- | --- |
+
+## Tools Used
+
+## Investigation Steps
+
+### Step 1 - Initial Triage
+
+**Goal:**
+
+**Action:**
+
+**Evidence:**
+
+**Finding:**
+
+## Questions And Answers
+
+| # | Question | Answer | Evidence |
+| --- | --- | --- | --- |
+
+## IOCs
+
+| Type | Value | Context |
+| --- | --- | --- |
+
+## Timeline
+
+| Time | Event |
+| --- | --- |
+
+## Lessons Learned
+```
+
+

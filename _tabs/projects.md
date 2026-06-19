@@ -17,8 +17,7 @@ CTF, Web Security Academy, TryHackMe, CyberDefenders, and challenge notes.
 - [CyberDefenders Writeups](/posts/cyberdefenders-writeups/)
 - [TryHackMe Writeups](/posts/tryhackme-writeups/)
 - [Blue Team Labs Writeups](/posts/blueteamlabs-writeups/)
-- [Google Capture The Flag 2026 Writeups](/posts/google-capture-the-flag-2026-writeups/)
-- [BCACTF 7.0 Writeups](/posts/bcactf-7-0-writeups/)
+- [Writeups CTF](/posts/writeups-ctf/)
 - [HackMD writeup archive](https://hackmd.io/@vinety)
 
 ### Research notes

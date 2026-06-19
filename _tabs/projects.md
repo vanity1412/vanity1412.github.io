@@ -7,9 +7,7 @@ order: 1
 
 Selected cybersecurity writeups, lab notes, CTF work, certificates, and supporting evidence.
 
-## Content tracks
-
-### Writeups
+## Writeups
 
 Public writeup collections grouped by platform and event.
 
@@ -20,7 +18,34 @@ Public writeup collections grouped by platform and event.
 - [Writeups CTF](/posts/writeups-ctf/)
 - [HackMD writeup archive](https://hackmd.io/@vinety)
 
-### Evidence
+## GitHub Projects
+
+Selected public repositories that are relevant to cybersecurity, tooling, or applied software work.
+
+### Security Tools & Research
+
+- [Automated YARA Rule Generation Tool](https://github.com/vanity1412/Automated-YARA-Rule-Generation-Tool) - malware-analysis project for generating YARA detection rules.
+- [Network Recon + Risk Profiler](https://github.com/vanity1412/Network-Recon-Risk-Profiler) - parallel recon pipeline with port scanning, DNS enumeration, banner grabbing, ML risk scoring, and MITRE-mapped reporting.
+- [He thong giam sat ke xam nhap](https://github.com/vanity1412/He_thong_giam_sat_ke_xam_nhap) - intrusion monitoring system project.
+- [Wifi Purple](https://github.com/vanity1412/Wifi-Purple) - Wi-Fi security practice project.
+- [Quiz Malware](https://github.com/vanity1412/quiz-MAlware) - malware-learning quiz project.
+- [SE Vishing](https://github.com/vanity1412/SE-Vishing) - social engineering and vishing awareness project.
+- [SE ClickFix](https://github.com/vanity1412/SE-ClickFix) - social engineering ClickFix awareness project.
+- [Social Engineering](https://github.com/vanity1412/social-engineering) - social engineering research and notes.
+
+### Web & App Projects
+
+- [doanltdd](https://github.com/AnKunnnn29/doanltdd) - group mobile app project with front-end contribution.
+- [DACK WEB NHOM1](https://github.com/vietk5/DACK_WEB_NHOM1) - group web application project.
+- [notice-app-utex](https://github.com/vanity1412/notice-app-utex) - UTEx notification web/app project.
+- [UTEx Notice](https://github.com/vanity1412/UTEx-Notice) - iOS notice application project.
+- [Backend APP](https://github.com/vanity1412/Backend_APP) - backend application coursework project.
+
+### Blockchain & Applied Crypto
+
+- [Blockchain ung dung](https://github.com/vanity1412/Blockchain_ungdung) - blockchain application project.
+
+## Evidence
 
 Selected certificates, CTF results, and portfolio evidence.
 
@@ -35,56 +60,3 @@ Selected certificates, CTF results, and portfolio evidence.
 - [AWS Network](/assets/portfolio-assets/img/Cert_AWS_Network.png)
 - [AWS Database](/assets/portfolio-assets/img/Cert_AWS_DB.png)
 - [AWS EKS](/assets/portfolio-assets/img/Cert_AWS_EKS.png)
-
-### Research notes
-
-Short notes for topics I want to study deeper or turn into full posts later.
-
-- Prototype pollution attack surface
-- NoSQL injection behavior
-- JWT implementation mistakes
-- C2 beacon detection ideas
-
-### Blog notes
-
-Personal learning logs, security summaries, and small technical notes.
-
-- SOC analyst learning path
-- Wireshark practice notes
-- AWS security fundamentals
-- Windows artifact checklist
-
-### Code and labs
-
-Small tools, lab documents, and experiments. More code projects can be added here later.
-
-- [SOC lab document](/assets/portfolio-assets/img/blue/document.pdf)
-- [SOC lab screenshot](/assets/portfolio-assets/img/blue/Lab_SOC/setup1.png)
-- [Blue Team roadmap](/assets/portfolio-assets/img/blue/Course2Roadmap.pdf)
-- [Web project image](/assets/portfolio-assets/img/web-homework.png)
-
-## Previous writeups
-
-[HackMD archive](https://hackmd.io/@vinety)
-
-### Web Security Academy notes
-
-| Updated | Note | Topic |
-| --- | --- | --- |
-| Mar 3, 2026 | PortSwigger - NoSQL Injection | NoSQL, database security |
-| Apr 13, 2025 | PortSwigger - Prototype Pollution | JavaScript security |
-| Apr 3, 2025 | PortSwigger - Cross-site Scripting | XSS |
-| Mar 23, 2025 | PortSwigger - SSTI | Template injection |
-| Mar 13, 2025 | PortSwigger - XXE Injection | XML parser abuse |
-| Feb 28, 2025 | SQL Injection - PortSwigger | SQLi |
-| Feb 23, 2025 | JWT Attacks | Authentication |
-
-### CTF, SOC, and network labs
-
-| Updated | Note | Topic |
-| --- | --- | --- |
-| Apr 1, 2025 | SwampCTF 2025 and TamuCTF | CTF, PCAP |
-| Mar 25, 2025 | CyberDefenders - Network Acoustic Lab | Network forensics |
-| Feb 28, 2025 | TryHackMe - SOC Level 1 | SOC basics |
-| Jan 3, 2025 | TryHackMe - Wireshark: The Basics | Packet analysis |
-| Jan 2, 2025 | TryHackMe - Network - New Hire Old Artifacts | Network investigation |

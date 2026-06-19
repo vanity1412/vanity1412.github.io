@@ -4,6 +4,8 @@ title: "Sherlock: constellation - Report"
 permalink: /writeups/htb-sherlocks-blue-team-writeups/sherlock-03-constellation/report/
 ---
 
+![constellation cover](/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-03-constellation.png)
+
 # constellation
 
 ## Overview

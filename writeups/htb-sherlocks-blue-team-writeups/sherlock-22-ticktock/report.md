@@ -4,6 +4,8 @@ title: "Sherlock: TickTock - Report"
 permalink: /writeups/htb-sherlocks-blue-team-writeups/sherlock-22-ticktock/report/
 ---
 
+![TickTock cover](/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-22-ticktock.png)
+
 # TickTock
 
 ## Overview

@@ -4,6 +4,8 @@ title: "Sherlock: Loggy - Report"
 permalink: /writeups/htb-sherlocks-blue-team-writeups/sherlock-13-loggy/report/
 ---
 
+![Loggy cover](/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-13-loggy.png)
+
 # Loggy
 
 ## Overview

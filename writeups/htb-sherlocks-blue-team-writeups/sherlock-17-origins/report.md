@@ -4,6 +4,8 @@ title: "Sherlock: Origins - Report"
 permalink: /writeups/htb-sherlocks-blue-team-writeups/sherlock-17-origins/report/
 ---
 
+![Origins cover](/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-17-origins.png)
+
 # Origins
 
 ## Overview

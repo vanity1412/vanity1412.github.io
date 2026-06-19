@@ -4,6 +4,8 @@ title: "Sherlock: Neural Noel - Report"
 permalink: /writeups/htb-sherlocks-blue-team-writeups/sherlock-14-neural-noel/report/
 ---
 
+![Neural Noel cover](/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-14-neural-noel.png)
+
 # Neural Noel
 
 ## Overview

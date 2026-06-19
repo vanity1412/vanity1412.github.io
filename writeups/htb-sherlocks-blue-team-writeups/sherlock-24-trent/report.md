@@ -4,6 +4,8 @@ title: "Sherlock: Trent - Report"
 permalink: /writeups/htb-sherlocks-blue-team-writeups/sherlock-24-trent/report/
 ---
 
+![Trent cover](/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-24-trent.png)
+
 # Trent
 
 ## Overview

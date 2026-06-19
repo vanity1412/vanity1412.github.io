@@ -4,6 +4,8 @@ title: "Sherlock: Team Work - Report"
 permalink: /writeups/htb-sherlocks-blue-team-writeups/sherlock-21-team-work/report/
 ---
 
+![Team Work cover](/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-21-team-work.png)
+
 # Team Work
 
 ## Overview

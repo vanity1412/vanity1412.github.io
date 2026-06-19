@@ -4,6 +4,8 @@ title: "Sherlock: Training Day - Report"
 permalink: /writeups/htb-sherlocks-blue-team-writeups/sherlock-23-training-day/report/
 ---
 
+![Training Day cover](/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-23-training-day.png)
+
 # Training Day
 
 ## Overview

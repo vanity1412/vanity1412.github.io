@@ -4,6 +4,8 @@ title: "Sherlock: litter - Report"
 permalink: /writeups/htb-sherlocks-blue-team-writeups/sherlock-11-litter/report/
 ---
 
+![litter cover](/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-11-litter.png)
+
 # litter
 
 ## Overview

@@ -4,6 +4,8 @@ title: "Sherlock: Cookie Consumption - Report"
 permalink: /writeups/htb-sherlocks-blue-team-writeups/sherlock-04-cookie-consumption/report/
 ---
 
+![Cookie Consumption cover](/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-04-cookie-consumption.png)
+
 # Cookie Consumption
 
 ## Overview

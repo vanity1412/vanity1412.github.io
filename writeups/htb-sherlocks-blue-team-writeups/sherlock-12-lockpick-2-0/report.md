@@ -4,6 +4,8 @@ title: "Sherlock: LockPick 2.0 - Report"
 permalink: /writeups/htb-sherlocks-blue-team-writeups/sherlock-12-lockpick-2-0/report/
 ---
 
+![LockPick 2.0 cover](/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-12-lockpick-2-0.png)
+
 # LockPick 2.0
 
 ## Overview

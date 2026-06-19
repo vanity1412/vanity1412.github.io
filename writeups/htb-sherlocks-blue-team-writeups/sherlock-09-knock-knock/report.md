@@ -4,6 +4,8 @@ title: "Sherlock: Knock Knock - Report"
 permalink: /writeups/htb-sherlocks-blue-team-writeups/sherlock-09-knock-knock/report/
 ---
 
+![Knock Knock cover](/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-09-knock-knock.png)
+
 # Knock Knock
 
 ## Overview

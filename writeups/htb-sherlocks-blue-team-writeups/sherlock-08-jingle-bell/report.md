@@ -4,6 +4,8 @@ title: "Sherlock: Jingle Bell - Report"
 permalink: /writeups/htb-sherlocks-blue-team-writeups/sherlock-08-jingle-bell/report/
 ---
 
+![Jingle Bell cover](/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-08-jingle-bell.png)
+
 # Jingle Bell
 
 ## Overview

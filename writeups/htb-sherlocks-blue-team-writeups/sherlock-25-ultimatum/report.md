@@ -4,6 +4,8 @@ title: "Sherlock: ultimatum - Report"
 permalink: /writeups/htb-sherlocks-blue-team-writeups/sherlock-25-ultimatum/report/
 ---
 
+![ultimatum cover](/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-25-ultimatum.png)
+
 # ultimatum
 
 ## Overview

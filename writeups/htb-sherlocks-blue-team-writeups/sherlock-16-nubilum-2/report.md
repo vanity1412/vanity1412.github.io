@@ -4,6 +4,8 @@ title: "Sherlock: Nubilum 2 - Report"
 permalink: /writeups/htb-sherlocks-blue-team-writeups/sherlock-16-nubilum-2/report/
 ---
 
+![Nubilum 2 cover](/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-16-nubilum-2.png)
+
 # Nubilum 2
 
 ## Overview

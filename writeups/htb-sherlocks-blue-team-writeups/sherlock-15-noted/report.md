@@ -4,6 +4,8 @@ title: "Sherlock: Noted - Report"
 permalink: /writeups/htb-sherlocks-blue-team-writeups/sherlock-15-noted/report/
 ---
 
+![Noted cover](/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-15-noted.png)
+
 # Noted
 
 ## Overview

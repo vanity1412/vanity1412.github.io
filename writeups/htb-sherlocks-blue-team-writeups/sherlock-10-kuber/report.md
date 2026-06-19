@@ -4,6 +4,8 @@ title: "Sherlock: Kuber - Report"
 permalink: /writeups/htb-sherlocks-blue-team-writeups/sherlock-10-kuber/report/
 ---
 
+![Kuber cover](/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-10-kuber.png)
+
 # Kuber
 
 ## Overview

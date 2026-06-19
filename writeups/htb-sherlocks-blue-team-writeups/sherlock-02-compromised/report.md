@@ -4,6 +4,8 @@ title: "Sherlock: Compromised - Report"
 permalink: /writeups/htb-sherlocks-blue-team-writeups/sherlock-02-compromised/report/
 ---
 
+![Compromised cover](/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-02-compromised.png)
+
 # Compromised
 
 ## Overview

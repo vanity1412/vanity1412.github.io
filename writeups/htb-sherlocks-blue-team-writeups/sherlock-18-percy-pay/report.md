@@ -4,6 +4,8 @@ title: "Sherlock: Percy Pay - Report"
 permalink: /writeups/htb-sherlocks-blue-team-writeups/sherlock-18-percy-pay/report/
 ---
 
+![Percy Pay cover](/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-18-percy-pay.png)
+
 # Percy Pay
 
 ## Overview

@@ -4,6 +4,8 @@ title: "Sherlock: HyperFileTable - Report"
 permalink: /writeups/htb-sherlocks-blue-team-writeups/sherlock-07-hyperfiletable/report/
 ---
 
+![HyperFileTable cover](/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-07-hyperfiletable.png)
+
 # HyperFileTable
 
 ## Overview

@@ -14,6 +14,11 @@ Selected work, learning notes, code experiments, and archived writeups.
 CTF, Web Security Academy, TryHackMe, CyberDefenders, and challenge notes.
 
 - [HackTheBox Sherlocks - Blue Team Writeups](/posts/hackthebox-sherlocks-writeup/)
+- [CyberDefenders Writeups](/posts/cyberdefenders-writeups/)
+- [TryHackMe Writeups](/posts/tryhackme-writeups/)
+- [Blue Team Labs Writeups](/posts/blueteamlabs-writeups/)
+- [Google Capture The Flag 2026 Writeups](/posts/google-capture-the-flag-2026-writeups/)
+- [BCACTF 7.0 Writeups](/posts/bcactf-7-0-writeups/)
 - [HackMD writeup archive](https://hackmd.io/@vinety)
 
 ### Research notes

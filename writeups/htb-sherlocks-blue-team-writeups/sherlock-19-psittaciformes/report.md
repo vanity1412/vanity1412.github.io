@@ -4,6 +4,8 @@ title: "Sherlock: Psittaciformes - Report"
 permalink: /writeups/htb-sherlocks-blue-team-writeups/sherlock-19-psittaciformes/report/
 ---
 
+![Psittaciformes cover](/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-19-psittaciformes.png)
+
 # Psittaciformes
 
 ## Overview

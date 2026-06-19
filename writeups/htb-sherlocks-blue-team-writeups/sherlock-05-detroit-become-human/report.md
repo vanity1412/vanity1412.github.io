@@ -4,6 +4,8 @@ title: "Sherlock: Detroit Become Human - Report"
 permalink: /writeups/htb-sherlocks-blue-team-writeups/sherlock-05-detroit-become-human/report/
 ---
 
+![Detroit Become Human cover](/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-05-detroit-become-human.png)
+
 # Detroit Become Human
 
 ## Overview

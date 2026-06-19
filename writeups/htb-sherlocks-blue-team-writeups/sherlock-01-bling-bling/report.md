@@ -4,6 +4,8 @@ title: "Sherlock: Bling Bling - Report"
 permalink: /writeups/htb-sherlocks-blue-team-writeups/sherlock-01-bling-bling/report/
 ---
 
+![Bling Bling cover](/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-01-bling-bling.png)
+
 # Bling Bling
 
 ## Overview

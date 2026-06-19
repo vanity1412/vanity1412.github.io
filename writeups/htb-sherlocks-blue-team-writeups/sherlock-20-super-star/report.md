@@ -4,6 +4,8 @@ title: "Sherlock: Super Star - Report"
 permalink: /writeups/htb-sherlocks-blue-team-writeups/sherlock-20-super-star/report/
 ---
 
+![Super Star cover](/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-20-super-star.png)
+
 # Super Star
 
 ## Overview

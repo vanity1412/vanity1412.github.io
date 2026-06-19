@@ -4,6 +4,8 @@ title: "Sherlock: einladen - Report"
 permalink: /writeups/htb-sherlocks-blue-team-writeups/sherlock-06-einladen/report/
 ---
 
+![einladen cover](/assets/portfolio-assets/writeups/hackthebox-sherlocks/thumbs/sherlock-06-einladen.png)
+
 # einladen
 
 ## Overview

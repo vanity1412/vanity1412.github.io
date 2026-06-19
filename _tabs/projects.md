@@ -13,9 +13,7 @@ Selected work, learning notes, code experiments, and archived writeups.
 
 CTF, Web Security Academy, TryHackMe, CyberDefenders, and challenge notes.
 
-- [Ransomware Response Challenge](/posts/ransomware-response-challenge/)
-- [Beacon Detection Challenge](/posts/beacon-detection-challenge/)
-- [Brute-force Windows Login](/posts/brute-force-windows-login/)
+- [HackTheBox Sherlocks - Blue Team Writeups](/posts/hackthebox-sherlocks-writeup/)
 - [HackMD writeup archive](https://hackmd.io/@vinety)
 
 ### Research notes

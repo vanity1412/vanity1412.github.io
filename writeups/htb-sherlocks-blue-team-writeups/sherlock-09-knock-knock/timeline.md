@@ -1,0 +1,15 @@
+# Timeline - Knock Knock
+
+| Time | Event / Context | Notes |
+| --- | --- | --- |
+| 2023-03-21 11:42:34 | IP addresses the unusual files above were transferred to/from: 13.233.179.35 -> Forela host (Ransomware2_Server.zip) - 2023-03-21 11:42:34 UTC, HTTP Forela host -> 3.109.209.43 (backup) - 2023-03-21 10:52:03 UTC, FTP Forela host -> 3.109.20 |  |
+| 2023-03-21 10:52:03 | 3.179.35 -> Forela host (Ransomware2_Server.zip) - 2023-03-21 11:42:34 UTC, HTTP Forela host -> 3.109.209.43 (backup) - 2023-03-21 10:52:03 UTC, FTP Forela host -> 3.109.209.43 (fetch.sh) - 2023-03-21 10:55:13 UTC, FTP Going into Wireshark |  |
+| 2023-03-21 10:55:13 | UTC, HTTP Forela host -> 3.109.209.43 (backup) - 2023-03-21 10:52:03 UTC, FTP Forela host -> 3.109.209.43 (fetch.sh) - 2023-03-21 10:55:13 UTC, FTP Going into Wireshark now and opening the PCAP up we begin to analyse each of the potentially |  |
+| 2023-03-21 10:42:23 | port scan due to the speed/pace of the scan. All 65535 TCP ports were scanned by the attacking host. The scan began at 2023-03-21 10:42:23 as detailed in the screenshot below: Port scanning stands is a fundamental technique employed by thre |  |
+| 2023-03-21 11:42 | IP addresses the unusual files above were transferred to/from: 13.233.179.35 -> Forela host (Ransomware2_Server.zip) - 2023-03-21 11:42:34 UTC, HTTP Forela host -> 3.109.209.43 (backup) - 2023-03-21 10:52:03 UTC, FTP Forela host -> 3.109.20 |  |
+| 2023-03-21 10:52 | 3.179.35 -> Forela host (Ransomware2_Server.zip) - 2023-03-21 11:42:34 UTC, HTTP Forela host -> 3.109.209.43 (backup) - 2023-03-21 10:52:03 UTC, FTP Forela host -> 3.109.209.43 (fetch.sh) - 2023-03-21 10:55:13 UTC, FTP Going into Wireshark |  |
+| 2023-03-21 10:55 | UTC, HTTP Forela host -> 3.109.209.43 (backup) - 2023-03-21 10:52:03 UTC, FTP Forela host -> 3.109.209.43 (fetch.sh) - 2023-03-21 10:55:13 UTC, FTP Going into Wireshark now and opening the PCAP up we begin to analyse each of the potentially |  |
+| 2023-03-21 10:42 | port scan due to the speed/pace of the scan. All 65535 TCP ports were scanned by the attacking host. The scan began at 2023-03-21 10:42:23 as detailed in the screenshot below: Port scanning stands is a fundamental technique employed by thre |  |
+| 21/03/2023 10:42:23 | ir enumeration phase? 21,22,3306,6379,8086 Q2 Whats the UTC time when attacker started their attack against the server? 21/03/2023 10:42:23 Q3 What's the MITRE Technique ID of the technique attacker used to get initial access? T1110.003 Q4 |  |
+| 21/03/2023 10:58:50 | 99,50234,45087 Q10 Whats the UTC time when interaction with previous question ports ended? Format [YYYY-MM-DD HH-MM-SS] 21/03/2023 10:58:50 Q11 What are set of valid credentials for the critical service? abudllah.yasin:XhlhGame_90HJLDASxfd& |  |
+| 21/03/2023 11:00:01 | al service? abudllah.yasin:XhlhGame_90HJLDASxfd&hoooad Q12 At what UTC Time attacker got access to the critical server? 21/03/2023 11:00:01 Q13 Whats the AWS AccountID and Password for the developer "Abdullah"? Format (ID : Password) 391629 |  |

@@ -1,0 +1,5 @@
+FAIL: enable secret
+FAIL: SSH v2
+FAIL: password encryption
+FAIL: banner
+FAIL: no telnet

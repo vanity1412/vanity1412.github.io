@@ -1,0 +1,8 @@
+vlan 10
+ name USERS
+vlan 20
+ name SERVERS
+vlan 30
+ name VOICE
+vlan 99
+ name MANAGEMENT

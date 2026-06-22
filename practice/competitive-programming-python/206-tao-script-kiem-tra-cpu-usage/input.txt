@@ -1,0 +1,3 @@
+router01,12
+switch01,67
+firewall01,35

@@ -1,0 +1,3 @@
+version 15.2
+hostname R1-HCM
+interface GigabitEthernet0/0

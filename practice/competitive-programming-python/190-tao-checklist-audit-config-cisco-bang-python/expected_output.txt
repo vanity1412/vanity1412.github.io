@@ -1,0 +1,5 @@
+[FAIL] Enable secret
+[FAIL] SSH v2
+[FAIL] Password encryption
+[FAIL] Banner
+[FAIL] Không dùng Telnet

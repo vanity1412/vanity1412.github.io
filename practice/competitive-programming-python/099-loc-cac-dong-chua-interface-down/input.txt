@@ -1,0 +1,4 @@
+Interface Gi0/1 up
+Interface Gi0/2 down
+System ready
+INTERFACE Gi0/3 DOWN

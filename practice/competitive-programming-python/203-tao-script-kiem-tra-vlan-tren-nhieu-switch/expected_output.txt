@@ -1,0 +1,2 @@
+switch01: VLAN 1 default (active), VLAN 10 USERS (active), VLAN 20 SERVERS (active)
+switch02: VLAN 1 default (active), VLAN 10 USERS (active)

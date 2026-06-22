@@ -1,0 +1,3 @@
+router01,1,10.0.0.2,FULL
+router01,1,10.0.0.3,FULL
+router02,1,10.0.0.1,INIT

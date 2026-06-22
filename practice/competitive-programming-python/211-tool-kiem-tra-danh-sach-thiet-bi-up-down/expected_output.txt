@@ -1,0 +1,4 @@
+router01 (192.0.2.10): UP
+switch01 (192.0.2.11): DOWN
+firewall01 (192.0.2.12): UP
+Tổng: UP=2, DOWN=1

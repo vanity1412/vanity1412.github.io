@@ -1,0 +1,3 @@
+router01,5 days 03:21:10
+switch01,21 days 12:00:02
+firewall01,102 days 01:02:03

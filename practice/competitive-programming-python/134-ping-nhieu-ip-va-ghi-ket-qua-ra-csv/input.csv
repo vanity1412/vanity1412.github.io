@@ -1,0 +1,4 @@
+mode,host,status
+demo,192.0.2.10,UP
+demo,192.0.2.11,DOWN
+demo,192.0.2.12,UP

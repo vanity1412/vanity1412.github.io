@@ -1,0 +1,4 @@
+router01,UP
+switch01,DOWN
+firewall01,UP
+switch01,UP

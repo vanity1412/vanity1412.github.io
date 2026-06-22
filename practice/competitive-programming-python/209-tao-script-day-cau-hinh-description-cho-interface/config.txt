@@ -1,0 +1,3 @@
+GigabitEthernet0/1,Uplink to Core
+GigabitEthernet0/2,User Floor 1
+GigabitEthernet0/3,Printer Room

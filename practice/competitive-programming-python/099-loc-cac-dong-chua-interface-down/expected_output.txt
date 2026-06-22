@@ -1,0 +1,2 @@
+Interface Gi0/2 down
+INTERFACE Gi0/3 DOWN

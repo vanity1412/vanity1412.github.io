@@ -1,0 +1,4 @@
+hostname,ip,device_type,username,password,demo_status,demo_config
+router01,192.0.2.10,cisco_ios,admin,change-me,OK,demo-configs/router01.cfg
+switch01,192.0.2.11,cisco_ios,admin,change-me,OK,demo-configs/switch01.cfg
+router02,192.0.2.12,cisco_ios,admin,change-me,FAIL,demo-configs/router02.cfg

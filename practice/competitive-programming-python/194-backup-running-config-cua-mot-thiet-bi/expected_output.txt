@@ -1,0 +1,1 @@
+Đã backup: router01-running.cfg (4 dòng)

@@ -1,0 +1,3 @@
+ROUTER: router01 - 192.168.1.1 - UP
+SWITCH: switch01 - 192.168.1.2 - UP
+FIREWALL: firewall01 - 192.168.1.254 - DOWN

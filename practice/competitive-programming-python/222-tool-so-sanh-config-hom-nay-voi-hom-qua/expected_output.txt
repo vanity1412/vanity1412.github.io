@@ -1,0 +1,6 @@
+ADDED:
+ description UPLINK-CORE
+ shutdown
+interface Gi0/2
+REMOVED:
+ description OLD

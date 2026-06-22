@@ -1,0 +1,8 @@
+### router01
+hostname router01
+interface Gi0/0
+ no shutdown
+### switch01
+hostname switch01
+vlan 10
+ name USERS

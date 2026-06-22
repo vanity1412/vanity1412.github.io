@@ -1,0 +1,2 @@
+Jun 22 09:00:04 router01 %LINEPROTO-5-UPDOWN: Line protocol on Interface Gi0/1 down
+Jun 22 09:01:02 switch01 %LINEPROTO-5-UPDOWN: Line protocol on Interface Gi0/2 up

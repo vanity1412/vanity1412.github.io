@@ -1,0 +1,13 @@
+hostname R1-HCM
+enable password cisco
+service password-encryption
+ip domain-name company.local
+line vty 0 4
+ transport input telnet
+interface GigabitEthernet0/0
+ description WAN Uplink
+ no shutdown
+interface GigabitEthernet0/1
+ no shutdown
+interface GigabitEthernet0/2
+ shutdown

@@ -1,0 +1,3 @@
+router01: UP
+switch01: UP
+firewall01: UP

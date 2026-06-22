@@ -1,0 +1,5 @@
+NETWORK STATUS REPORT
+Total: 3
+UP: 2
+DOWN: 1
+Types: firewall=1, router=1, switch=1

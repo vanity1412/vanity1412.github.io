@@ -1,0 +1,2 @@
+ALERT router01 Gi0/1 DOWN
+ALERT switch01 Gi0/24 DOWN

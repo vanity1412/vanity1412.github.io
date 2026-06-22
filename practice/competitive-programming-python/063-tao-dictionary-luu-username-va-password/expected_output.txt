@@ -1,0 +1,5 @@
+{
+  "admin": "secret123",
+  "operator": "noc2026",
+  "guest": "guest"
+}

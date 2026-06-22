@@ -1,0 +1,5 @@
+vlan 10
+ name USERS
+vlan 20
+ name SERVERS
+interface vlan 99

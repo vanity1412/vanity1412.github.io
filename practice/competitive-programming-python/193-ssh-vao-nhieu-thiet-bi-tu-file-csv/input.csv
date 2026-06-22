@@ -1,0 +1,4 @@
+hostname,ip,device_type,status
+router01,192.0.2.10,cisco_ios,OK
+switch01,192.0.2.11,cisco_ios,OK
+router02,192.0.2.12,cisco_ios,FAIL

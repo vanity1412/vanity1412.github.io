@@ -1,0 +1,3 @@
+router01: uptime 5 days 03:21:10
+switch01: uptime 21 days 12:00:02
+firewall01: uptime 102 days 01:02:03

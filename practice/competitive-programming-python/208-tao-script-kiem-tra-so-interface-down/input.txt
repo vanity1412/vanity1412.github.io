@@ -1,0 +1,5 @@
+router01,GigabitEthernet0/0,up
+router01,GigabitEthernet0/1,down
+switch01,GigabitEthernet0/1,up
+switch01,GigabitEthernet0/2,down
+switch01,GigabitEthernet0/3,down

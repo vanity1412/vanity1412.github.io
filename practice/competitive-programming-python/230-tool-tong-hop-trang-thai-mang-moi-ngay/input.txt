@@ -1,0 +1,5 @@
+2026-06-22
+router01,UP,12,35,0
+switch01,DOWN,0,0,12
+firewall01,UP,45,62,0
+switch02,UP,25,48,2

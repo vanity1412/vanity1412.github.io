@@ -1,0 +1,6 @@
+DAILY NETWORK REPORT - 2026-06-22
+Devices: 4 (UP 3 / DOWN 1)
+Average CPU (UP): 27.3%
+Average memory (UP): 48.3%
+Interfaces down: 14
+Down devices: switch01

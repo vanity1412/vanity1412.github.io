@@ -1,0 +1,4 @@
+router01 GigabitEthernet0/0: up/up
+router01 GigabitEthernet0/1: down/down
+switch01 GigabitEthernet0/1: up/up
+switch01 GigabitEthernet0/2: up/down

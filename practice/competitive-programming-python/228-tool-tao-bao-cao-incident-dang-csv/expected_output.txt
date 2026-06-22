@@ -1,0 +1,3 @@
+id,date,title,severity,status
+INC-001,2026-06-22,Interface down,High,Resolved
+INC-002,2026-06-22,Failed login,Medium,Investigating

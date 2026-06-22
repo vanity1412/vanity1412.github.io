@@ -1,0 +1,9 @@
+### router01
+hostname router01
+ip ssh version 2
+line vty 0 4
+ transport input ssh
+### switch01
+hostname switch01
+line vty 0 4
+ transport input telnet

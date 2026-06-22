@@ -1,0 +1,3 @@
+hostname R1
+banner motd #Authorized users only#
+line console 0

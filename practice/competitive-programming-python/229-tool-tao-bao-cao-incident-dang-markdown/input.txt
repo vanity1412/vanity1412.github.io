@@ -1,0 +1,6 @@
+INC-2026-003
+2026-06-22 10:30
+Core link flapping
+Critical
+Investigating optic module
+NOC Team

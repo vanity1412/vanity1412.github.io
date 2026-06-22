@@ -1,0 +1,3 @@
+router01|show clock|09:00:00 UTC Sun Jun 22 2026
+router01|show ip route summary|5 routes
+switch01|show vlan brief|3 active VLANs

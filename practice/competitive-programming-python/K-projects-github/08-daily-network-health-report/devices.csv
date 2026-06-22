@@ -1,0 +1,5 @@
+hostname,ip,ping_status,ssh_status,cpu,ram,interfaces_down
+router01,192.0.2.10,UP,OPEN,12,35,0
+switch01,192.0.2.11,DOWN,CLOSED,0,0,12
+firewall01,192.0.2.12,UP,OPEN,45,62,0
+switch02,192.0.2.13,UP,OPEN,25,48,2

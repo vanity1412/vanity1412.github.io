@@ -1,0 +1,2 @@
+Xin chào từ input.txt!
+Dòng thứ hai.

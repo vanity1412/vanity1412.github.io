@@ -1,0 +1,4 @@
+router01,192.0.2.10,OK
+switch01,192.0.2.11,FAIL
+router02,192.0.2.12,FAIL
+firewall01,192.0.2.13,OK

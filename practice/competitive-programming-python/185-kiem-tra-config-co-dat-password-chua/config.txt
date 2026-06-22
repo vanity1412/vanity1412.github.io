@@ -1,0 +1,5 @@
+enable secret StrongSecret
+username admin secret AdminSecret
+line console 0
+ password ConsoleSecret
+ login

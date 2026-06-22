@@ -1,0 +1,8 @@
+5
+INFO ready
+ERROR failed login admin
+ERROR failed login guest
+WARNING failed authentication
+ERROR failed login root
+ERROR failed login test
+INFO complete

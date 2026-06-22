@@ -1,0 +1,4 @@
+mode,host,port,status
+demo,192.0.2.10,22,OPEN
+demo,192.0.2.10,80,OPEN
+demo,192.0.2.11,443,CLOSED

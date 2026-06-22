@@ -1,0 +1,3 @@
+ERROR interface Gi0/1 down
+error login failed
+Tổng lỗi: 2

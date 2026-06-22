@@ -1,0 +1,2 @@
+router01: 1 interface down
+switch01: 2 interface down

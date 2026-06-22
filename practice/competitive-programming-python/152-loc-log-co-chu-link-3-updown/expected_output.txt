@@ -1,0 +1,2 @@
+Jun 22 09:00:01 router01 %LINK-3-UPDOWN: Interface GigabitEthernet0/1, changed state to down
+Jun 22 09:01:01 router01 %LINK-3-UPDOWN: Interface GigabitEthernet0/1, changed state to up

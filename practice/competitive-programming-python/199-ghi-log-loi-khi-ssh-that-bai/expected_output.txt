@@ -1,0 +1,2 @@
+2026-06-22 09:00:00,switch01,192.0.2.11,Authentication failed
+2026-06-22 09:00:03,router02,192.0.2.12,Connection timeout

@@ -1,0 +1,9 @@
+hostname R1
+enable password cisco
+line vty 0 4
+ transport input telnet
+interface GigabitEthernet0/0
+ no shutdown
+interface GigabitEthernet0/1
+ description LAN
+ no shutdown

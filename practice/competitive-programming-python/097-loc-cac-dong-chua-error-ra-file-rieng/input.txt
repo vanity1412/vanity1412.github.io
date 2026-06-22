@@ -1,0 +1,5 @@
+INFO system started
+ERROR interface down
+WARNING high CPU
+error failed login
+INFO ready

@@ -1,0 +1,3 @@
+info.log: 1 dòng
+warning.log: 1 dòng
+error.log: 2 dòng

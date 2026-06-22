@@ -1,0 +1,12 @@
+### YESTERDAY
+hostname R1
+interface Gi0/1
+ description OLD
+ no shutdown
+### TODAY
+hostname R1
+interface Gi0/1
+ description UPLINK-CORE
+ no shutdown
+interface Gi0/2
+ shutdown

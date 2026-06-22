@@ -1,0 +1,3 @@
+router: 1
+switch: 2
+firewall: 1

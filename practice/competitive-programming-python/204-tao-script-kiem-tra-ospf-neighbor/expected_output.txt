@@ -1,0 +1,3 @@
+router01 area 1 neighbor 10.0.0.2: FULL
+router01 area 1 neighbor 10.0.0.3: FULL
+router02 area 1 neighbor 10.0.0.1: INIT

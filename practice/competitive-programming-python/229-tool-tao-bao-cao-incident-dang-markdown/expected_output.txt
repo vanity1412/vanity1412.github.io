@@ -1,0 +1,7 @@
+# Incident INC-2026-003
+
+- **Time:** 2026-06-22 10:30
+- **Title:** Core link flapping
+- **Severity:** Critical
+- **Status:** Investigating optic module
+- **Owner:** NOC Team

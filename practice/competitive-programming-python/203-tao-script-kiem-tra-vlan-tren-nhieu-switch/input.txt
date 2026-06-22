@@ -1,0 +1,5 @@
+switch01,1,default,active
+switch01,10,USERS,active
+switch01,20,SERVERS,active
+switch02,1,default,active
+switch02,10,USERS,active

@@ -1,0 +1,20 @@
+[
+  {
+    "hostname": "router01",
+    "ip": "192.168.1.1",
+    "type": "router",
+    "status": "UP"
+  },
+  {
+    "hostname": "switch01",
+    "ip": "192.168.1.2",
+    "type": "switch",
+    "status": "DOWN"
+  },
+  {
+    "hostname": "firewall01",
+    "ip": "192.168.1.254",
+    "type": "firewall",
+    "status": "UP"
+  }
+]

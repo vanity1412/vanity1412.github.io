@@ -1,0 +1,1 @@
+Interface Gi0/1 is ALERT; Gi0/2 is UP

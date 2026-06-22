@@ -1,0 +1,2 @@
+Failed login user guest from 10.0.0.2
+FAILED LOGIN user root from 10.0.0.3

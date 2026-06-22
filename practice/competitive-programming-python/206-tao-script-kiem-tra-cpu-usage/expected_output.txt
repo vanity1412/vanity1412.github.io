@@ -1,0 +1,3 @@
+router01: CPU 12%
+switch01: CPU 67%
+firewall01: CPU 35%

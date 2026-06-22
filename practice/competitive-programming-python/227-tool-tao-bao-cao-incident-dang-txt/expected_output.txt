@@ -1,0 +1,6 @@
+INCIDENT: INC-2026-001
+Time: 2026-06-22 09:15
+Title: Network outage Floor 2
+Severity: High
+Cause: Switch access-02 lost power
+Resolution: Power restored and interfaces verified

@@ -1,0 +1,2 @@
+GigabitEthernet0/1 -> VLAN 10
+GigabitEthernet0/2 -> VLAN 20

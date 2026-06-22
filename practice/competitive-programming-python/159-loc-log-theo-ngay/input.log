@@ -1,0 +1,5 @@
+2026-06-21 10:00:00 router01 INFO ready
+2026-06-22 09:00:00 router01 ERROR interface down
+2026-06-22 09:05:00 switch01 WARNING high CPU
+2026-06-23 08:00:00 router01 INFO ready
+2026-06-22

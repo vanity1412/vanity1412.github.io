@@ -23,14 +23,14 @@ Trang này là mục lục của dạng lab. Mỗi bài lab có một trang riê
 
 ## Danh Sách Bài Lab
 
-| # | Bài lab | Loại file | Đọc | Trạng thái |
-| --- | --- | --- | --- | --- |
-| 1 | 1.3.6 Packet Tracer - Configure SSH | PKA | <a href="/writeups/ccna-packet-tracer-writeups/16-bao-mat-thiet-bi-switch/lab-01/">Đọc bài</a> | Chưa viết chi tiết |
-| 2 | 11.1.10 Packet Tracer - Implement Port Security | PKA | <a href="/writeups/ccna-packet-tracer-writeups/16-bao-mat-thiet-bi-switch/lab-02/">Đọc bài</a> | Chưa viết chi tiết |
-| 3 | 11.6.1 Packet Tracer - Switch Security Configuration | PKA | <a href="/writeups/ccna-packet-tracer-writeups/16-bao-mat-thiet-bi-switch/lab-03/">Đọc bài</a> | Chưa viết chi tiết |
-| 4 | 16.4.6 Packet Tracer - Configure Secure Passwords and SSH \[ccna-lap-s2\] | PKA | <a href="/writeups/ccna-packet-tracer-writeups/16-bao-mat-thiet-bi-switch/lab-04/">Đọc bài</a> | Chưa viết chi tiết |
-| 5 | 16.4.6 Packet Tracer - Configure Secure Passwords and SSH \[S1_ITN v7 Packet Tracer Activity Source Files\] | PKA | <a href="/writeups/ccna-packet-tracer-writeups/16-bao-mat-thiet-bi-switch/lab-05/">Đọc bài</a> | Chưa viết chi tiết |
-| 6 | 16.5.1 Packet Tracer - Secure Network Devices | PKA | <a href="/writeups/ccna-packet-tracer-writeups/16-bao-mat-thiet-bi-switch/lab-06/">Đọc bài</a> | Chưa viết chi tiết |
+| # | Bài lab | Loại file | Trạng thái |
+| --- | --- | --- | --- |
+| 1 | [1.3.6 Packet Tracer - Configure SSH](/writeups/ccna-packet-tracer-writeups/16-bao-mat-thiet-bi-switch/lab-01/) | PKA | Chưa viết chi tiết |
+| 2 | [11.1.10 Packet Tracer - Implement Port Security](/writeups/ccna-packet-tracer-writeups/16-bao-mat-thiet-bi-switch/lab-02/) | PKA | Chưa viết chi tiết |
+| 3 | [11.6.1 Packet Tracer - Switch Security Configuration](/writeups/ccna-packet-tracer-writeups/16-bao-mat-thiet-bi-switch/lab-03/) | PKA | Chưa viết chi tiết |
+| 4 | [16.4.6 Packet Tracer - Configure Secure Passwords and SSH \[ccna-lap-s2\]](/writeups/ccna-packet-tracer-writeups/16-bao-mat-thiet-bi-switch/lab-04/) | PKA | Chưa viết chi tiết |
+| 5 | [16.4.6 Packet Tracer - Configure Secure Passwords and SSH \[S1_ITN v7 Packet Tracer Activity Source Files\]](/writeups/ccna-packet-tracer-writeups/16-bao-mat-thiet-bi-switch/lab-05/) | PKA | Chưa viết chi tiết |
+| 6 | [16.5.1 Packet Tracer - Secure Network Devices](/writeups/ccna-packet-tracer-writeups/16-bao-mat-thiet-bi-switch/lab-06/) | PKA | Chưa viết chi tiết |
 
 ## Quy Trình Chung
 

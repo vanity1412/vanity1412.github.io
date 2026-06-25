@@ -22,13 +22,13 @@ Trang này là mục lục của dạng lab. Mỗi bài lab có một trang riê
 
 ## Danh Sách Bài Lab
 
-| # | Bài lab | Loại file | Đọc | Trạng thái |
-| --- | --- | --- | --- | --- |
-| 1 | 2.7.6 Packet Tracer - Implement Basic Connectivity | PKA | <a href="/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/lab-01/">Đọc bài</a> | Chưa viết chi tiết |
-| 2 | 2.8.1 Video Activity - Test the Interface Assignment | PKT | <a href="/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/lab-02/">Đọc bài</a> | Chưa viết chi tiết |
-| 3 | 2.8.2 Video Activity - Test End-to-End Connectivity | PKT | <a href="/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/lab-03/">Đọc bài</a> | Chưa viết chi tiết |
-| 4 | 4.6.5 Packet Tracer - Connect a Wired and Wireless LAN | PKA | <a href="/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/lab-04/">Đọc bài</a> | Chưa viết chi tiết |
-| 5 | 4.7.1 Packet Tracer - Connect the Physical Layer | PKA | <a href="/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/lab-05/">Đọc bài</a> | Chưa viết chi tiết |
+| # | Bài lab | Loại file | Trạng thái |
+| --- | --- | --- | --- |
+| 1 | [2.7.6 Packet Tracer - Implement Basic Connectivity](/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/lab-01/) | PKA | Chưa viết chi tiết |
+| 2 | [2.8.1 Video Activity - Test the Interface Assignment](/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/lab-02/) | PKT | Chưa viết chi tiết |
+| 3 | [2.8.2 Video Activity - Test End-to-End Connectivity](/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/lab-03/) | PKT | Chưa viết chi tiết |
+| 4 | [4.6.5 Packet Tracer - Connect a Wired and Wireless LAN](/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/lab-04/) | PKA | Chưa viết chi tiết |
+| 5 | [4.7.1 Packet Tracer - Connect the Physical Layer](/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/lab-05/) | PKA | Chưa viết chi tiết |
 
 ## Quy Trình Chung
 

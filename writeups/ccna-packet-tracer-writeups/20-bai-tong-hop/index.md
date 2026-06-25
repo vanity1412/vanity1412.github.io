@@ -22,11 +22,11 @@ Trang này là mục lục của dạng lab. Mỗi bài lab có một trang riê
 
 ## Danh Sách Bài Lab
 
-| # | Bài lab | Loại file | Đọc | Trạng thái |
-| --- | --- | --- | --- | --- |
-| 1 | 1.6.1 Packet Tracer - Implement a Small Network | PKA | <a href="/writeups/ccna-packet-tracer-writeups/20-bai-tong-hop/lab-01/">Đọc bài</a> | Chưa viết chi tiết |
-| 2 | 17.8.2 Packet Tracer - Skills Integration Challenge | PKA | <a href="/writeups/ccna-packet-tracer-writeups/20-bai-tong-hop/lab-02/">Đọc bài</a> | Chưa viết chi tiết |
-| 3 | BaiTap_Cuoi_KyLop37 (1) | PKT | <a href="/writeups/ccna-packet-tracer-writeups/20-bai-tong-hop/lab-03/">Đọc bài</a> | Chưa viết chi tiết |
+| # | Bài lab | Loại file | Trạng thái |
+| --- | --- | --- | --- |
+| 1 | [1.6.1 Packet Tracer - Implement a Small Network](/writeups/ccna-packet-tracer-writeups/20-bai-tong-hop/lab-01/) | PKA | Chưa viết chi tiết |
+| 2 | [17.8.2 Packet Tracer - Skills Integration Challenge](/writeups/ccna-packet-tracer-writeups/20-bai-tong-hop/lab-02/) | PKA | Chưa viết chi tiết |
+| 3 | [BaiTap_Cuoi_KyLop37 (1)](/writeups/ccna-packet-tracer-writeups/20-bai-tong-hop/lab-03/) | PKT | Chưa viết chi tiết |
 
 ## Quy Trình Chung
 

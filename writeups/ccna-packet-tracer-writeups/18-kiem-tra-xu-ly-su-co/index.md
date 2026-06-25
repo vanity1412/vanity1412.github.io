@@ -22,14 +22,14 @@ Trang này là mục lục của dạng lab. Mỗi bài lab có một trang riê
 
 ## Danh Sách Bài Lab
 
-| # | Bài lab | Loại file | Đọc | Trạng thái |
-| --- | --- | --- | --- | --- |
-| 1 | 10.3.5 Packet Tracer - Troubleshoot Default Gateway Issues | PKA | <a href="/writeups/ccna-packet-tracer-writeups/18-kiem-tra-xu-ly-su-co/lab-01/">Đọc bài</a> | Chưa viết chi tiết |
-| 2 | 13.2.7 Packet Tracer - Use Ping and Traceroute to Test Network Connectivity | PKA | <a href="/writeups/ccna-packet-tracer-writeups/18-kiem-tra-xu-ly-su-co/lab-02/">Đọc bài</a> | Chưa viết chi tiết |
-| 3 | 13.3.1 Packet Tracer - Use ICMP to Test and Correct Network Connectivity | PKA | <a href="/writeups/ccna-packet-tracer-writeups/18-kiem-tra-xu-ly-su-co/lab-03/">Đọc bài</a> | Chưa viết chi tiết |
-| 4 | 17.5.9 Packet Tracer - Interpret show Command Output | PKA | <a href="/writeups/ccna-packet-tracer-writeups/18-kiem-tra-xu-ly-su-co/lab-04/">Đọc bài</a> | Chưa viết chi tiết |
-| 5 | 17.7.7 Packet Tracer - Troubleshoot Connectivity Issues | PKA | <a href="/writeups/ccna-packet-tracer-writeups/18-kiem-tra-xu-ly-su-co/lab-05/">Đọc bài</a> | Chưa viết chi tiết |
-| 6 | 17.8.3 Packet Tracer - Troubleshooting Challenge | PKA | <a href="/writeups/ccna-packet-tracer-writeups/18-kiem-tra-xu-ly-su-co/lab-06/">Đọc bài</a> | Chưa viết chi tiết |
+| # | Bài lab | Loại file | Trạng thái |
+| --- | --- | --- | --- |
+| 1 | [10.3.5 Packet Tracer - Troubleshoot Default Gateway Issues](/writeups/ccna-packet-tracer-writeups/18-kiem-tra-xu-ly-su-co/lab-01/) | PKA | Chưa viết chi tiết |
+| 2 | [13.2.7 Packet Tracer - Use Ping and Traceroute to Test Network Connectivity](/writeups/ccna-packet-tracer-writeups/18-kiem-tra-xu-ly-su-co/lab-02/) | PKA | Chưa viết chi tiết |
+| 3 | [13.3.1 Packet Tracer - Use ICMP to Test and Correct Network Connectivity](/writeups/ccna-packet-tracer-writeups/18-kiem-tra-xu-ly-su-co/lab-03/) | PKA | Chưa viết chi tiết |
+| 4 | [17.5.9 Packet Tracer - Interpret show Command Output](/writeups/ccna-packet-tracer-writeups/18-kiem-tra-xu-ly-su-co/lab-04/) | PKA | Chưa viết chi tiết |
+| 5 | [17.7.7 Packet Tracer - Troubleshoot Connectivity Issues](/writeups/ccna-packet-tracer-writeups/18-kiem-tra-xu-ly-su-co/lab-05/) | PKA | Chưa viết chi tiết |
+| 6 | [17.8.3 Packet Tracer - Troubleshooting Challenge](/writeups/ccna-packet-tracer-writeups/18-kiem-tra-xu-ly-su-co/lab-06/) | PKA | Chưa viết chi tiết |
 
 ## Quy Trình Chung
 

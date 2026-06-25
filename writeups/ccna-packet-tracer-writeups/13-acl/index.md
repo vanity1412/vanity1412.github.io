@@ -23,13 +23,13 @@ Trang này là mục lục của dạng lab. Mỗi bài lab có một trang riê
 
 ## Danh Sách Bài Lab
 
-| # | Bài lab | Loại file | Đọc | Trạng thái |
-| --- | --- | --- | --- | --- |
-| 1 | 5.1.8 Packet Tracer - Configure Numbered Standard IPv4 ACLs | PKA | <a href="/writeups/ccna-packet-tracer-writeups/13-acl/lab-01/">Đọc bài</a> | Chưa viết chi tiết |
-| 2 | 5.1.9 Packet Tracer - Configure Named Standard IPv4 ACLs | PKA | <a href="/writeups/ccna-packet-tracer-writeups/13-acl/lab-02/">Đọc bài</a> | Chưa viết chi tiết |
-| 3 | 5.2.7 Packet Tracer - Configure and Modify Standard IPv4 ACLs | PKA | <a href="/writeups/ccna-packet-tracer-writeups/13-acl/lab-03/">Đọc bài</a> | Chưa viết chi tiết |
-| 4 | 5.4.12 Packet Tracer - Configure Extended IPv4 ACLs - Scenario 1 | PKA | <a href="/writeups/ccna-packet-tracer-writeups/13-acl/lab-04/">Đọc bài</a> | Chưa viết chi tiết |
-| 5 | 5.4.13 Packet Tracer - Configure Extended IPv4 ACLs - Scenario 2 | PKA | <a href="/writeups/ccna-packet-tracer-writeups/13-acl/lab-05/">Đọc bài</a> | Chưa viết chi tiết |
+| # | Bài lab | Loại file | Trạng thái |
+| --- | --- | --- | --- |
+| 1 | [5.1.8 Packet Tracer - Configure Numbered Standard IPv4 ACLs](/writeups/ccna-packet-tracer-writeups/13-acl/lab-01/) | PKA | Chưa viết chi tiết |
+| 2 | [5.1.9 Packet Tracer - Configure Named Standard IPv4 ACLs](/writeups/ccna-packet-tracer-writeups/13-acl/lab-02/) | PKA | Chưa viết chi tiết |
+| 3 | [5.2.7 Packet Tracer - Configure and Modify Standard IPv4 ACLs](/writeups/ccna-packet-tracer-writeups/13-acl/lab-03/) | PKA | Chưa viết chi tiết |
+| 4 | [5.4.12 Packet Tracer - Configure Extended IPv4 ACLs - Scenario 1](/writeups/ccna-packet-tracer-writeups/13-acl/lab-04/) | PKA | Chưa viết chi tiết |
+| 5 | [5.4.13 Packet Tracer - Configure Extended IPv4 ACLs - Scenario 2](/writeups/ccna-packet-tracer-writeups/13-acl/lab-05/) | PKA | Chưa viết chi tiết |
 
 ## Quy Trình Chung
 

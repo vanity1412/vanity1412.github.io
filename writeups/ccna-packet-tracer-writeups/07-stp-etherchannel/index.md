@@ -22,12 +22,12 @@ Trang này là mục lục của dạng lab. Mỗi bài lab có một trang riê
 
 ## Danh Sách Bài Lab
 
-| # | Bài lab | Loại file | Đọc | Trạng thái |
-| --- | --- | --- | --- | --- |
-| 1 | 5.1.9 Packet Tracer - Investigate STP Loop Prevention | PKA | <a href="/writeups/ccna-packet-tracer-writeups/07-stp-etherchannel/lab-01/">Đọc bài</a> | Chưa viết chi tiết |
-| 2 | 6.2.4 Packet Tracer - Configure EtherChannel | PKA | <a href="/writeups/ccna-packet-tracer-writeups/07-stp-etherchannel/lab-02/">Đọc bài</a> | Chưa viết chi tiết |
-| 3 | 6.3.4 Packet Tracer - Troubleshoot EtherChannel | PKA | <a href="/writeups/ccna-packet-tracer-writeups/07-stp-etherchannel/lab-03/">Đọc bài</a> | Chưa viết chi tiết |
-| 4 | 6.4.1 Packet Tracer - Implement Etherchannel | PKA | <a href="/writeups/ccna-packet-tracer-writeups/07-stp-etherchannel/lab-04/">Đọc bài</a> | Chưa viết chi tiết |
+| # | Bài lab | Loại file | Trạng thái |
+| --- | --- | --- | --- |
+| 1 | [5.1.9 Packet Tracer - Investigate STP Loop Prevention](/writeups/ccna-packet-tracer-writeups/07-stp-etherchannel/lab-01/) | PKA | Chưa viết chi tiết |
+| 2 | [6.2.4 Packet Tracer - Configure EtherChannel](/writeups/ccna-packet-tracer-writeups/07-stp-etherchannel/lab-02/) | PKA | Chưa viết chi tiết |
+| 3 | [6.3.4 Packet Tracer - Troubleshoot EtherChannel](/writeups/ccna-packet-tracer-writeups/07-stp-etherchannel/lab-03/) | PKA | Chưa viết chi tiết |
+| 4 | [6.4.1 Packet Tracer - Implement Etherchannel](/writeups/ccna-packet-tracer-writeups/07-stp-etherchannel/lab-04/) | PKA | Chưa viết chi tiết |
 
 ## Quy Trình Chung
 

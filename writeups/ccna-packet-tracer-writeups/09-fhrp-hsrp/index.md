@@ -22,9 +22,9 @@ Trang này là mục lục của dạng lab. Mỗi bài lab có một trang riê
 
 ## Danh Sách Bài Lab
 
-| # | Bài lab | Loại file | Đọc | Trạng thái |
-| --- | --- | --- | --- | --- |
-| 1 | 9.3.3 Packet Tracer - HSRP Configuration Guide | PKA | <a href="/writeups/ccna-packet-tracer-writeups/09-fhrp-hsrp/lab-01/">Đọc bài</a> | Chưa viết chi tiết |
+| # | Bài lab | Loại file | Trạng thái |
+| --- | --- | --- | --- |
+| 1 | [9.3.3 Packet Tracer - HSRP Configuration Guide](/writeups/ccna-packet-tracer-writeups/09-fhrp-hsrp/lab-01/) | PKA | Chưa viết chi tiết |
 
 ## Quy Trình Chung
 

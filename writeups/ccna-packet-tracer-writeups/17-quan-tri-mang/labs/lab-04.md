@@ -82,3 +82,27 @@ Các lệnh nên dùng cho dạng này:
 ## 7. Kết Quả Cuối
 
 Ghi điểm Check Results, trạng thái ping/traceroute hoặc ảnh xác nhận hoàn thành.
+
+---
+
+## Các Lab Khác Trong Dạng Này
+
+<div style="margin: 2rem 0;">
+  <div style="display: flex; justify-content: space-between; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem;">
+    <div><a href="/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/lab-03/" style="padding: 0.5rem 1rem; background: #e2e8f0; color: #1e293b; border-radius: 6px; text-decoration: none; display: inline-block;">← Lab 3</a></div>
+    <div><a href="/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/" style="padding: 0.5rem 1rem; border: 1px solid #cbd5e1; border-radius: 6px; text-decoration: none; display: inline-block;">📋 Xem tất cả</a></div>
+    <div><a href="/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/lab-05/" style="padding: 0.5rem 1rem; background: #0f766e; color: white; border-radius: 6px; text-decoration: none; display: inline-block;">Lab 5 →</a></div>
+  </div>
+  
+  <details open>
+    <summary style="cursor: pointer; font-weight: 600; margin-bottom: 1rem;">Danh sách 6 lab trong dạng này:</summary>
+    <ul style="list-style: none; padding-left: 0;">
+  <li style="margin: 0.5rem 0;"><a href="/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/lab-01/">Lab 1: 10.1.5 Packet Tracer - Use CDP to Map a Network</a></li>
+  <li style="margin: 0.5rem 0;"><a href="/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/lab-02/">Lab 2: 10.2.6  Packet Tracer - Use LLDP to Map a Network</a></li>
+  <li style="margin: 0.5rem 0;"><a href="/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/lab-03/">Lab 3: 10.3.4 Packet Tracer - Configure and Verify NTP</a></li>
+  <li style="margin: 0.5rem 0;"><strong>→ Lab 4: 10.6.10 Packet Tracer - Back Up Configuration Files (Đang đọc)</strong></li>
+  <li style="margin: 0.5rem 0;"><a href="/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/lab-05/">Lab 5: 10.7.6 Packet Tracer - Use a TFTP Server to Upgrade a Cisco IOS Image</a></li>
+  <li style="margin: 0.5rem 0;"><a href="/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/lab-06/">Lab 6: 10.8.1 Packet Tracer - Configure CDP, LLDP, and NTP</a></li>
+    </ul>
+  </details>
+</div>

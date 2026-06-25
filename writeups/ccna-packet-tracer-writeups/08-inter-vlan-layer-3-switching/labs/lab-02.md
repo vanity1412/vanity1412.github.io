@@ -82,3 +82,25 @@ Các lệnh nên dùng cho dạng này:
 ## 7. Kết Quả Cuối
 
 Ghi điểm Check Results, trạng thái ping/traceroute hoặc ảnh xác nhận hoàn thành.
+
+---
+
+## Các Lab Khác Trong Dạng Này
+
+<div style="margin: 2rem 0;">
+  <div style="display: flex; justify-content: space-between; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem;">
+    <div><a href="/writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching/lab-01/" style="padding: 0.5rem 1rem; background: #e2e8f0; color: #1e293b; border-radius: 6px; text-decoration: none; display: inline-block;">← Lab 1</a></div>
+    <div><a href="/writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching/" style="padding: 0.5rem 1rem; border: 1px solid #cbd5e1; border-radius: 6px; text-decoration: none; display: inline-block;">📋 Xem tất cả</a></div>
+    <div><a href="/writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching/lab-03/" style="padding: 0.5rem 1rem; background: #0f766e; color: white; border-radius: 6px; text-decoration: none; display: inline-block;">Lab 3 →</a></div>
+  </div>
+  
+  <details open>
+    <summary style="cursor: pointer; font-weight: 600; margin-bottom: 1rem;">Danh sách 4 lab trong dạng này:</summary>
+    <ul style="list-style: none; padding-left: 0;">
+  <li style="margin: 0.5rem 0;"><a href="/writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching/lab-01/">Lab 1: 4.2.7 Packet Tracer - Configure Router-on-a-Stick Inter-VLAN Routing</a></li>
+  <li style="margin: 0.5rem 0;"><strong>→ Lab 2: 4.3.8 Packet Tracer - Configure Layer 3 Switching and Inter-VLAN Routing (Đang đọc)</strong></li>
+  <li style="margin: 0.5rem 0;"><a href="/writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching/lab-03/">Lab 3: 4.4.8 Packet Tracer - Troubleshoot Inter-VLAN Routing</a></li>
+  <li style="margin: 0.5rem 0;"><a href="/writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching/lab-04/">Lab 4: 4.5.1 Packet Tracer - Inter-VLAN Routing Challenge</a></li>
+    </ul>
+  </details>
+</div>

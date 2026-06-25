@@ -81,3 +81,23 @@ Các lệnh nên dùng cho dạng này:
 ## 7. Kết Quả Cuối
 
 Ghi điểm Check Results, trạng thái ping/traceroute hoặc ảnh xác nhận hoàn thành.
+
+---
+
+## Các Lab Khác Trong Dạng Này
+
+<div style="margin: 2rem 0;">
+  <div style="display: flex; justify-content: space-between; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem;">
+    <div><span></span></div>
+    <div><a href="/writeups/ccna-packet-tracer-writeups/12-dhcp/" style="padding: 0.5rem 1rem; border: 1px solid #cbd5e1; border-radius: 6px; text-decoration: none; display: inline-block;">📋 Xem tất cả</a></div>
+    <div><a href="/writeups/ccna-packet-tracer-writeups/12-dhcp/lab-02/" style="padding: 0.5rem 1rem; background: #0f766e; color: white; border-radius: 6px; text-decoration: none; display: inline-block;">Lab 2 →</a></div>
+  </div>
+  
+  <details open>
+    <summary style="cursor: pointer; font-weight: 600; margin-bottom: 1rem;">Danh sách 2 lab trong dạng này:</summary>
+    <ul style="list-style: none; padding-left: 0;">
+  <li style="margin: 0.5rem 0;"><strong>→ Lab 1: 7.2.10 Packet Tracer - Configure DHCPv4 (Đang đọc)</strong></li>
+  <li style="margin: 0.5rem 0;"><a href="/writeups/ccna-packet-tracer-writeups/12-dhcp/lab-02/">Lab 2: 7.4.1 Packet Tracer - Implement DHCPv4</a></li>
+    </ul>
+  </details>
+</div>

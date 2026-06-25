@@ -37,3 +37,19 @@ Trang này là mục lục của dạng lab. Mỗi bài lab có một trang riê
 4. Viết lời giải theo thứ tự: mục tiêu, topology, kế hoạch, cấu hình, kiểm tra, lỗi gặp phải, kết quả cuối.
 
 [Tải file lab của dạng này](/writeups/ccna-packet-tracer-writeups/07-stp-etherchannel/downloads/)
+
+---
+
+## Điều Hướng
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 2rem; flex-wrap: wrap; gap: 1rem;">
+  <div style="flex: 1; min-width: 200px;">
+    <a href="/writeups/ccna-packet-tracer-writeups/06-vlan-trunk-dtp/">← 06. VLAN, Trunk Và DTP</a>
+  </div>
+  <div style="text-align: center; flex: 0 0 auto;">
+    <a href="/writeups/ccna-packet-tracer-writeups/07-stp-etherchannel/lab-01/" style="padding: 0.5rem 1rem; background: #0f766e; color: white; border-radius: 6px; text-decoration: none; display: inline-block; font-weight: 600;">Bắt đầu Lab 01 →</a>
+  </div>
+  <div style="flex: 1; min-width: 200px; text-align: right;">
+    <a href="/writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching/">08. Inter-VLAN Và Layer 3 Switching →</a>
+  </div>
+</div>

@@ -81,3 +81,28 @@ Các lệnh nên dùng cho dạng này:
 ## 7. Kết Quả Cuối
 
 Ghi điểm Check Results, trạng thái ping/traceroute hoặc ảnh xác nhận hoàn thành.
+
+---
+
+## Các Lab Khác Trong Dạng Này
+
+<div style="margin: 2rem 0;">
+  <div style="display: flex; justify-content: space-between; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem;">
+    <div><a href="/writeups/ccna-packet-tracer-writeups/11-ospf/lab-05/" style="padding: 0.5rem 1rem; background: #e2e8f0; color: #1e293b; border-radius: 6px; text-decoration: none; display: inline-block;">← Lab 5</a></div>
+    <div><a href="/writeups/ccna-packet-tracer-writeups/11-ospf/" style="padding: 0.5rem 1rem; border: 1px solid #cbd5e1; border-radius: 6px; text-decoration: none; display: inline-block;">📋 Xem tất cả</a></div>
+    <div><a href="/writeups/ccna-packet-tracer-writeups/11-ospf/lab-07/" style="padding: 0.5rem 1rem; background: #0f766e; color: white; border-radius: 6px; text-decoration: none; display: inline-block;">Lab 7 →</a></div>
+  </div>
+  
+  <details open>
+    <summary style="cursor: pointer; font-weight: 600; margin-bottom: 1rem;">Danh sách 7 lab trong dạng này:</summary>
+    <ul style="list-style: none; padding-left: 0;">
+  <li style="margin: 0.5rem 0;"><a href="/writeups/ccna-packet-tracer-writeups/11-ospf/lab-01/">Lab 1: 2.2.13 Packet Tracer - Point-to-Point Single-Area OSPFv2 Configuration</a></li>
+  <li style="margin: 0.5rem 0;"><a href="/writeups/ccna-packet-tracer-writeups/11-ospf/lab-02/">Lab 2: 2.3.11 Packet Tracer - Determine the DR and BDR</a></li>
+  <li style="margin: 0.5rem 0;"><a href="/writeups/ccna-packet-tracer-writeups/11-ospf/lab-03/">Lab 3: 2.4.11 Packet Tracer - Modify Single-Area OSPFv2</a></li>
+  <li style="margin: 0.5rem 0;"><a href="/writeups/ccna-packet-tracer-writeups/11-ospf/lab-04/">Lab 4: 2.5.3 Packet Tracer - Propagate a Default Route in OSPFv2</a></li>
+  <li style="margin: 0.5rem 0;"><a href="/writeups/ccna-packet-tracer-writeups/11-ospf/lab-05/">Lab 5: 2.6.6 Packet Tracer - Verify Single-Area OSPFv2</a></li>
+  <li style="margin: 0.5rem 0;"><strong>→ Lab 6: 2.7.1 Packet Tracer - Single-Area OSPFv2 Configuration (Đang đọc)</strong></li>
+  <li style="margin: 0.5rem 0;"><a href="/writeups/ccna-packet-tracer-writeups/11-ospf/lab-07/">Lab 7: ospf_full</a></li>
+    </ul>
+  </details>
+</div>

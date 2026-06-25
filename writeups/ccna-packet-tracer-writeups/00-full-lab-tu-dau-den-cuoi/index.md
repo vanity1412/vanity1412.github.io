@@ -118,3 +118,19 @@ Track này gom toàn bộ **94 bài lab** trong folder `00-TONG-HOP-THEO-SO-DAU-
 | 94 | [static_nat](/writeups/ccna-packet-tracer-writeups/00-full-lab-tu-dau-den-cuoi/lab-94/) | PKT | Chưa viết chi tiết |
 
 [Tải toàn bộ danh sách lab của track này](/writeups/ccna-packet-tracer-writeups/00-full-lab-tu-dau-den-cuoi/downloads/)
+
+---
+
+## Điều Hướng
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 2rem; flex-wrap: wrap; gap: 1rem;">
+  <div style="flex: 1; min-width: 200px;">
+    <span></span>
+  </div>
+  <div style="text-align: center; flex: 0 0 auto;">
+    <a href="/writeups/ccna-packet-tracer-writeups/00-full-lab-tu-dau-den-cuoi/lab-01/" style="padding: 0.5rem 1rem; background: #0f766e; color: white; border-radius: 6px; text-decoration: none; display: inline-block; font-weight: 600;">Bắt đầu Lab 01 →</a>
+  </div>
+  <div style="flex: 1; min-width: 200px; text-align: right;">
+    <a href="/writeups/ccna-packet-tracer-writeups/01-lam-quen-packet-tracer/">01. Làm Quen Packet Tracer →</a>
+  </div>
+</div>

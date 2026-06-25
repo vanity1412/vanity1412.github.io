@@ -24,8 +24,7 @@ Trang này là mục lục của dạng lab. Mỗi bài lab có một trang riê
 
 | # | Bài lab | Loại file | Đọc | Trạng thái |
 | --- | --- | --- | --- | --- |
-| 1 | 1.5.7 Packet Tracer - Network Representation | PKA | <a href="/writeups/ccna-packet-tracer-writeups/01-lam-quen-packet-tracer/lab-01/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 2 | 1.5.7-packet-tracer---network-representation | PKA | <a href="/writeups/ccna-packet-tracer-writeups/01-lam-quen-packet-tracer/lab-02/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
+| 1 | 1.5.7 Packet Tracer - Network Representation | PKA | <a href="/writeups/ccna-packet-tracer-writeups/01-lam-quen-packet-tracer/lab-01/">Đọc bài</a> | Chưa viết chi tiết |
 
 ## Quy Trình Chung
 

@@ -24,8 +24,8 @@ Trang này là mục lục của dạng lab. Mỗi bài lab có một trang riê
 
 | # | Bài lab | Loại file | Đọc | Trạng thái |
 | --- | --- | --- | --- | --- |
-| 1 | 7.2.10 Packet Tracer - Configure DHCPv4 | PKA | <a href="/writeups/ccna-packet-tracer-writeups/12-dhcp/lab-01/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 2 | 7.4.1 Packet Tracer - Implement DHCPv4 | PKA | <a href="/writeups/ccna-packet-tracer-writeups/12-dhcp/lab-02/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
+| 1 | 7.2.10 Packet Tracer - Configure DHCPv4 | PKA | <a href="/writeups/ccna-packet-tracer-writeups/12-dhcp/lab-01/">Đọc bài</a> | Chưa viết chi tiết |
+| 2 | 7.4.1 Packet Tracer - Implement DHCPv4 | PKA | <a href="/writeups/ccna-packet-tracer-writeups/12-dhcp/lab-02/">Đọc bài</a> | Chưa viết chi tiết |
 
 ## Quy Trình Chung
 

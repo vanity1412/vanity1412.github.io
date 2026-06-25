@@ -24,11 +24,11 @@ Trang này là mục lục của dạng lab. Mỗi bài lab có một trang riê
 
 | # | Bài lab | Loại file | Đọc | Trạng thái |
 | --- | --- | --- | --- | --- |
-| 1 | 13.1.10 Packet Tracer - Configure a Wireless Network | PKA | <a href="/writeups/ccna-packet-tracer-writeups/15-wireless-wlan/lab-01/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 2 | 13.2.7 Packet Tracer - Configure a Basic WLAN on the WLC | PKA | <a href="/writeups/ccna-packet-tracer-writeups/15-wireless-wlan/lab-02/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 3 | 13.3.12 Packet Tracer - Configure a WPA2 Enterprise WLAN on the WLC | PKA | <a href="/writeups/ccna-packet-tracer-writeups/15-wireless-wlan/lab-03/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 4 | 13.4.5 Packet Tracer - Troubleshoot WLAN Issues | PKA | <a href="/writeups/ccna-packet-tracer-writeups/15-wireless-wlan/lab-04/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 5 | 13.5.1 Packet Tracer - WLAN Configuration | PKA | <a href="/writeups/ccna-packet-tracer-writeups/15-wireless-wlan/lab-05/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
+| 1 | 13.1.10 Packet Tracer - Configure a Wireless Network | PKA | <a href="/writeups/ccna-packet-tracer-writeups/15-wireless-wlan/lab-01/">Đọc bài</a> | Chưa viết chi tiết |
+| 2 | 13.2.7 Packet Tracer - Configure a Basic WLAN on the WLC | PKA | <a href="/writeups/ccna-packet-tracer-writeups/15-wireless-wlan/lab-02/">Đọc bài</a> | Chưa viết chi tiết |
+| 3 | 13.3.12 Packet Tracer - Configure a WPA2 Enterprise WLAN on the WLC | PKA | <a href="/writeups/ccna-packet-tracer-writeups/15-wireless-wlan/lab-03/">Đọc bài</a> | Chưa viết chi tiết |
+| 4 | 13.4.5 Packet Tracer - Troubleshoot WLAN Issues | PKA | <a href="/writeups/ccna-packet-tracer-writeups/15-wireless-wlan/lab-04/">Đọc bài</a> | Chưa viết chi tiết |
+| 5 | 13.5.1 Packet Tracer - WLAN Configuration | PKA | <a href="/writeups/ccna-packet-tracer-writeups/15-wireless-wlan/lab-05/">Đọc bài</a> | Chưa viết chi tiết |
 
 ## Quy Trình Chung
 

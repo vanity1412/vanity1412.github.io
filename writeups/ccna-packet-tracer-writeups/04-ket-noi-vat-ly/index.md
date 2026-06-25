@@ -24,11 +24,11 @@ Trang này là mục lục của dạng lab. Mỗi bài lab có một trang riê
 
 | # | Bài lab | Loại file | Đọc | Trạng thái |
 | --- | --- | --- | --- | --- |
-| 1 | 2.7.6 Packet Tracer - Implement Basic Connectivity | PKA | <a href="/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/lab-01/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 2 | 2.8.1 Video Activity - Test the Interface Assignment | PKT | <a href="/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/lab-02/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 3 | 2.8.2 Video Activity - Test End-to-End Connectivity | PKT | <a href="/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/lab-03/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 4 | 4.6.5 Packet Tracer - Connect a Wired and Wireless LAN | PKA | <a href="/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/lab-04/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 5 | 4.7.1 Packet Tracer - Connect the Physical Layer | PKA | <a href="/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/lab-05/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
+| 1 | 2.7.6 Packet Tracer - Implement Basic Connectivity | PKA | <a href="/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/lab-01/">Đọc bài</a> | Chưa viết chi tiết |
+| 2 | 2.8.1 Video Activity - Test the Interface Assignment | PKT | <a href="/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/lab-02/">Đọc bài</a> | Chưa viết chi tiết |
+| 3 | 2.8.2 Video Activity - Test End-to-End Connectivity | PKT | <a href="/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/lab-03/">Đọc bài</a> | Chưa viết chi tiết |
+| 4 | 4.6.5 Packet Tracer - Connect a Wired and Wireless LAN | PKA | <a href="/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/lab-04/">Đọc bài</a> | Chưa viết chi tiết |
+| 5 | 4.7.1 Packet Tracer - Connect the Physical Layer | PKA | <a href="/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/lab-05/">Đọc bài</a> | Chưa viết chi tiết |
 
 ## Quy Trình Chung
 

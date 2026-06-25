@@ -25,13 +25,13 @@ Trang này là mục lục của dạng lab. Mỗi bài lab có một trang riê
 
 | # | Bài lab | Loại file | Đọc | Trạng thái |
 | --- | --- | --- | --- | --- |
-| 1 | 2.2.13 Packet Tracer - Point-to-Point Single-Area OSPFv2 Configuration | PKA | <a href="/writeups/ccna-packet-tracer-writeups/11-ospf/lab-01/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 2 | 2.3.11 Packet Tracer - Determine the DR and BDR | PKA | <a href="/writeups/ccna-packet-tracer-writeups/11-ospf/lab-02/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 3 | 2.4.11 Packet Tracer - Modify Single-Area OSPFv2 | PKA | <a href="/writeups/ccna-packet-tracer-writeups/11-ospf/lab-03/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 4 | 2.5.3 Packet Tracer - Propagate a Default Route in OSPFv2 | PKA | <a href="/writeups/ccna-packet-tracer-writeups/11-ospf/lab-04/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 5 | 2.6.6 Packet Tracer - Verify Single-Area OSPFv2 | PKA | <a href="/writeups/ccna-packet-tracer-writeups/11-ospf/lab-05/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 6 | 2.7.1 Packet Tracer - Single-Area OSPFv2 Configuration | PKA | <a href="/writeups/ccna-packet-tracer-writeups/11-ospf/lab-06/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 7 | ospf_full | PKT | <a href="/writeups/ccna-packet-tracer-writeups/11-ospf/lab-07/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
+| 1 | 2.2.13 Packet Tracer - Point-to-Point Single-Area OSPFv2 Configuration | PKA | <a href="/writeups/ccna-packet-tracer-writeups/11-ospf/lab-01/">Đọc bài</a> | Chưa viết chi tiết |
+| 2 | 2.3.11 Packet Tracer - Determine the DR and BDR | PKA | <a href="/writeups/ccna-packet-tracer-writeups/11-ospf/lab-02/">Đọc bài</a> | Chưa viết chi tiết |
+| 3 | 2.4.11 Packet Tracer - Modify Single-Area OSPFv2 | PKA | <a href="/writeups/ccna-packet-tracer-writeups/11-ospf/lab-03/">Đọc bài</a> | Chưa viết chi tiết |
+| 4 | 2.5.3 Packet Tracer - Propagate a Default Route in OSPFv2 | PKA | <a href="/writeups/ccna-packet-tracer-writeups/11-ospf/lab-04/">Đọc bài</a> | Chưa viết chi tiết |
+| 5 | 2.6.6 Packet Tracer - Verify Single-Area OSPFv2 | PKA | <a href="/writeups/ccna-packet-tracer-writeups/11-ospf/lab-05/">Đọc bài</a> | Chưa viết chi tiết |
+| 6 | 2.7.1 Packet Tracer - Single-Area OSPFv2 Configuration | PKA | <a href="/writeups/ccna-packet-tracer-writeups/11-ospf/lab-06/">Đọc bài</a> | Chưa viết chi tiết |
+| 7 | ospf_full | PKT | <a href="/writeups/ccna-packet-tracer-writeups/11-ospf/lab-07/">Đọc bài</a> | Chưa viết chi tiết |
 
 ## Quy Trình Chung
 

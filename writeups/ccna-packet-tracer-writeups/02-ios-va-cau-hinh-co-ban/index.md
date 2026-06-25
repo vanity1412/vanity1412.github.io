@@ -24,14 +24,14 @@ Trang này là mục lục của dạng lab. Mỗi bài lab có một trang riê
 
 | # | Bài lab | Loại file | Đọc | Trạng thái |
 | --- | --- | --- | --- | --- |
-| 1 | 1.4.7 Packet Tracer - Configure Router Interfaces | PKA | <a href="/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/lab-01/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 2 | 2.3.7 Packet Tracer - Navigate the IOS | PKA | <a href="/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/lab-02/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 3 | 2.5.5 Packet Tracer - Configure Initial Switch Settings | PKA | <a href="/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/lab-03/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 4 | 2.9.1 Packet Tracer - Basic Switch and End Device Configuration | PKA | <a href="/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/lab-04/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 5 | 10.1.4 Packet Tracer - Configure Initial Router Settings | PKA | <a href="/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/lab-05/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 6 | 10.3.4 Packet Tracer - Connect a Router to a LAN | PKA | <a href="/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/lab-06/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 7 | 10.4.3 Packet Tracer - Basic Device Configuration | PKA | <a href="/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/lab-07/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 8 | 14.3.5 Packet Tracer - Basic Router Configuration Review | PKA | <a href="/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/lab-08/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
+| 1 | 1.4.7 Packet Tracer - Configure Router Interfaces | PKA | <a href="/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/lab-01/">Đọc bài</a> | Chưa viết chi tiết |
+| 2 | 2.3.7 Packet Tracer - Navigate the IOS | PKA | <a href="/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/lab-02/">Đọc bài</a> | Chưa viết chi tiết |
+| 3 | 2.5.5 Packet Tracer - Configure Initial Switch Settings | PKA | <a href="/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/lab-03/">Đọc bài</a> | Chưa viết chi tiết |
+| 4 | 2.9.1 Packet Tracer - Basic Switch and End Device Configuration | PKA | <a href="/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/lab-04/">Đọc bài</a> | Chưa viết chi tiết |
+| 5 | 10.1.4 Packet Tracer - Configure Initial Router Settings | PKA | <a href="/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/lab-05/">Đọc bài</a> | Chưa viết chi tiết |
+| 6 | 10.3.4 Packet Tracer - Connect a Router to a LAN | PKA | <a href="/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/lab-06/">Đọc bài</a> | Chưa viết chi tiết |
+| 7 | 10.4.3 Packet Tracer - Basic Device Configuration | PKA | <a href="/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/lab-07/">Đọc bài</a> | Chưa viết chi tiết |
+| 8 | 14.3.5 Packet Tracer - Basic Router Configuration Review | PKA | <a href="/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/lab-08/">Đọc bài</a> | Chưa viết chi tiết |
 
 ## Quy Trình Chung
 

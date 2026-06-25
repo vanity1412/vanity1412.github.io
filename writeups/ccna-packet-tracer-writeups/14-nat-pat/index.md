@@ -24,14 +24,14 @@ Trang này là mục lục của dạng lab. Mỗi bài lab có một trang riê
 
 | # | Bài lab | Loại file | Đọc | Trạng thái |
 | --- | --- | --- | --- | --- |
-| 1 | 6.2.7 Packet Tracer - Investigate NAT Operation | PKA | <a href="/writeups/ccna-packet-tracer-writeups/14-nat-pat/lab-01/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 2 | 6.4.5 Packet Tracer - Configure Static NAT | PKA | <a href="/writeups/ccna-packet-tracer-writeups/14-nat-pat/lab-02/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 3 | 6.5.6 Packet Tracer - Configure Dynamic NAT | PKA | <a href="/writeups/ccna-packet-tracer-writeups/14-nat-pat/lab-03/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 4 | 6.6.7 Packet Tracer - Configure PAT | PKA | <a href="/writeups/ccna-packet-tracer-writeups/14-nat-pat/lab-04/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 5 | 6.8.1 Packet Tracer - Configure NAT for IPv4 | PKA | <a href="/writeups/ccna-packet-tracer-writeups/14-nat-pat/lab-05/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 6 | Dynamic_nat | PKT | <a href="/writeups/ccna-packet-tracer-writeups/14-nat-pat/lab-06/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 7 | nat_port | PKT | <a href="/writeups/ccna-packet-tracer-writeups/14-nat-pat/lab-07/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 8 | static_nat | PKT | <a href="/writeups/ccna-packet-tracer-writeups/14-nat-pat/lab-08/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
+| 1 | 6.2.7 Packet Tracer - Investigate NAT Operation | PKA | <a href="/writeups/ccna-packet-tracer-writeups/14-nat-pat/lab-01/">Đọc bài</a> | Chưa viết chi tiết |
+| 2 | 6.4.5 Packet Tracer - Configure Static NAT | PKA | <a href="/writeups/ccna-packet-tracer-writeups/14-nat-pat/lab-02/">Đọc bài</a> | Chưa viết chi tiết |
+| 3 | 6.5.6 Packet Tracer - Configure Dynamic NAT | PKA | <a href="/writeups/ccna-packet-tracer-writeups/14-nat-pat/lab-03/">Đọc bài</a> | Chưa viết chi tiết |
+| 4 | 6.6.7 Packet Tracer - Configure PAT | PKA | <a href="/writeups/ccna-packet-tracer-writeups/14-nat-pat/lab-04/">Đọc bài</a> | Chưa viết chi tiết |
+| 5 | 6.8.1 Packet Tracer - Configure NAT for IPv4 | PKA | <a href="/writeups/ccna-packet-tracer-writeups/14-nat-pat/lab-05/">Đọc bài</a> | Chưa viết chi tiết |
+| 6 | Dynamic_nat | PKT | <a href="/writeups/ccna-packet-tracer-writeups/14-nat-pat/lab-06/">Đọc bài</a> | Chưa viết chi tiết |
+| 7 | nat_port | PKT | <a href="/writeups/ccna-packet-tracer-writeups/14-nat-pat/lab-07/">Đọc bài</a> | Chưa viết chi tiết |
+| 8 | static_nat | PKT | <a href="/writeups/ccna-packet-tracer-writeups/14-nat-pat/lab-08/">Đọc bài</a> | Chưa viết chi tiết |
 
 ## Quy Trình Chung
 

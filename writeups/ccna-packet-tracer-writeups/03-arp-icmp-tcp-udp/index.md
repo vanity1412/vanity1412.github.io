@@ -24,11 +24,11 @@ Trang này là mục lục của dạng lab. Mỗi bài lab có một trang riê
 
 | # | Bài lab | Loại file | Đọc | Trạng thái |
 | --- | --- | --- | --- | --- |
-| 1 | 3.5.5 Packet Tracer - Investigate the TCP-IP and OSI Models in Action | PKA | <a href="/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/lab-01/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 2 | 9.1.3 Packet Tracer - Identify MAC and IP Addresses | PKA | <a href="/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/lab-02/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 3 | 9.2.9 Packet Tracer - Examine the ARP Table | PKA | <a href="/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/lab-03/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 4 | 9.3.4 Packet Tracer - IPv6 Neighbor Discovery | PKA | <a href="/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/lab-04/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 5 | 14.8.1 Packet Tracer - TCP and UDP Communications | PKA | <a href="/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/lab-05/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
+| 1 | 3.5.5 Packet Tracer - Investigate the TCP-IP and OSI Models in Action | PKA | <a href="/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/lab-01/">Đọc bài</a> | Chưa viết chi tiết |
+| 2 | 9.1.3 Packet Tracer - Identify MAC and IP Addresses | PKA | <a href="/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/lab-02/">Đọc bài</a> | Chưa viết chi tiết |
+| 3 | 9.2.9 Packet Tracer - Examine the ARP Table | PKA | <a href="/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/lab-03/">Đọc bài</a> | Chưa viết chi tiết |
+| 4 | 9.3.4 Packet Tracer - IPv6 Neighbor Discovery | PKA | <a href="/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/lab-04/">Đọc bài</a> | Chưa viết chi tiết |
+| 5 | 14.8.1 Packet Tracer - TCP and UDP Communications | PKA | <a href="/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/lab-05/">Đọc bài</a> | Chưa viết chi tiết |
 
 ## Quy Trình Chung
 

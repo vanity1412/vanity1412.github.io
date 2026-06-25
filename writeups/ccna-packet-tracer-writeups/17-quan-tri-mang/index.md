@@ -24,12 +24,12 @@ Trang này là mục lục của dạng lab. Mỗi bài lab có một trang riê
 
 | # | Bài lab | Loại file | Đọc | Trạng thái |
 | --- | --- | --- | --- | --- |
-| 1 | 10.1.5 Packet Tracer - Use CDP to Map a Network | PKA | <a href="/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/lab-01/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 2 | 10.2.6  Packet Tracer - Use LLDP to Map a Network | PKA | <a href="/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/lab-02/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 3 | 10.3.4 Packet Tracer - Configure and Verify NTP | PKA | <a href="/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/lab-03/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 4 | 10.6.10 Packet Tracer - Back Up Configuration Files | PKA | <a href="/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/lab-04/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 5 | 10.7.6 Packet Tracer - Use a TFTP Server to Upgrade a Cisco IOS Image | PKA | <a href="/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/lab-05/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 6 | 10.8.1 Packet Tracer - Configure CDP, LLDP, and NTP | PKA | <a href="/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/lab-06/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
+| 1 | 10.1.5 Packet Tracer - Use CDP to Map a Network | PKA | <a href="/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/lab-01/">Đọc bài</a> | Chưa viết chi tiết |
+| 2 | 10.2.6  Packet Tracer - Use LLDP to Map a Network | PKA | <a href="/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/lab-02/">Đọc bài</a> | Chưa viết chi tiết |
+| 3 | 10.3.4 Packet Tracer - Configure and Verify NTP | PKA | <a href="/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/lab-03/">Đọc bài</a> | Chưa viết chi tiết |
+| 4 | 10.6.10 Packet Tracer - Back Up Configuration Files | PKA | <a href="/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/lab-04/">Đọc bài</a> | Chưa viết chi tiết |
+| 5 | 10.7.6 Packet Tracer - Use a TFTP Server to Upgrade a Cisco IOS Image | PKA | <a href="/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/lab-05/">Đọc bài</a> | Chưa viết chi tiết |
+| 6 | 10.8.1 Packet Tracer - Configure CDP, LLDP, and NTP | PKA | <a href="/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/lab-06/">Đọc bài</a> | Chưa viết chi tiết |
 
 ## Quy Trình Chung
 

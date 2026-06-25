@@ -24,10 +24,10 @@ Trang này là mục lục của dạng lab. Mỗi bài lab có một trang riê
 
 | # | Bài lab | Loại file | Đọc | Trạng thái |
 | --- | --- | --- | --- | --- |
-| 1 | 4.2.7 Packet Tracer - Configure Router-on-a-Stick Inter-VLAN Routing | PKA | <a href="/writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching/lab-01/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 2 | 4.3.8 Packet Tracer - Configure Layer 3 Switching and Inter-VLAN Routing | PKA | <a href="/writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching/lab-02/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 3 | 4.4.8 Packet Tracer - Troubleshoot Inter-VLAN Routing | PKA | <a href="/writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching/lab-03/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
-| 4 | 4.5.1 Packet Tracer - Inter-VLAN Routing Challenge | PKA | <a href="/writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching/lab-04/" target="_blank" rel="noopener">Đọc bài</a> | Chưa viết chi tiết |
+| 1 | 4.2.7 Packet Tracer - Configure Router-on-a-Stick Inter-VLAN Routing | PKA | <a href="/writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching/lab-01/">Đọc bài</a> | Chưa viết chi tiết |
+| 2 | 4.3.8 Packet Tracer - Configure Layer 3 Switching and Inter-VLAN Routing | PKA | <a href="/writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching/lab-02/">Đọc bài</a> | Chưa viết chi tiết |
+| 3 | 4.4.8 Packet Tracer - Troubleshoot Inter-VLAN Routing | PKA | <a href="/writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching/lab-03/">Đọc bài</a> | Chưa viết chi tiết |
+| 4 | 4.5.1 Packet Tracer - Inter-VLAN Routing Challenge | PKA | <a href="/writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching/lab-04/">Đọc bài</a> | Chưa viết chi tiết |
 
 ## Quy Trình Chung
 

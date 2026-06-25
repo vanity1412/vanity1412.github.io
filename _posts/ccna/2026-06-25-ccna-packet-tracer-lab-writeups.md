@@ -104,18 +104,7 @@ Hiện có **94 lab** được chia thành **20 dạng**, kèm thêm track **Ful
 <div class="ccna-grid">
   <article class="ccna-card">
     <div class="ccna-card__body">
-      <div class="ccna-card__meta"><span>#00</span><span>94 labs</span></div>
-      <h3 class="ccna-card__title">Full Lab Từ Đầu Đến Cuối</h3>
-      <p class="ccna-card__summary">Lộ trình tổng hợp toàn bộ lab trong folder 00-TONG-HOP-THEO-SO-DAU-BAI, phù hợp khi muốn làm tuần tự từ bài đầu đến bài cuối.</p>
-      <div class="ccna-card__actions">
-        <a href="/writeups/ccna-packet-tracer-writeups/00-full-lab-tu-dau-den-cuoi/">Read writeup</a>
-        <a href="/writeups/ccna-packet-tracer-writeups/00-full-lab-tu-dau-den-cuoi/downloads/">Download labs</a>
-      </div>
-    </div>
-  </article>
-  <article class="ccna-card">
-    <div class="ccna-card__body">
-      <div class="ccna-card__meta"><span>#01</span><span>2 labs</span></div>
+      <div class="ccna-card__meta"><span>#01</span><span>1 labs</span></div>
       <h3 class="ccna-card__title">Làm Quen Packet Tracer</h3>
       <p class="ccna-card__summary">Nhận diện thiết bị, đường kết nối, topology và cách đọc bài lab Packet Tracer.</p>
       <div class="ccna-card__actions">
@@ -330,6 +319,17 @@ Hiện có **94 lab** được chia thành **20 dạng**, kèm thêm track **Ful
       <div class="ccna-card__actions">
         <a href="/writeups/ccna-packet-tracer-writeups/20-bai-tong-hop/">Read writeup</a>
         <a href="/writeups/ccna-packet-tracer-writeups/20-bai-tong-hop/downloads/">Download labs</a>
+      </div>
+    </div>
+  </article>
+    <article class="ccna-card">
+    <div class="ccna-card__body">
+      <div class="ccna-card__meta"><span>#21</span><span>94 labs</span></div>
+      <h3 class="ccna-card__title">Full Lab Từ Đầu Đến Cuối</h3>
+      <p class="ccna-card__summary">Lộ trình tổng hợp toàn bộ lab, phù hợp khi muốn làm tuần tự từ bài đầu đến bài cuối.</p>
+      <div class="ccna-card__actions">
+        <a href="/writeups/ccna-packet-tracer-writeups/00-full-lab-tu-dau-den-cuoi/">Read writeup</a>
+        <a href="/writeups/ccna-packet-tracer-writeups/00-full-lab-tu-dau-den-cuoi/downloads/">Download labs</a>
       </div>
     </div>
   </article>

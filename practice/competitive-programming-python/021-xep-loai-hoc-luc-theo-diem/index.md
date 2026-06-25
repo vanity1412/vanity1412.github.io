@@ -23,31 +23,22 @@ Xếp loại học lực theo điểm.
 Giỏi
 ```
 
-## Các file
+## Tự luyện
 
-- `main.py`: khung trống để bạn viết lời giải.
-- `input.txt`: dữ liệu mẫu được `main.py` và `solve.py` đọc tự động.
-- `solve.py`: lời giải tham khảo; nên tự làm trước khi mở.
-- `expected_output.txt`: kết quả chuẩn dùng để đối chiếu.
+<textarea class="code-practice-area" spellcheck="false" placeholder="Viết code của bạn ở đây..." style="width: 100%; min-height: 320px; padding: 1rem; border: 1px solid var(--main-border-color); border-radius: 6px; background: var(--highlight-bg-color); color: var(--text-color); font-family: var(--code-font-family); font-size: 0.95rem; line-height: 1.55; resize: vertical;"></textarea>
 
-## Cách chạy
+## Lời giải tham khảo
 
-```powershell
-python .\main.py
-python .\solve.py
+```python
+{% capture solution_code %}
+{% include_relative solve.py %}
+{% endcapture %}
+{{ solution_code | split: 'if __name__ == "__main__":' | first | split: 'def solve' | last | prepend: 'def solve' | strip }}
 ```
 
-Sau khi làm xong, đứng ở thư mục gốc và kiểm tra bài này bằng:
+## Bài tiếp theo
 
-```powershell
-python .\check_answer.py 021
-```
-
-## Mã nguồn và dữ liệu
-
-- [main.py](./main.py)
-- [solve.py](./solve.py)
-- [expected_output.txt](./expected_output.txt)
-- [input.txt](./input.txt)
-
-[← Quay lại danh sách 230 bài](/luyen-code/)
+- [← Quay lại danh sách 230 bài](/luyen-code/)
+- [022. Kiểm tra tuổi có đủ điều kiện đi làm part-time không](/practice/competitive-programming-python/022-kiem-tra-tuoi-co-du-dieu-kien-di-lam-part-time-khong/)
+- [023. Kiểm tra mật khẩu có đúng không](/practice/competitive-programming-python/023-kiem-tra-mat-khau-co-dung-khong/)
+- [024. Kiểm tra username và password đăng nhập](/practice/competitive-programming-python/024-kiem-tra-username-va-password-dang-nhap/)

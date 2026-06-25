@@ -1,30 +1,7 @@
 # Competitive Programming Python
 
 Bộ 230 bài luyện Python từ cơ bản đến Network Operations. Mỗi bài có input mẫu, output chuẩn và lời giải tham khảo.
-
-## Cấu trúc mỗi bài
-
-```text
-001-ten-bai/
-├── index.md
-├── main.py
-├── solve.py
-├── input.txt (hoặc CSV/JSON/LOG/config)
-└── expected_output.txt
-```
-
-## Quy trình luyện tập
-
-1. Đọc đề và ví dụ trong `index.md` của bài.
-2. Viết lời giải vào `main.py` mà chưa xem `solve.py`.
-3. Chạy `python main.py` ngay trong thư mục bài.
-4. Từ thư mục gốc, chạy `python check_answer.py 001` để chấm bài.
-5. Nếu chưa đúng, so sánh với `solve.py`.
-
-`main.py` và `solve.py` tự đọc file input nằm cùng thư mục, nên không cần nhập lại bằng bàn phím.
-
 ## Danh sách bài tập
-
 
 ### A. Python cơ bản để làm nền
 

@@ -25,31 +25,22 @@ Jun 22 09:00:04 router01 %LINEPROTO-5-UPDOWN: Line protocol on Interface Gi0/1 d
 Jun 22 09:01:02 switch01 %LINEPROTO-5-UPDOWN: Line protocol on Interface Gi0/2 up
 ```
 
-## Các file
+## Tự luyện
 
-- `main.py`: khung trống để bạn viết lời giải.
-- `input.log`: dữ liệu mẫu được `main.py` và `solve.py` đọc tự động.
-- `solve.py`: lời giải tham khảo; nên tự làm trước khi mở.
-- `expected_output.txt`: kết quả chuẩn dùng để đối chiếu.
+<textarea class="code-practice-area" spellcheck="false" placeholder="Viết code của bạn ở đây..." style="width: 100%; min-height: 320px; padding: 1rem; border: 1px solid var(--main-border-color); border-radius: 6px; background: var(--highlight-bg-color); color: var(--text-color); font-family: var(--code-font-family); font-size: 0.95rem; line-height: 1.55; resize: vertical;"></textarea>
 
-## Cách chạy
+## Lời giải tham khảo
 
-```powershell
-python .\main.py
-python .\solve.py
+```python
+{% capture solution_code %}
+{% include_relative solve.py %}
+{% endcapture %}
+{{ solution_code | split: 'if __name__ == "__main__":' | first | split: 'def solve' | last | prepend: 'def solve' | strip }}
 ```
 
-Sau khi làm xong, đứng ở thư mục gốc và kiểm tra bài này bằng:
+## Bài tiếp theo
 
-```powershell
-python .\check_answer.py 153
-```
-
-## Mã nguồn và dữ liệu
-
-- [main.py](./main.py)
-- [solve.py](./solve.py)
-- [expected_output.txt](./expected_output.txt)
-- [input.log](./input.log)
-
-[← Quay lại danh sách 230 bài](/luyen-code/)
+- [← Quay lại danh sách 230 bài](/luyen-code/)
+- [154. Đếm số lần interface bị down](/practice/competitive-programming-python/154-dem-so-lan-interface-bi-down/)
+- [155. Tìm interface bị down nhiều nhất](/practice/competitive-programming-python/155-tim-interface-bi-down-nhieu-nhat/)
+- [156. Tách hostname từ dòng syslog](/practice/competitive-programming-python/156-tach-hostname-tu-dong-syslog/)

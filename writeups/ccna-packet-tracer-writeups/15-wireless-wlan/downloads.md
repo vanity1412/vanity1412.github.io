@@ -4,8 +4,6 @@ title: "CCNA 15 - Tải Lab Wireless Và WLAN"
 permalink: /writeups/ccna-packet-tracer-writeups/15-wireless-wlan/downloads/
 ---
 
-# CCNA 15 - Tải Lab Wireless Và WLAN
-
 Trang này chỉ dùng để tải file lab. Nếu muốn đọc lời giải từng bước, quay lại trang writeup của dạng này.
 
 [Đọc writeup](/writeups/ccna-packet-tracer-writeups/15-wireless-wlan/)

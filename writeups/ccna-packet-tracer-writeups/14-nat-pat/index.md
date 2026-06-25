@@ -5,13 +5,9 @@ permalink: /writeups/ccna-packet-tracer-writeups/14-nat-pat/
 toc: true
 ---
 
-# CCNA 14 - NAT Và PAT
-
 ## Tổng Quan
 
 Thực hành static NAT, dynamic NAT, PAT và kiểm tra translation.
-
-Trang này là mục lục của dạng lab. Mỗi bài lab có một trang riêng để dễ quản lý ảnh, cấu hình và ghi chú. Bấm **Đọc bài** sẽ mở trang lab riêng trong tab mới.
 
 ## Trọng Tâm Cần Nắm
 
@@ -32,15 +28,6 @@ Trang này là mục lục của dạng lab. Mỗi bài lab có một trang riê
 | 6 | [Dynamic_nat](/writeups/ccna-packet-tracer-writeups/14-nat-pat/lab-06/) | PKT | Chưa viết chi tiết |
 | 7 | [nat_port](/writeups/ccna-packet-tracer-writeups/14-nat-pat/lab-07/) | PKT | Chưa viết chi tiết |
 | 8 | [static_nat](/writeups/ccna-packet-tracer-writeups/14-nat-pat/lab-08/) | PKT | Chưa viết chi tiết |
-
-## Quy Trình Chung
-
-1. Tải file lab ở trang download của dạng này nếu muốn tự làm trước.
-2. Mở bài lab riêng bằng nút **Đọc bài**.
-3. Chụp topology và đặt ảnh vào đúng thư mục images/lab-xx/.
-4. Viết lời giải theo thứ tự: mục tiêu, topology, kế hoạch, cấu hình, kiểm tra, lỗi gặp phải, kết quả cuối.
-
-[Tải file lab của dạng này](/writeups/ccna-packet-tracer-writeups/14-nat-pat/downloads/)
 
 ---
 

@@ -4,8 +4,6 @@ title: "CCNA 05 - Tải Lab IP Addressing, Subnetting, VLSM"
 permalink: /writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/downloads/
 ---
 
-# CCNA 05 - Tải Lab IP Addressing, Subnetting, VLSM
-
 Trang này chỉ dùng để tải file lab. Nếu muốn đọc lời giải từng bước, quay lại trang writeup của dạng này.
 
 [Đọc writeup](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/)

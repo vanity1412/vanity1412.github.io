@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/10-static-default-routing/lab-0
 toc: true
 ---
 
-# CCNA 10.02 - 15.6.1 Packet Tracer - Configure IPv4 and IPv6 Static and Default Routes
-
 [← Quay lại danh sách Static Và Default Routing](/writeups/ccna-packet-tracer-writeups/10-static-default-routing/)
 
 | Field | Value |

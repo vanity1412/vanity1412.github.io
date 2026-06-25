@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/lab-02/
 toc: true
 ---
 
-# CCNA 04.02 - 2.8.1 Video Activity - Test the Interface Assignment
-
 [← Quay lại danh sách Kết Nối Vật Lý](/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/)
 
 | Field | Value |

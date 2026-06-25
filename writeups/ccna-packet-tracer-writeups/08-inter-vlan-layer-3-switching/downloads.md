@@ -4,8 +4,6 @@ title: "CCNA 08 - Tải Lab Inter-VLAN Và Layer 3 Switching"
 permalink: /writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching/downloads/
 ---
 
-# CCNA 08 - Tải Lab Inter-VLAN Và Layer 3 Switching
-
 Trang này chỉ dùng để tải file lab. Nếu muốn đọc lời giải từng bước, quay lại trang writeup của dạng này.
 
 [Đọc writeup](/writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching/)

@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/00-full-lab-tu-dau-den-cuoi/lab
 toc: true
 ---
 
-# CCNA Full 74 - 13.2.7 Packet Tracer - Use Ping and Traceroute to Test Network Connectivity
-
 [← Quay lại Full Lab Từ Đầu Đến Cuối](/writeups/ccna-packet-tracer-writeups/00-full-lab-tu-dau-den-cuoi/)
 
 | Field | Value |

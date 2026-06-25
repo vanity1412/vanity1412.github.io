@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/lab-04/
 toc: true
 ---
 
-# CCNA 03.04 - 9.3.4 Packet Tracer - IPv6 Neighbor Discovery
-
 [← Quay lại danh sách ARP, ICMP, TCP Và UDP](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/)
 
 | Field | Value |

@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/lab-0
 toc: true
 ---
 
-# CCNA 02.04 - 2.9.1 Packet Tracer - Basic Switch and End Device Configuration
-
 [← Quay lại danh sách IOS Và Cấu Hình Cơ Bản](/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/)
 
 | Field | Value |

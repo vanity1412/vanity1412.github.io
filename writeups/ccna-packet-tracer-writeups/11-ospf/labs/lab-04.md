@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/11-ospf/lab-04/
 toc: true
 ---
 
-# CCNA 11.04 - 2.5.3 Packet Tracer - Propagate a Default Route in OSPFv2
-
 [← Quay lại danh sách OSPF](/writeups/ccna-packet-tracer-writeups/11-ospf/)
 
 | Field | Value |

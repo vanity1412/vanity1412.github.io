@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/00-full-lab-tu-dau-den-cuoi/lab
 toc: true
 ---
 
-# CCNA Full 36 - 5.4.12 Packet Tracer - Configure Extended IPv4 ACLs - Scenario 1
-
 [← Quay lại Full Lab Từ Đầu Đến Cuối](/writeups/ccna-packet-tracer-writeups/00-full-lab-tu-dau-den-cuoi/)
 
 | Field | Value |

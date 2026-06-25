@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/lab-04/
 toc: true
 ---
 
-# CCNA 05.04 - 11.10.1 Packet Tracer - Design and Implement a VLSM Addressing Scheme
-
 [← Quay lại danh sách IP Addressing, Subnetting, VLSM](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/)
 
 | Field | Value |

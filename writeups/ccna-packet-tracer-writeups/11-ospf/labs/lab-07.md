@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/11-ospf/lab-07/
 toc: true
 ---
 
-# CCNA 11.07 - ospf_full
-
 [← Quay lại danh sách OSPF](/writeups/ccna-packet-tracer-writeups/11-ospf/)
 
 | Field | Value |

@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/lab-01/
 toc: true
 ---
 
-# CCNA 04.01 - 2.7.6 Packet Tracer - Implement Basic Connectivity
-
 [← Quay lại danh sách Kết Nối Vật Lý](/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/)
 
 | Field | Value |

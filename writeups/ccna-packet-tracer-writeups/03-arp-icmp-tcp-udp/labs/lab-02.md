@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/lab-02/
 toc: true
 ---
 
-# CCNA 03.02 - 9.1.3 Packet Tracer - Identify MAC and IP Addresses
-
 [← Quay lại danh sách ARP, ICMP, TCP Và UDP](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/)
 
 | Field | Value |

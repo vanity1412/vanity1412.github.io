@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/18-kiem-tra-xu-ly-su-co/lab-05/
 toc: true
 ---
 
-# CCNA 18.05 - 17.7.7 Packet Tracer - Troubleshoot Connectivity Issues
-
 [← Quay lại danh sách Kiểm Tra Và Xử Lý Sự Cố](/writeups/ccna-packet-tracer-writeups/18-kiem-tra-xu-ly-su-co/)
 
 | Field | Value |

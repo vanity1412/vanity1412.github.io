@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/10-static-default-routing/lab-0
 toc: true
 ---
 
-# CCNA 10.03 - 16.3.1 Packet Tracer - Troubleshoot Static and Default Routes
-
 [← Quay lại danh sách Static Và Default Routing](/writeups/ccna-packet-tracer-writeups/10-static-default-routing/)
 
 | Field | Value |

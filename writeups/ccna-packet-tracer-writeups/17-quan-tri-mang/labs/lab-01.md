@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/lab-01/
 toc: true
 ---
 
-# CCNA 17.01 - 10.1.5 Packet Tracer - Use CDP to Map a Network
-
 [← Quay lại danh sách Quản Trị Mạng](/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/)
 
 | Field | Value |

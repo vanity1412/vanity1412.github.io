@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/00-full-lab-tu-dau-den-cuoi/lab
 toc: true
 ---
 
-# CCNA Full 28 - 4.4.8 Packet Tracer - Troubleshoot Inter-VLAN Routing
-
 [← Quay lại Full Lab Từ Đầu Đến Cuối](/writeups/ccna-packet-tracer-writeups/00-full-lab-tu-dau-den-cuoi/)
 
 | Field | Value |

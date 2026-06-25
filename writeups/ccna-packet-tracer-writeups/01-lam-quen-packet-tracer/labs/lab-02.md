@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/01-lam-quen-packet-tracer/lab-0
 toc: true
 ---
 
-# CCNA 01.02 - 1.5.7-packet-tracer---network-representation
-
 [← Quay lại danh sách Làm Quen Packet Tracer](/writeups/ccna-packet-tracer-writeups/01-lam-quen-packet-tracer/)
 
 | Field | Value |

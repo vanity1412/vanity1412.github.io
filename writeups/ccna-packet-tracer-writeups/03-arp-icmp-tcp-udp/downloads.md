@@ -4,8 +4,6 @@ title: "CCNA 03 - Tải Lab ARP, ICMP, TCP Và UDP"
 permalink: /writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/downloads/
 ---
 
-# CCNA 03 - Tải Lab ARP, ICMP, TCP Và UDP
-
 Trang này chỉ dùng để tải file lab. Nếu muốn đọc lời giải từng bước, quay lại trang writeup của dạng này.
 
 [Đọc writeup](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/)

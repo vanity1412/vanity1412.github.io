@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/14-nat-pat/lab-02/
 toc: true
 ---
 
-# CCNA 14.02 - 6.4.5 Packet Tracer - Configure Static NAT
-
 [← Quay lại danh sách NAT Và PAT](/writeups/ccna-packet-tracer-writeups/14-nat-pat/)
 
 | Field | Value |

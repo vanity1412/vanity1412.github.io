@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/07-stp-etherchannel/lab-03/
 toc: true
 ---
 
-# CCNA 07.03 - 6.3.4 Packet Tracer - Troubleshoot EtherChannel
-
 [← Quay lại danh sách STP Và EtherChannel](/writeups/ccna-packet-tracer-writeups/07-stp-etherchannel/)
 
 | Field | Value |

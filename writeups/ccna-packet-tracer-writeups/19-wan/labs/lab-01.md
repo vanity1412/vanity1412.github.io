@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/19-wan/lab-01/
 toc: true
 ---
 
-# CCNA 19.01 - 7.6.1 Packet Tracer - WAN Concepts
-
 [← Quay lại danh sách WAN](/writeups/ccna-packet-tracer-writeups/19-wan/)
 
 | Field | Value |

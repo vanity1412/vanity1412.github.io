@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/lab-07/
 toc: true
 ---
 
-# CCNA 05.07 - 13.2.6 Packet Tracer - Verify IPv4 and IPv6 Addressing
-
 [← Quay lại danh sách IP Addressing, Subnetting, VLSM](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/)
 
 | Field | Value |

@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/13-acl/lab-01/
 toc: true
 ---
 
-# CCNA 13.01 - 5.1.8 Packet Tracer - Configure Numbered Standard IPv4 ACLs
-
 [← Quay lại danh sách ACL](/writeups/ccna-packet-tracer-writeups/13-acl/)
 
 | Field | Value |

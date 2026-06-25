@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/00-full-lab-tu-dau-den-cuoi/lab
 toc: true
 ---
 
-# CCNA Full 52 - 9.3.4 Packet Tracer - IPv6 Neighbor Discovery
-
 [← Quay lại Full Lab Từ Đầu Đến Cuối](/writeups/ccna-packet-tracer-writeups/00-full-lab-tu-dau-den-cuoi/)
 
 | Field | Value |

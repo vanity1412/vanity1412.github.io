@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/15-wireless-wlan/lab-01/
 toc: true
 ---
 
-# CCNA 15.01 - 13.1.10 Packet Tracer - Configure a Wireless Network
-
 [← Quay lại danh sách Wireless Và WLAN](/writeups/ccna-packet-tracer-writeups/15-wireless-wlan/)
 
 | Field | Value |

@@ -16,7 +16,7 @@ timezone: Asia/Ho_Chi_Minh
 
 title: Vũ Văn Thông # the main title
 
-tagline: Security Blog & Writeups # it will display as the subtitle
+tagline: Blog & Writeups # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Security portfolio and blog by Vu Van Thong, with notes on cybersecurity, CTF, research, labs, and writeups.

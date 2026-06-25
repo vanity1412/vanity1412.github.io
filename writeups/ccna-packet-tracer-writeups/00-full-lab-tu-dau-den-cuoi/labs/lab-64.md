@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/00-full-lab-tu-dau-den-cuoi/lab
 toc: true
 ---
 
-# CCNA Full 64 - 11.5.5 Packet Tracer - Subnet an IPv4 Network
-
 [← Quay lại Full Lab Từ Đầu Đến Cuối](/writeups/ccna-packet-tracer-writeups/00-full-lab-tu-dau-den-cuoi/)
 
 | Field | Value |

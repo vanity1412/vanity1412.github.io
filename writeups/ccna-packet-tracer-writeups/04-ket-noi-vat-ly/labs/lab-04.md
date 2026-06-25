@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/lab-04/
 toc: true
 ---
 
-# CCNA 04.04 - 4.6.5 Packet Tracer - Connect a Wired and Wireless LAN
-
 [← Quay lại danh sách Kết Nối Vật Lý](/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/)
 
 | Field | Value |

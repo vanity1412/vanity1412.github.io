@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/07-stp-etherchannel/lab-01/
 toc: true
 ---
 
-# CCNA 07.01 - 5.1.9 Packet Tracer - Investigate STP Loop Prevention
-
 [← Quay lại danh sách STP Và EtherChannel](/writeups/ccna-packet-tracer-writeups/07-stp-etherchannel/)
 
 | Field | Value |

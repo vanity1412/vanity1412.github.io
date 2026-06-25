@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/15-wireless-wlan/lab-03/
 toc: true
 ---
 
-# CCNA 15.03 - 13.3.12 Packet Tracer - Configure a WPA2 Enterprise WLAN on the WLC
-
 [← Quay lại danh sách Wireless Và WLAN](/writeups/ccna-packet-tracer-writeups/15-wireless-wlan/)
 
 | Field | Value |

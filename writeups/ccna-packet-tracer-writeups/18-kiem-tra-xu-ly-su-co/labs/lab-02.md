@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/18-kiem-tra-xu-ly-su-co/lab-02/
 toc: true
 ---
 
-# CCNA 18.02 - 13.2.7 Packet Tracer - Use Ping and Traceroute to Test Network Connectivity
-
 [← Quay lại danh sách Kiểm Tra Và Xử Lý Sự Cố](/writeups/ccna-packet-tracer-writeups/18-kiem-tra-xu-ly-su-co/)
 
 | Field | Value |

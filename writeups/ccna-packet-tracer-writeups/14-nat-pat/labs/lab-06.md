@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/14-nat-pat/lab-06/
 toc: true
 ---
 
-# CCNA 14.06 - Dynamic_nat
-
 [← Quay lại danh sách NAT Và PAT](/writeups/ccna-packet-tracer-writeups/14-nat-pat/)
 
 | Field | Value |

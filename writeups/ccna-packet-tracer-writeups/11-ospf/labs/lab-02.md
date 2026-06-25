@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/11-ospf/lab-02/
 toc: true
 ---
 
-# CCNA 11.02 - 2.3.11 Packet Tracer - Determine the DR and BDR
-
 [← Quay lại danh sách OSPF](/writeups/ccna-packet-tracer-writeups/11-ospf/)
 
 | Field | Value |

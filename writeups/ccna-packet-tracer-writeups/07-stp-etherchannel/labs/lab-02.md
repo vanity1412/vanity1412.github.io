@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/07-stp-etherchannel/lab-02/
 toc: true
 ---
 
-# CCNA 07.02 - 6.2.4 Packet Tracer - Configure EtherChannel
-
 [← Quay lại danh sách STP Và EtherChannel](/writeups/ccna-packet-tracer-writeups/07-stp-etherchannel/)
 
 | Field | Value |

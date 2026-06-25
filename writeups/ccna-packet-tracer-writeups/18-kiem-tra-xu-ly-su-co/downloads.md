@@ -4,8 +4,6 @@ title: "CCNA 18 - Tải Lab Kiểm Tra Và Xử Lý Sự Cố"
 permalink: /writeups/ccna-packet-tracer-writeups/18-kiem-tra-xu-ly-su-co/downloads/
 ---
 
-# CCNA 18 - Tải Lab Kiểm Tra Và Xử Lý Sự Cố
-
 Trang này chỉ dùng để tải file lab. Nếu muốn đọc lời giải từng bước, quay lại trang writeup của dạng này.
 
 [Đọc writeup](/writeups/ccna-packet-tracer-writeups/18-kiem-tra-xu-ly-su-co/)

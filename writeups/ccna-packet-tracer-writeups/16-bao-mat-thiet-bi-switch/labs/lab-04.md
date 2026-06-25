@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/16-bao-mat-thiet-bi-switch/lab-
 toc: true
 ---
 
-# CCNA 16.04 - 16.4.6 Packet Tracer - Configure Secure Passwords and SSH [ccna-lap-s2]
-
 [← Quay lại danh sách Bảo Mật Thiết Bị Và Switch](/writeups/ccna-packet-tracer-writeups/16-bao-mat-thiet-bi-switch/)
 
 | Field | Value |

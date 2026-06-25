@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/11-ospf/lab-01/
 toc: true
 ---
 
-# CCNA 11.01 - 2.2.13 Packet Tracer - Point-to-Point Single-Area OSPFv2 Configuration
-
 [← Quay lại danh sách OSPF](/writeups/ccna-packet-tracer-writeups/11-ospf/)
 
 | Field | Value |

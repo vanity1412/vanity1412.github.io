@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/lab-0
 toc: true
 ---
 
-# CCNA 02.02 - 2.3.7 Packet Tracer - Navigate the IOS
-
 [← Quay lại danh sách IOS Và Cấu Hình Cơ Bản](/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/)
 
 | Field | Value |

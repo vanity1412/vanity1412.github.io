@@ -4,8 +4,6 @@ title: "CCNA 00 - Tải Full Lab Từ Đầu Đến Cuối"
 permalink: /writeups/ccna-packet-tracer-writeups/00-full-lab-tu-dau-den-cuoi/downloads/
 ---
 
-# CCNA 00 - Tải Full Lab Từ Đầu Đến Cuối
-
 Trang này chỉ dùng để tải toàn bộ lab theo folder `00-TONG-HOP-THEO-SO-DAU-BAI`. Nếu muốn đọc hoặc viết lời giải, quay lại track full lab.
 
 [Đọc track full lab](/writeups/ccna-packet-tracer-writeups/00-full-lab-tu-dau-den-cuoi/)

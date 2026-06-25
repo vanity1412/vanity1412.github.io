@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/lab-03/
 toc: true
 ---
 
-# CCNA 04.03 - 2.8.2 Video Activity - Test End-to-End Connectivity
-
 [← Quay lại danh sách Kết Nối Vật Lý](/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/)
 
 | Field | Value |

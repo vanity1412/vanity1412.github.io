@@ -4,8 +4,6 @@ title: "CCNA 10 - Tải Lab Static Và Default Routing"
 permalink: /writeups/ccna-packet-tracer-writeups/10-static-default-routing/downloads/
 ---
 
-# CCNA 10 - Tải Lab Static Và Default Routing
-
 Trang này chỉ dùng để tải file lab. Nếu muốn đọc lời giải từng bước, quay lại trang writeup của dạng này.
 
 [Đọc writeup](/writeups/ccna-packet-tracer-writeups/10-static-default-routing/)

@@ -4,8 +4,6 @@ title: "CCNA 16 - Tải Lab Bảo Mật Thiết Bị Và Switch"
 permalink: /writeups/ccna-packet-tracer-writeups/16-bao-mat-thiet-bi-switch/downloads/
 ---
 
-# CCNA 16 - Tải Lab Bảo Mật Thiết Bị Và Switch
-
 Trang này chỉ dùng để tải file lab. Nếu muốn đọc lời giải từng bước, quay lại trang writeup của dạng này.
 
 [Đọc writeup](/writeups/ccna-packet-tracer-writeups/16-bao-mat-thiet-bi-switch/)

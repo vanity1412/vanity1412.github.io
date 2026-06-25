@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/09-fhrp-hsrp/lab-01/
 toc: true
 ---
 
-# CCNA 09.01 - 9.3.3 Packet Tracer - HSRP Configuration Guide
-
 [← Quay lại danh sách FHRP Và HSRP](/writeups/ccna-packet-tracer-writeups/09-fhrp-hsrp/)
 
 | Field | Value |

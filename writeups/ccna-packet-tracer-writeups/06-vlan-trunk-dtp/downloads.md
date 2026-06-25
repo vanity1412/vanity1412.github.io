@@ -4,8 +4,6 @@ title: "CCNA 06 - Tải Lab VLAN, Trunk Và DTP"
 permalink: /writeups/ccna-packet-tracer-writeups/06-vlan-trunk-dtp/downloads/
 ---
 
-# CCNA 06 - Tải Lab VLAN, Trunk Và DTP
-
 Trang này chỉ dùng để tải file lab. Nếu muốn đọc lời giải từng bước, quay lại trang writeup của dạng này.
 
 [Đọc writeup](/writeups/ccna-packet-tracer-writeups/06-vlan-trunk-dtp/)

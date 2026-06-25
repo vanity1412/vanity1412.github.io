@@ -4,8 +4,6 @@ title: "CCNA 19 - Tải Lab WAN"
 permalink: /writeups/ccna-packet-tracer-writeups/19-wan/downloads/
 ---
 
-# CCNA 19 - Tải Lab WAN
-
 Trang này chỉ dùng để tải file lab. Nếu muốn đọc lời giải từng bước, quay lại trang writeup của dạng này.
 
 [Đọc writeup](/writeups/ccna-packet-tracer-writeups/19-wan/)

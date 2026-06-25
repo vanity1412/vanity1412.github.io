@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/lab-01/
 toc: true
 ---
 
-# CCNA 05.01 - 11.5.5 Packet Tracer - Subnet an IPv4 Network
-
 [← Quay lại danh sách IP Addressing, Subnetting, VLSM](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/)
 
 | Field | Value |

@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/lab-05/
 toc: true
 ---
 
-# CCNA 03.05 - 14.8.1 Packet Tracer - TCP and UDP Communications
-
 [← Quay lại danh sách ARP, ICMP, TCP Và UDP](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/)
 
 | Field | Value |

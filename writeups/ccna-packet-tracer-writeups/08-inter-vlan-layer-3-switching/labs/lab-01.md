@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching
 toc: true
 ---
 
-# CCNA 08.01 - 4.2.7 Packet Tracer - Configure Router-on-a-Stick Inter-VLAN Routing
-
 [← Quay lại danh sách Inter-VLAN Và Layer 3 Switching](/writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching/)
 
 | Field | Value |

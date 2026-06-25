@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/lab-06/
 toc: true
 ---
 
-# CCNA 17.06 - 10.8.1 Packet Tracer - Configure CDP, LLDP, and NTP
-
 [← Quay lại danh sách Quản Trị Mạng](/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/)
 
 | Field | Value |

@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/15-wireless-wlan/lab-02/
 toc: true
 ---
 
-# CCNA 15.02 - 13.2.7 Packet Tracer - Configure a Basic WLAN on the WLC
-
 [← Quay lại danh sách Wireless Và WLAN](/writeups/ccna-packet-tracer-writeups/15-wireless-wlan/)
 
 | Field | Value |

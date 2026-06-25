@@ -4,8 +4,6 @@ title: "CCNA 01 - Tải Lab Làm Quen Packet Tracer"
 permalink: /writeups/ccna-packet-tracer-writeups/01-lam-quen-packet-tracer/downloads/
 ---
 
-# CCNA 01 - Tải Lab Làm Quen Packet Tracer
-
 Trang này chỉ dùng để tải file lab. Nếu muốn đọc lời giải từng bước, quay lại trang writeup của dạng này.
 
 [Đọc writeup](/writeups/ccna-packet-tracer-writeups/01-lam-quen-packet-tracer/)

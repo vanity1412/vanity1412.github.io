@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/lab-02/
 toc: true
 ---
 
-# CCNA 17.02 - 10.2.6  Packet Tracer - Use LLDP to Map a Network
-
 [← Quay lại danh sách Quản Trị Mạng](/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/)
 
 | Field | Value |

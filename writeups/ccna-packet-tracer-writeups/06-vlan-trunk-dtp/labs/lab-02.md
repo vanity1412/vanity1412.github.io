@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/06-vlan-trunk-dtp/lab-02/
 toc: true
 ---
 
-# CCNA 06.02 - 3.2.8 Packet Tracer - Investigate a VLAN Implementation
-
 [← Quay lại danh sách VLAN, Trunk Và DTP](/writeups/ccna-packet-tracer-writeups/06-vlan-trunk-dtp/)
 
 | Field | Value |

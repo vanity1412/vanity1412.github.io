@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/10-static-default-routing/lab-0
 toc: true
 ---
 
-# CCNA 10.01 - 1.5.10 Packet Tracer - Verify Directly Connected Networks
-
 [← Quay lại danh sách Static Và Default Routing](/writeups/ccna-packet-tracer-writeups/10-static-default-routing/)
 
 | Field | Value |

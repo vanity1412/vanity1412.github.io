@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/18-kiem-tra-xu-ly-su-co/lab-04/
 toc: true
 ---
 
-# CCNA 18.04 - 17.5.9 Packet Tracer - Interpret show Command Output
-
 [← Quay lại danh sách Kiểm Tra Và Xử Lý Sự Cố](/writeups/ccna-packet-tracer-writeups/18-kiem-tra-xu-ly-su-co/)
 
 | Field | Value |

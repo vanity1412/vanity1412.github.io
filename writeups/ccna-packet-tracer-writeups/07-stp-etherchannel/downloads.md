@@ -4,8 +4,6 @@ title: "CCNA 07 - Tải Lab STP Và EtherChannel"
 permalink: /writeups/ccna-packet-tracer-writeups/07-stp-etherchannel/downloads/
 ---
 
-# CCNA 07 - Tải Lab STP Và EtherChannel
-
 Trang này chỉ dùng để tải file lab. Nếu muốn đọc lời giải từng bước, quay lại trang writeup của dạng này.
 
 [Đọc writeup](/writeups/ccna-packet-tracer-writeups/07-stp-etherchannel/)

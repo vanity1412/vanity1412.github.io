@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/20-bai-tong-hop/lab-02/
 toc: true
 ---
 
-# CCNA 20.02 - 17.8.2 Packet Tracer - Skills Integration Challenge
-
 [← Quay lại danh sách Bài Tổng Hợp](/writeups/ccna-packet-tracer-writeups/20-bai-tong-hop/)
 
 | Field | Value |

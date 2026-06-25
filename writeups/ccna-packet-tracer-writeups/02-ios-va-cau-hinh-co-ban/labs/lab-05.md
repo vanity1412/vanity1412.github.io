@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/lab-0
 toc: true
 ---
 
-# CCNA 02.05 - 10.1.4 Packet Tracer - Configure Initial Router Settings
-
 [← Quay lại danh sách IOS Và Cấu Hình Cơ Bản](/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/)
 
 | Field | Value |

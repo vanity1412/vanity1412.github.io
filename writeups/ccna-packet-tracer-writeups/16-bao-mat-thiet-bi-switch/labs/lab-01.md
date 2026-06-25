@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/16-bao-mat-thiet-bi-switch/lab-
 toc: true
 ---
 
-# CCNA 16.01 - 1.3.6 Packet Tracer - Configure SSH
-
 [← Quay lại danh sách Bảo Mật Thiết Bị Và Switch](/writeups/ccna-packet-tracer-writeups/16-bao-mat-thiet-bi-switch/)
 
 | Field | Value |

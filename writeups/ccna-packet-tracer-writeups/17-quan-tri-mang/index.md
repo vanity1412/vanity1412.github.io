@@ -5,13 +5,9 @@ permalink: /writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/
 toc: true
 ---
 
-# CCNA 17 - Quản Trị Mạng
-
 ## Tổng Quan
 
 Dùng CDP, LLDP, NTP, TFTP, backup config và nâng cấp IOS.
-
-Trang này là mục lục của dạng lab. Mỗi bài lab có một trang riêng để dễ quản lý ảnh, cấu hình và ghi chú. Bấm **Đọc bài** sẽ mở trang lab riêng trong tab mới.
 
 ## Trọng Tâm Cần Nắm
 
@@ -30,15 +26,6 @@ Trang này là mục lục của dạng lab. Mỗi bài lab có một trang riê
 | 4 | [10.6.10 Packet Tracer - Back Up Configuration Files](/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/lab-04/) | PKA | Chưa viết chi tiết |
 | 5 | [10.7.6 Packet Tracer - Use a TFTP Server to Upgrade a Cisco IOS Image](/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/lab-05/) | PKA | Chưa viết chi tiết |
 | 6 | [10.8.1 Packet Tracer - Configure CDP, LLDP, and NTP](/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/lab-06/) | PKA | Chưa viết chi tiết |
-
-## Quy Trình Chung
-
-1. Tải file lab ở trang download của dạng này nếu muốn tự làm trước.
-2. Mở bài lab riêng bằng nút **Đọc bài**.
-3. Chụp topology và đặt ảnh vào đúng thư mục images/lab-xx/.
-4. Viết lời giải theo thứ tự: mục tiêu, topology, kế hoạch, cấu hình, kiểm tra, lỗi gặp phải, kết quả cuối.
-
-[Tải file lab của dạng này](/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/downloads/)
 
 ---
 

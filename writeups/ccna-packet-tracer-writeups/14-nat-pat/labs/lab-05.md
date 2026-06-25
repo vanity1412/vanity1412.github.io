@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/14-nat-pat/lab-05/
 toc: true
 ---
 
-# CCNA 14.05 - 6.8.1 Packet Tracer - Configure NAT for IPv4
-
 [← Quay lại danh sách NAT Và PAT](/writeups/ccna-packet-tracer-writeups/14-nat-pat/)
 
 | Field | Value |

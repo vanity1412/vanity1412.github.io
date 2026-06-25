@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/20-bai-tong-hop/lab-01/
 toc: true
 ---
 
-# CCNA 20.01 - 1.6.1 Packet Tracer - Implement a Small Network
-
 [← Quay lại danh sách Bài Tổng Hợp](/writeups/ccna-packet-tracer-writeups/20-bai-tong-hop/)
 
 | Field | Value |

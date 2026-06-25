@@ -104,6 +104,7 @@ main {
   border: 0;
   background: var(--card-bg);
   box-shadow: var(--card-shadow);
+  overflow: hidden;
 
   &::before {
     @extend %rounded;
@@ -118,6 +119,8 @@ main {
   }
 
   &:hover {
+    transform: translateY(-2px);
+
     &::before {
       opacity: 0.3;
     }
@@ -417,7 +420,10 @@ mjx-container {
   }
 
   .post-preview {
-    transition: background-color 0.35s ease-in-out;
+    transition:
+      background-color 0.35s ease-in-out,
+      transform 0.25s ease,
+      box-shadow 0.25s ease;
   }
 }
 

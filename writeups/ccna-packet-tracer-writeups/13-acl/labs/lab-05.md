@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/13-acl/lab-05/
 toc: true
 ---
 
-# CCNA 13.05 - 5.4.13 Packet Tracer - Configure Extended IPv4 ACLs - Scenario 2
-
 [← Quay lại danh sách ACL](/writeups/ccna-packet-tracer-writeups/13-acl/)
 
 | Field | Value |

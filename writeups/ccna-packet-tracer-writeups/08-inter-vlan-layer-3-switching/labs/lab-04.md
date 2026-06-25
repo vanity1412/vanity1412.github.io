@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching
 toc: true
 ---
 
-# CCNA 08.04 - 4.5.1 Packet Tracer - Inter-VLAN Routing Challenge
-
 [← Quay lại danh sách Inter-VLAN Và Layer 3 Switching](/writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching/)
 
 | Field | Value |

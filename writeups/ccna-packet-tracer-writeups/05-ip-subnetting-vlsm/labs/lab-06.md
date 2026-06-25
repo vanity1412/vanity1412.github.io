@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/lab-06/
 toc: true
 ---
 
-# CCNA 05.06 - 12.9.1 Packet Tracer - Implement a Subnetted IPv6 Addressing Scheme
-
 [← Quay lại danh sách IP Addressing, Subnetting, VLSM](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/)
 
 | Field | Value |

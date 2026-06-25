@@ -4,8 +4,6 @@ title: "CCNA 02 - Tải Lab IOS Và Cấu Hình Cơ Bản"
 permalink: /writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/downloads/
 ---
 
-# CCNA 02 - Tải Lab IOS Và Cấu Hình Cơ Bản
-
 Trang này chỉ dùng để tải file lab. Nếu muốn đọc lời giải từng bước, quay lại trang writeup của dạng này.
 
 [Đọc writeup](/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/)

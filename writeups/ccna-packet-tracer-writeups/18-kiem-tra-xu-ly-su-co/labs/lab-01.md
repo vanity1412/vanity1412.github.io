@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/18-kiem-tra-xu-ly-su-co/lab-01/
 toc: true
 ---
 
-# CCNA 18.01 - 10.3.5 Packet Tracer - Troubleshoot Default Gateway Issues
-
 [← Quay lại danh sách Kiểm Tra Và Xử Lý Sự Cố](/writeups/ccna-packet-tracer-writeups/18-kiem-tra-xu-ly-su-co/)
 
 | Field | Value |

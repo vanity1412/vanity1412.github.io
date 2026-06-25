@@ -5,18 +5,9 @@ permalink: /writeups/ccna-packet-tracer-writeups/00-full-lab-tu-dau-den-cuoi/
 toc: true
 ---
 
-# CCNA 00 - Full Lab Từ Đầu Đến Cuối
-
 ## Tổng Quan
 
 Track này gom toàn bộ **94 bài lab** trong folder `00-TONG-HOP-THEO-SO-DAU-BAI` để học theo thứ tự từ đầu đến cuối. Đây là lộ trình dành cho người muốn đi một mạch thay vì chọn theo từng chủ đề riêng.
-
-## Cách Dùng Track Này
-
-1. Tải file lab theo thứ tự ở trang download.
-2. Làm từng bài từ trên xuống dưới.
-3. Khi viết lời giải, mở trang riêng của từng lab bằng nút **Đọc bài**.
-4. Ảnh của mỗi bài đặt vào đúng thư mục `images/lab-xx/` để không bị lẫn.
 
 ## Danh Sách Full Lab
 

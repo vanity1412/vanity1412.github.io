@@ -4,8 +4,6 @@ title: "CCNA 13 - Tải Lab ACL"
 permalink: /writeups/ccna-packet-tracer-writeups/13-acl/downloads/
 ---
 
-# CCNA 13 - Tải Lab ACL
-
 Trang này chỉ dùng để tải file lab. Nếu muốn đọc lời giải từng bước, quay lại trang writeup của dạng này.
 
 [Đọc writeup](/writeups/ccna-packet-tracer-writeups/13-acl/)

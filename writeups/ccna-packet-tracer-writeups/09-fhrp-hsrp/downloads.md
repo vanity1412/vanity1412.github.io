@@ -4,8 +4,6 @@ title: "CCNA 09 - Tải Lab FHRP Và HSRP"
 permalink: /writeups/ccna-packet-tracer-writeups/09-fhrp-hsrp/downloads/
 ---
 
-# CCNA 09 - Tải Lab FHRP Và HSRP
-
 Trang này chỉ dùng để tải file lab. Nếu muốn đọc lời giải từng bước, quay lại trang writeup của dạng này.
 
 [Đọc writeup](/writeups/ccna-packet-tracer-writeups/09-fhrp-hsrp/)

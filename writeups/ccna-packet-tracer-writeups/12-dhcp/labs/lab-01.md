@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/12-dhcp/lab-01/
 toc: true
 ---
 
-# CCNA 12.01 - 7.2.10 Packet Tracer - Configure DHCPv4
-
 [← Quay lại danh sách DHCP](/writeups/ccna-packet-tracer-writeups/12-dhcp/)
 
 | Field | Value |

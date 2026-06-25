@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/lab-05/
 toc: true
 ---
 
-# CCNA 04.05 - 4.7.1 Packet Tracer - Connect the Physical Layer
-
 [← Quay lại danh sách Kết Nối Vật Lý](/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/)
 
 | Field | Value |

@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/lab-01/
 toc: true
 ---
 
-# CCNA 03.01 - 3.5.5 Packet Tracer - Investigate the TCP-IP and OSI Models in Action
-
 [← Quay lại danh sách ARP, ICMP, TCP Và UDP](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/)
 
 | Field | Value |

@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/lab-03/
 toc: true
 ---
 
-# CCNA 17.03 - 10.3.4 Packet Tracer - Configure and Verify NTP
-
 [← Quay lại danh sách Quản Trị Mạng](/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/)
 
 | Field | Value |

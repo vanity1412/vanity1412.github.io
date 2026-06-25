@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/14-nat-pat/lab-07/
 toc: true
 ---
 
-# CCNA 14.07 - nat_port
-
 [← Quay lại danh sách NAT Và PAT](/writeups/ccna-packet-tracer-writeups/14-nat-pat/)
 
 | Field | Value |

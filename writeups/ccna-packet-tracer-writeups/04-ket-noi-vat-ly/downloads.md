@@ -4,8 +4,6 @@ title: "CCNA 04 - Tải Lab Kết Nối Vật Lý"
 permalink: /writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/downloads/
 ---
 
-# CCNA 04 - Tải Lab Kết Nối Vật Lý
-
 Trang này chỉ dùng để tải file lab. Nếu muốn đọc lời giải từng bước, quay lại trang writeup của dạng này.
 
 [Đọc writeup](/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/)

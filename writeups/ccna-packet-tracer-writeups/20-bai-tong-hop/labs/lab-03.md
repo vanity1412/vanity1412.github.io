@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/20-bai-tong-hop/lab-03/
 toc: true
 ---
 
-# CCNA 20.03 - BaiTap_Cuoi_KyLop37 (1)
-
 [← Quay lại danh sách Bài Tổng Hợp](/writeups/ccna-packet-tracer-writeups/20-bai-tong-hop/)
 
 | Field | Value |

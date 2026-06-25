@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/18-kiem-tra-xu-ly-su-co/lab-06/
 toc: true
 ---
 
-# CCNA 18.06 - 17.8.3 Packet Tracer - Troubleshooting Challenge
-
 [← Quay lại danh sách Kiểm Tra Và Xử Lý Sự Cố](/writeups/ccna-packet-tracer-writeups/18-kiem-tra-xu-ly-su-co/)
 
 | Field | Value |

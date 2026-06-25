@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/15-wireless-wlan/lab-04/
 toc: true
 ---
 
-# CCNA 15.04 - 13.4.5 Packet Tracer - Troubleshoot WLAN Issues
-
 [← Quay lại danh sách Wireless Và WLAN](/writeups/ccna-packet-tracer-writeups/15-wireless-wlan/)
 
 | Field | Value |

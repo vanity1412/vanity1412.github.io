@@ -4,8 +4,6 @@ title: "CCNA 20 - Tải Lab Bài Tổng Hợp"
 permalink: /writeups/ccna-packet-tracer-writeups/20-bai-tong-hop/downloads/
 ---
 
-# CCNA 20 - Tải Lab Bài Tổng Hợp
-
 Trang này chỉ dùng để tải file lab. Nếu muốn đọc lời giải từng bước, quay lại trang writeup của dạng này.
 
 [Đọc writeup](/writeups/ccna-packet-tracer-writeups/20-bai-tong-hop/)

@@ -5,8 +5,6 @@ permalink: /writeups/ccna-packet-tracer-writeups/14-nat-pat/lab-01/
 toc: true
 ---
 
-# CCNA 14.01 - 6.2.7 Packet Tracer - Investigate NAT Operation
-
 [← Quay lại danh sách NAT Và PAT](/writeups/ccna-packet-tracer-writeups/14-nat-pat/)
 
 | Field | Value |

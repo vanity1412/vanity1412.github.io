@@ -4,8 +4,6 @@ title: "CCNA 14 - Tải Lab NAT Và PAT"
 permalink: /writeups/ccna-packet-tracer-writeups/14-nat-pat/downloads/
 ---
 
-# CCNA 14 - Tải Lab NAT Và PAT
-
 Trang này chỉ dùng để tải file lab. Nếu muốn đọc lời giải từng bước, quay lại trang writeup của dạng này.
 
 [Đọc writeup](/writeups/ccna-packet-tracer-writeups/14-nat-pat/)

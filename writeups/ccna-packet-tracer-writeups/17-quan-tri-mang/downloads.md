@@ -4,8 +4,6 @@ title: "CCNA 17 - Tải Lab Quản Trị Mạng"
 permalink: /writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/downloads/
 ---
 
-# CCNA 17 - Tải Lab Quản Trị Mạng
-
 Trang này chỉ dùng để tải file lab. Nếu muốn đọc lời giải từng bước, quay lại trang writeup của dạng này.
 
 [Đọc writeup](/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/)

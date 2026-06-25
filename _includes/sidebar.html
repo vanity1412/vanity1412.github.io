@@ -47,7 +47,7 @@
 
     <span class="icon-border"></span>
 
-    {% unless site.theme_mode == 'light' or site.theme_mode == 'dark' %}
+    {% if false %}
       {%- capture icon_system -%}
         <i class="fa-solid fa-display" data-theme-mode="system"></i>
       {%- endcapture -%}
@@ -97,7 +97,7 @@
       {% if site.data.contact.size > 0 %}
         <span class="icon-border"></span>
       {% endif %}
-    {% endunless %}
+    {% endif %}
 
     {% for entry in site.data.contact %}
       {%- assign url = null -%}

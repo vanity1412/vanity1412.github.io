@@ -43,7 +43,11 @@ $enable-dark: v.$theme == dark or $enable-dual;
 }
 
 body {
-  background: var(--main-bg);
+  background: var(--site-bg, var(--main-bg));
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: env(safe-area-inset-top) env(safe-area-inset-right)
     env(safe-area-inset-bottom) env(safe-area-inset-left);
   color: var(--text-color);

@@ -3,21 +3,30 @@
 
   /* Framework color */
   --main-bg: rgb(27 27 30);
+  --site-bg:
+    linear-gradient(90deg, rgb(8 10 18 / 58%) 0%, rgb(8 10 18 / 22%) 52%, rgb(8 10 18 / 50%) 100%),
+    linear-gradient(180deg, rgb(12 14 24 / 18%) 0%, rgb(12 18 24 / 46%) 100%),
+    repeating-linear-gradient(
+      135deg,
+      rgb(255 211 105 / 8%) 0 1px,
+      transparent 1px 34px
+    ),
+    url('/assets/img/backgrounds/anime-cosmic-bg.png');
   --mask-bg: rgb(68 69 70);
-  --main-border-color: rgb(44 45 45);
+  --main-border-color: rgb(255 255 255 / 14%);
 
   /* Common color */
-  --text-color: rgb(175 176 177);
-  --text-muted-color: #868686;
-  --text-muted-highlight-color: #aeaeae;
-  --heading-color: #cccccc;
-  --label-color: #a7a7a7;
+  --text-color: rgb(221 225 233);
+  --text-muted-color: rgb(186 194 208 / 86%);
+  --text-muted-highlight-color: rgb(231 235 244);
+  --heading-color: rgb(245 247 252);
+  --label-color: rgb(226 232 242);
   --blockquote-border-color: rgb(66 66 66);
   --blockquote-text-color: #868686;
   --link-color: rgb(138 180 248);
   --link-underline-color: rgb(82 108 150);
-  --button-bg: #1e1e1e;
-  --btn-border-color: #2e2f31;
+  --button-bg: rgb(14 18 28 / 74%);
+  --btn-border-color: rgb(255 255 255 / 16%);
   --btn-backtotop-color: var(--text-color);
   --btn-backtotop-border-color: #212122;
   --card-header-bg: #292929;
@@ -30,30 +39,33 @@
     rgb(58 55 55 / 40%) 50%,
     rgb(255 255 255 / 0%) 100%
   );
-  --menu-bg: rgb(30 30 30);
-  --menu-border-color: rgb(77 77 77 / 60%);
+  --menu-bg: rgb(14 18 28 / 92%);
+  --menu-border-color: rgb(255 255 255 / 16%);
   --menu-shadow-color: rgb(4 4 4 / 42%);
   --menu-active-color: rgb(240 248 255 / 63%);
   --menu-highlight-bg: rgb(90 91 92 / 12%);
 
   /* Sidebar */
-  --site-title-color: #717070;
-  --site-subtitle-color: #868686;
-  --sidebar-bg: #1e1e1e;
-  --sidebar-border-color: #292929;
-  --sidebar-muted-color: #868686;
+  --site-title-color: rgb(246 248 255);
+  --site-subtitle-color: rgb(224 231 244 / 78%);
+  --sidebar-bg: rgb(12 16 24 / 70%);
+  --sidebar-accent-bg:
+    linear-gradient(180deg, rgb(12 16 24 / 58%), rgb(12 16 24 / 46%)),
+    url('/assets/img/backgrounds/anime-cosmic-bg.png');
+  --sidebar-border-color: rgb(255 255 255 / 16%);
+  --sidebar-muted-color: rgb(219 226 240 / 78%);
   --sidebar-active-color: rgb(255 255 255 / 95%);
-  --sidebar-hover-bg: #262626;
-  --sidebar-btn-bg: #232328;
-  --sidebar-btn-color: #787878;
+  --sidebar-hover-bg: rgb(255 255 255 / 11%);
+  --sidebar-btn-bg: rgb(12 16 24 / 58%);
+  --sidebar-btn-color: rgb(232 238 248 / 82%);
   --avatar-border-color: rgb(206 206 206 / 90%);
 
   /* Topbar */
-  --topbar-bg: rgb(27 27 30 / 64%);
+  --topbar-bg: rgb(12 16 24 / 46%);
   --topbar-text-color: var(--text-color);
-  --search-border-color: rgb(55 55 55);
-  --search-icon-color: rgb(100 102 105);
-  --input-focus-border-color: rgb(112 114 115);
+  --search-border-color: rgb(255 255 255 / 16%);
+  --search-icon-color: rgb(210 218 232 / 70%);
+  --input-focus-border-color: rgb(255 255 255 / 32%);
 
   /* Home page */
   --post-list-text-color: rgb(175 176 177);
@@ -62,6 +74,9 @@
 
   /* Posts */
   --toc-highlight: rgb(116 178 243);
+  --toc-cover-bg: rgb(12 16 24 / 72%);
+  --toc-cover-fade-bg: rgb(12 16 24 / 80%);
+  --toc-bar-bg: rgb(12 16 24 / 78%);
   --toc-popup-border-color: #373737;
   --tag-hover: rgb(43 56 62);
   --tb-odd-bg: #252526; /* odd rows of the posts' table */
@@ -70,8 +85,8 @@
   --footnote-target-bg: rgb(63 81 181);
   --btn-share-color: #6c757d;
   --btn-share-hover-color: #bfc1ca;
-  --card-bg: #1e1e1e;
-  --card-hover-bg: #464d51;
+  --card-bg: rgb(14 18 28 / 76%);
+  --card-hover-bg: rgb(255 255 255 / 12%);
   --card-shadow:
     rgb(21 21 21 / 72%) 0 6px 18px 0, rgb(137 135 135 / 24%) 0 0 0 1px;
   --kbd-wrap-color: #6a6a6a;

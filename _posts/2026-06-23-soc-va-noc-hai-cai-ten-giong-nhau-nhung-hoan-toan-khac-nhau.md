@@ -5,7 +5,7 @@ categories: [Kiến thức, Blue Team]
 tags: [soc, noc, blue-team, network-operations, cybersecurity]
 description: "Cùng trực màn hình 24/7, nhưng NOC giữ hệ thống vận hành còn SOC bảo vệ hệ thống trước các mối đe dọa."
 image:
-  path: /assets/img/posts/soc-va-noc/soc-noc-comparison.png
+  path: /assets/img/posts/soc-va-noc/avt.png
   alt: So sánh vai trò, công cụ và KPI của NOC và SOC
 pin: false
 ---

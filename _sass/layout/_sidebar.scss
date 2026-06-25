@@ -16,7 +16,11 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
   height: 100%;
   overflow-y: auto;
   width: v.$sidebar-width;
-  background: var(--sidebar-bg);
+  background:
+    var(--sidebar-accent-bg, none),
+    var(--sidebar-bg);
+  background-position: left top;
+  background-size: cover;
 
   /* Hide scrollbar for IE, Edge and Firefox */
   -ms-overflow-style: none; /* IE and Edge */
@@ -230,6 +234,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
       @extend %button;
       @extend %sidebar-link-hover;
       @extend %clickable-transition;
+      display: none;
 
       > i {
         display: none;

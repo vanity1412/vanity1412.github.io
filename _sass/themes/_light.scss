@@ -1,6 +1,15 @@
 @mixin styles {
   /* Framework color */
   --main-bg: white;
+  --site-bg:
+    linear-gradient(90deg, rgb(255 255 255 / 82%) 0%, rgb(255 255 255 / 58%) 52%, rgb(255 255 255 / 76%) 100%),
+    linear-gradient(180deg, rgb(255 248 242 / 44%) 0%, rgb(243 251 255 / 64%) 100%),
+    repeating-linear-gradient(
+      135deg,
+      rgb(255 183 77 / 7%) 0 1px,
+      transparent 1px 30px
+    ),
+    url('/assets/img/backgrounds/anime-cosmic-bg.png');
   --mask-bg: #c1c3c5;
   --main-border-color: #f3f3f3;
 
@@ -37,6 +46,9 @@
   --site-title-color: rgb(113 113 113);
   --site-subtitle-color: #717171;
   --sidebar-bg: #f6f8fa;
+  --sidebar-accent-bg:
+    linear-gradient(180deg, rgb(255 255 255 / 82%), rgb(255 255 255 / 72%)),
+    url('/assets/img/backgrounds/anime-cosmic-bg.png');
   --sidebar-border-color: #efefef;
   --sidebar-muted-color: #545454;
   --sidebar-active-color: #1d1d1d;

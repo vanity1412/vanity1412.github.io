@@ -12,11 +12,11 @@ Trang này chỉ dùng để tải file lab. Nếu muốn đọc lời giải t�
 
 ## Danh Sách File
 
-| # | File | Loại | Dung lượng | Tải | Ghi chú |
-| --- | --- | --- | --- | --- | --- |
-| 1 | 1.3.6 Packet Tracer - Configure SSH.pka | PKA | 565 KB | [Download](/writeups/CCNA-LAB/16-Bao-mat-thiet-bi-va-Switch/1.3.6%20Packet%20Tracer%20-%20Configure%20SSH.pka) |  |
-| 2 | 11.1.10 Packet Tracer - Implement Port Security.pka | PKA | 544 KB | [Download](/writeups/CCNA-LAB/16-Bao-mat-thiet-bi-va-Switch/11.1.10%20Packet%20Tracer%20-%20Implement%20Port%20Security.pka) |  |
-| 3 | 11.6.1 Packet Tracer - Switch Security Configuration.pka | PKA | 606 KB | [Download](/writeups/CCNA-LAB/16-Bao-mat-thiet-bi-va-Switch/11.6.1%20Packet%20Tracer%20-%20Switch%20Security%20Configuration.pka) |  |
-| 4 | 16.4.6 Packet Tracer - Configure Secure Passwords and SSH \[ccna-lap-s2\].pka | PKA | 380 KB | [Download](/writeups/CCNA-LAB/16-Bao-mat-thiet-bi-va-Switch/16.4.6%20Packet%20Tracer%20-%20Configure%20Secure%20Passwords%20and%20SSH%20%5Bccna-lap-s2%5D.pka) | Biến thể ccna-lap-s2. |
-| 5 | 16.4.6 Packet Tracer - Configure Secure Passwords and SSH \[S1_ITN v7 Packet Tracer Activity Source Files\].pka | PKA | 350 KB | [Download](/writeups/CCNA-LAB/16-Bao-mat-thiet-bi-va-Switch/16.4.6%20Packet%20Tracer%20-%20Configure%20Secure%20Passwords%20and%20SSH%20%5BS1_ITN%20v7%20Packet%20Tracer%20Activity%20Source%20Files%5D.pka) | Biến thể nguồn S1_ITN v7. |
-| 6 | 16.5.1 Packet Tracer - Secure Network Devices.pka | PKA | 252 KB | [Download](/writeups/CCNA-LAB/16-Bao-mat-thiet-bi-va-Switch/16.5.1%20Packet%20Tracer%20-%20Secure%20Network%20Devices.pka) |  |
+| # | File | Loại | Dung lượng | Ghi chú |
+| --- | --- | --- | --- | --- |
+| 1 | <a href="/writeups/CCNA-LAB/16-Bao-mat-thiet-bi-va-Switch/1.3.6%20Packet%20Tracer%20-%20Configure%20SSH.pka" download>1.3.6 Packet Tracer - Configure SSH.pka</a> | PKA | 565 KB |  |
+| 2 | <a href="/writeups/CCNA-LAB/16-Bao-mat-thiet-bi-va-Switch/11.1.10%20Packet%20Tracer%20-%20Implement%20Port%20Security.pka" download>11.1.10 Packet Tracer - Implement Port Security.pka</a> | PKA | 544 KB |  |
+| 3 | <a href="/writeups/CCNA-LAB/16-Bao-mat-thiet-bi-va-Switch/11.6.1%20Packet%20Tracer%20-%20Switch%20Security%20Configuration.pka" download>11.6.1 Packet Tracer - Switch Security Configuration.pka</a> | PKA | 606 KB |  |
+| 4 | <a href="/writeups/CCNA-LAB/16-Bao-mat-thiet-bi-va-Switch/16.4.6%20Packet%20Tracer%20-%20Configure%20Secure%20Passwords%20and%20SSH%20%5Bccna-lap-s2%5D.pka" download>16.4.6 Packet Tracer - Configure Secure Passwords and SSH \[ccna-lap-s2\].pka</a> | PKA | 380 KB | Biến thể ccna-lap-s2. |
+| 5 | <a href="/writeups/CCNA-LAB/16-Bao-mat-thiet-bi-va-Switch/16.4.6%20Packet%20Tracer%20-%20Configure%20Secure%20Passwords%20and%20SSH%20%5BS1_ITN%20v7%20Packet%20Tracer%20Activity%20Source%20Files%5D.pka" download>16.4.6 Packet Tracer - Configure Secure Passwords and SSH \[S1_ITN v7 Packet Tracer Activity Source Files\].pka</a> | PKA | 350 KB | Biến thể nguồn S1_ITN v7. |
+| 6 | <a href="/writeups/CCNA-LAB/16-Bao-mat-thiet-bi-va-Switch/16.5.1%20Packet%20Tracer%20-%20Secure%20Network%20Devices.pka" download>16.5.1 Packet Tracer - Secure Network Devices.pka</a> | PKA | 252 KB |  |

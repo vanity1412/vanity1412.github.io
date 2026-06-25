@@ -12,13 +12,13 @@ Trang này chỉ dùng để tải file lab. Nếu muốn đọc lời giải t�
 
 ## Danh Sách File
 
-| # | File | Loại | Dung lượng | Tải | Ghi chú |
-| --- | --- | --- | --- | --- | --- |
-| 1 | 6.2.7 Packet Tracer - Investigate NAT Operation.pka | PKA | 1.1 MB | [Download](/writeups/CCNA-LAB/14-NAT-va-PAT/6.2.7%20Packet%20Tracer%20-%20Investigate%20NAT%20Operation.pka) |  |
-| 2 | 6.4.5 Packet Tracer - Configure Static NAT.pka | PKA | 600 KB | [Download](/writeups/CCNA-LAB/14-NAT-va-PAT/6.4.5%20Packet%20Tracer%20-%20Configure%20Static%20NAT.pka) |  |
-| 3 | 6.5.6 Packet Tracer - Configure Dynamic NAT.pka | PKA | 638 KB | [Download](/writeups/CCNA-LAB/14-NAT-va-PAT/6.5.6%20Packet%20Tracer%20-%20Configure%20Dynamic%20NAT.pka) |  |
-| 4 | 6.6.7 Packet Tracer - Configure PAT.pka | PKA | 581 KB | [Download](/writeups/CCNA-LAB/14-NAT-va-PAT/6.6.7%20Packet%20Tracer%20-%20Configure%20PAT.pka) |  |
-| 5 | 6.8.1 Packet Tracer - Configure NAT for IPv4.pka | PKA | 1.1 MB | [Download](/writeups/CCNA-LAB/14-NAT-va-PAT/6.8.1%20Packet%20Tracer%20-%20Configure%20NAT%20for%20IPv4.pka) |  |
-| 6 | Dynamic_nat.pkt | PKT | 100 KB | [Download](/writeups/CCNA-LAB/14-NAT-va-PAT/Dynamic_nat.pkt) | File .pkt tự do cho Dynamic NAT, dùng để thực hành thêm. |
-| 7 | nat_port.pkt | PKT | 100 KB | [Download](/writeups/CCNA-LAB/14-NAT-va-PAT/nat_port.pkt) | File .pkt tự do cho NAT port/PAT, dùng để thực hành thêm. |
-| 8 | static_nat.pkt | PKT | 74 KB | [Download](/writeups/CCNA-LAB/14-NAT-va-PAT/static_nat.pkt) | File .pkt tự do cho Static NAT, dùng để thực hành thêm. |
+| # | File | Loại | Dung lượng | Ghi chú |
+| --- | --- | --- | --- | --- |
+| 1 | <a href="/writeups/CCNA-LAB/14-NAT-va-PAT/6.2.7%20Packet%20Tracer%20-%20Investigate%20NAT%20Operation.pka" download>6.2.7 Packet Tracer - Investigate NAT Operation.pka</a> | PKA | 1.1 MB |  |
+| 2 | <a href="/writeups/CCNA-LAB/14-NAT-va-PAT/6.4.5%20Packet%20Tracer%20-%20Configure%20Static%20NAT.pka" download>6.4.5 Packet Tracer - Configure Static NAT.pka</a> | PKA | 600 KB |  |
+| 3 | <a href="/writeups/CCNA-LAB/14-NAT-va-PAT/6.5.6%20Packet%20Tracer%20-%20Configure%20Dynamic%20NAT.pka" download>6.5.6 Packet Tracer - Configure Dynamic NAT.pka</a> | PKA | 638 KB |  |
+| 4 | <a href="/writeups/CCNA-LAB/14-NAT-va-PAT/6.6.7%20Packet%20Tracer%20-%20Configure%20PAT.pka" download>6.6.7 Packet Tracer - Configure PAT.pka</a> | PKA | 581 KB |  |
+| 5 | <a href="/writeups/CCNA-LAB/14-NAT-va-PAT/6.8.1%20Packet%20Tracer%20-%20Configure%20NAT%20for%20IPv4.pka" download>6.8.1 Packet Tracer - Configure NAT for IPv4.pka</a> | PKA | 1.1 MB |  |
+| 6 | <a href="/writeups/CCNA-LAB/14-NAT-va-PAT/Dynamic_nat.pkt" download>Dynamic_nat.pkt</a> | PKT | 100 KB | File .pkt tự do cho Dynamic NAT, dùng để thực hành thêm. |
+| 7 | <a href="/writeups/CCNA-LAB/14-NAT-va-PAT/nat_port.pkt" download>nat_port.pkt</a> | PKT | 100 KB | File .pkt tự do cho NAT port/PAT, dùng để thực hành thêm. |
+| 8 | <a href="/writeups/CCNA-LAB/14-NAT-va-PAT/static_nat.pkt" download>static_nat.pkt</a> | PKT | 74 KB | File .pkt tự do cho Static NAT, dùng để thực hành thêm. |

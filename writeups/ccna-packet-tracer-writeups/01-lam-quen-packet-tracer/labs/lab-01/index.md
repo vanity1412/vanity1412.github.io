@@ -196,8 +196,6 @@ toc: true
 | LAN 2 | Central |
 | LAN 3 | Branch |
 
-![LAN areas](/writeups/ccna-packet-tracer-writeups/01-lam-quen-packet-tracer/labs/lab-01/lan-areas.png)
-
 ---
 
 #### Câu d. Briefly describe the internet.
@@ -255,7 +253,6 @@ Internet là hệ thống "mạng của nhiều mạng" toàn cầu, gồm route
 | LANs | **3** |
 | Cấu hình CLI | Không yêu cầu |
 
-![Check results](/writeups/ccna-packet-tracer-writeups/01-lam-quen-packet-tracer/labs/lab-01/check-results.png)
 
 ---
 
@@ -316,9 +313,6 @@ LAN 1 --- Router 1 --- WAN --- Router 2 --- LAN 2
 ```text
 ping <IP_PC_LAN2>   ! từ PC ở LAN 1
 ```
-
-![Challenge two LANs WAN](/writeups/ccna-packet-tracer-writeups/01-lam-quen-packet-tracer/labs/lab-01/challenge-two-lans-wan.png)
-
 ---
 
 ## Các Lab Khác Trong Dạng Này

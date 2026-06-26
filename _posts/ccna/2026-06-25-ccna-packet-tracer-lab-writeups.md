@@ -14,15 +14,6 @@ pin: true
 
 Đây là trang tổng hợp các bài **CCNA Packet Tracer Lab Writeups**. Mỗi card bên dưới là một dạng lab riêng. Nút **Read writeup** mở mục lục của từng dạng; trong đó mỗi bài lab có trang riêng và mở ở tab mới. Nút **Download labs** mở trang tải file .pka/.pkt để tự làm trước.
 
-Hiện có **94 lab** được chia thành **20 dạng**, kèm thêm track **Full Lab Từ Đầu Đến Cuối** từ folder 00-TONG-HOP-THEO-SO-DAU-BAI cho người muốn học một mạch theo thứ tự tổng hợp.
-
-## Cách Đọc
-
-1. Chọn dạng lab muốn học.
-2. Nếu muốn tự làm trước, bấm **Download labs**.
-3. Khi cần đối chiếu, bấm **Read writeup**, rồi chọn **Đọc bài** để mở trang riêng của từng lab.
-4. Mỗi trang writeup có sẵn chỗ cho ảnh topology, cấu hình, kiểm tra và lỗi gặp phải.
-
 ## Lab Tracks
 
 <style>
@@ -336,14 +327,3 @@ Hiện có **94 lab** được chia thành **20 dạng**, kèm thêm track **Ful
 </div>
 
 ---
-
-## Writeup Structure
-
-Mỗi dạng lab có cấu trúc thống nhất:
-
-- **Tổng quan**: dạng lab này cần nắm gì.
-- **Danh sách bài lab**: mỗi file .pka/.pkt là một dòng riêng, có nút mở trang lab.
-- **Trang lab riêng**: mỗi bài có permalink riêng, mở được ở tab mới.
-- **Lab chi tiết**: mục tiêu, topology, kế hoạch, cấu hình, kiểm tra, lỗi gặp phải và kết quả cuối.
-
-Phần tải file được tách ra thành trang riêng để trang đọc lời giải không bị lẫn với trang download.

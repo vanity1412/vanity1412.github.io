@@ -20,7 +20,7 @@ Nhận diện thiết bị, đường kết nối, topology và cách đọc bà
 
 | # | Bài lab | Loại file | Trạng thái |
 | --- | --- | --- | --- |
-| 1 | [1.5.7 Packet Tracer - Network Representation](/writeups/ccna-packet-tracer-writeups/01-lam-quen-packet-tracer/lab-01/) | PKA | Chưa viết chi tiết |
+| 1 | [1.5.7 Packet Tracer - Network Representation](/writeups/ccna-packet-tracer-writeups/01-lam-quen-packet-tracer/lab-01/) | PKA | Hoàn thành |
 
 ---
 

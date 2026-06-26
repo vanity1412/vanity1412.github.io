@@ -234,6 +234,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
       @extend %button;
       @extend %sidebar-link-hover;
       @extend %clickable-transition;
+
       display: none;
 
       > i {

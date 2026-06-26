@@ -227,12 +227,14 @@ main {
 
 /* it will be created by Liquid */
 .table-wrapper {
-  overflow-x: auto;
+  overflow-x: hidden;
   margin-bottom: 1.5rem;
 
   > table {
     min-width: 100%;
-    overflow-x: auto;
+    table-layout: fixed;
+    width: 100%;
+    overflow-x: hidden;
     border-spacing: 0;
 
     thead {

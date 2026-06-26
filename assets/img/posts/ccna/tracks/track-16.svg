@@ -1,0 +1,10 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" role="img" aria-labelledby="title desc">
+  <title id="title">CCNA track 16: Device Security</title>
+  <desc id="desc">Network lab thumbnail for Device Security</desc>
+  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0f172a"/><stop offset="1" stop-color="#10b981"/></linearGradient></defs>
+  <rect width="360" height="240" rx="18" fill="url(#g)"/>
+  <path d="M0 190c68-38 116-42 180-18s112 20 180-30v98H0z" fill="#fff" opacity=".14"/>
+  <text x="28" y="48" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#fff">#16</text>
+  <text x="28" y="222" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#fff">Device Security</text>
+  <rect x="108" y="128" width="144" height="94" rx="14" fill="#fff" opacity=".94"/><path d="M138 128v-28a42 42 0 0184 0v28" fill="none" stroke="#fff" stroke-width="16" stroke-linecap="round"/><circle cx="180" cy="170" r="11" fill="#0f172a"/><path d="M180 178v24" stroke="#0f172a" stroke-width="10" stroke-linecap="round"/>
+</svg>

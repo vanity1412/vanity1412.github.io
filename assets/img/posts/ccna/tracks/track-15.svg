@@ -1,0 +1,10 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" role="img" aria-labelledby="title desc">
+  <title id="title">CCNA track 15: Wireless WLAN</title>
+  <desc id="desc">Network lab thumbnail for Wireless WLAN</desc>
+  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#6d28d9"/><stop offset="1" stop-color="#f0abfc"/></linearGradient></defs>
+  <rect width="360" height="240" rx="18" fill="url(#g)"/>
+  <path d="M0 190c68-38 116-42 180-18s112 20 180-30v98H0z" fill="#fff" opacity=".14"/>
+  <text x="28" y="48" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#fff">#15</text>
+  <text x="28" y="222" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#fff">Wireless WLAN</text>
+  <circle cx="180" cy="182" r="12" fill="#fff"/><path d="M128 150a74 74 0 01104 0M100 120a114 114 0 01160 0M72 90a154 154 0 01216 0" fill="none" stroke="#fff" stroke-width="14" stroke-linecap="round"/>
+</svg>

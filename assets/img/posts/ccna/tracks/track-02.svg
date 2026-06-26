@@ -1,0 +1,10 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" role="img" aria-labelledby="title desc">
+  <title id="title">CCNA track 02: IOS CLI</title>
+  <desc id="desc">Network lab thumbnail for IOS CLI</desc>
+  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#1d4ed8"/><stop offset="1" stop-color="#06b6d4"/></linearGradient></defs>
+  <rect width="360" height="240" rx="18" fill="url(#g)"/>
+  <path d="M0 190c68-38 116-42 180-18s112 20 180-30v98H0z" fill="#fff" opacity=".14"/>
+  <text x="28" y="48" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#fff">#02</text>
+  <text x="28" y="222" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#fff">IOS CLI</text>
+  <rect x="80" y="82" width="200" height="122" rx="12" fill="#ffffff" opacity=".92"/><path d="M108 120l36 28-36 28" fill="none" stroke="#0f172a" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M164 176h70" stroke="#0f172a" stroke-width="12" stroke-linecap="round"/>
+</svg>

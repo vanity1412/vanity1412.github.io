@@ -1,12 +1,12 @@
 ---
-title: "Network Troubleshooting Case Study Template"
+title: "Network Troubleshooting"
 date: 2026-06-27 00:10:00 +0700
 categories: [Network Operations, Troubleshooting]
 tags: [network-operations, troubleshooting, case-study, ccna, noc, sla, template]
 description: "Template viết case study troubleshooting mạng theo hướng vận hành: triệu chứng, giả thuyết, root cause, solution, verification và ảnh hưởng SLA."
 image:
   path: /assets/img/posts/network-operations/troubleshooting-template.png
-  alt: Network Troubleshooting Case Study Template
+  alt: Network Troubleshooting
 pin: false
 ---
 

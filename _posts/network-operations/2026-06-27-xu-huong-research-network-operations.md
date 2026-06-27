@@ -1,5 +1,5 @@
 ---
-title: "Xu hướng Research: Core IP, Transmission & Network Automation"
+title: "Research: Core IP, Transmission & Network Automation"
 date: 2026-06-27 00:20:00 +0700
 categories: [Network Operations, Research]
 tags: [network-operations, core-ip, dwdm, snmp, telemetry, automation, aiops, research]

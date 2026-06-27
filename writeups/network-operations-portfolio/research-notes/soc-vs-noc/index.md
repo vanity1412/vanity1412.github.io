@@ -1,15 +1,9 @@
 ---
-title: "SOC và NOC — Hai cái tên nghe giống nhau nhưng hoàn toàn khác nhau"
-date: 2026-06-23 00:00:00 +0700
-categories: [Kiến thức, Blue Team]
-tags: [soc, noc, blue-team, network-operations, cybersecurity]
-description: "Cùng trực màn hình 24/7, nhưng NOC giữ hệ thống vận hành còn SOC bảo vệ hệ thống trước các mối đe dọa."
-image:
-  path: /assets/img/posts/soc-va-noc/avt.png
-  alt: So sánh vai trò, công cụ và KPI của NOC và SOC
-pin: false
+layout: page-toc
+title: "SOC vs NOC"
+permalink: /writeups/network-operations-portfolio/research-notes/soc-vs-noc/
+toc: true
 ---
-
 <div class="soc-noc-post" markdown="1">
 
 <div class="opening-scene">

@@ -13,70 +13,295 @@ toc: true
 | File lab | `13.2.6 Packet Tracer - Verify IPv4 and IPv6 Addressing.pka` |
 | Loại file | `PKA` |
 | Thư mục ảnh | `labs/lab-07/` |
+| Trạng thái | Hoàn thiện bảng địa chỉ PC, kiểm tra ping IPv4/IPv6 và xác định đường đi bằng `tracert` |
+
+> **Ghi chú:** Đây là lab kiểm tra dual-stack IPv4/IPv6. Router đã được cấu hình sẵn, nhiệm vụ chính là thu thập thông tin IP trên PC, kiểm tra kết nối và ghi lại đường đi của gói tin.
 
 ## 1. Mục Tiêu Bài Lab
 
-Ghi lại yêu cầu chính của bài: cần cấu hình gì, cần kiểm tra gì, thiết bị nào liên quan và tiêu chí hoàn thành là gì.
-
-## 2. Topology Và Quan Sát Ban Đầu
-
-Đặt ảnh chụp cho bài này vào `labs/lab-07/`. Ví dụ:
+- Hoàn thiện bảng địa chỉ IPv4 và IPv6 cho PC1, PC2.
+- Kiểm tra kết nối IPv4 bằng `ping`.
+- Kiểm tra kết nối IPv6 bằng `ping`.
+- Dùng `tracert` để xác định đường đi từ PC1 đến PC2 và ngược lại.
+- Liên hệ từng địa chỉ trong kết quả `tracert` với đúng interface trên router.
 
 ![Topology lab 07](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-07/topology.png)
-![Instructions lab 07](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-07/instructions.png)
 
-| Thành phần | Ghi chú |
-| --- | --- |
-| Thiết bị chính |  |
-| Kết nối quan trọng |  |
-| VLAN/Subnet/Route liên quan |  |
-| Điểm dễ sai |  |
+## 2. Bảng Địa Chỉ IP
 
-## 3. Kế Hoạch Làm Bài
+### 2.1. IPv4 Addressing Table
 
-| Bước | Việc cần làm | Ghi chú |
-| --- | --- | --- |
-| 1 | Đọc yêu cầu và đánh dấu dữ kiện |  |
-| 2 | Lập bảng địa chỉ/cổng/VLAN/route nếu có |  |
-| 3 | Cấu hình từng thiết bị theo thứ tự |  |
-| 4 | Kiểm tra từng phần trước khi làm tiếp |  |
-| 5 | Chạy kiểm tra cuối cùng và ghi kết quả |  |
+| Device | Interface | IPv4 Address | Subnet Mask | Default Gateway |
+| --- | --- | --- | --- | --- |
+| R1 | G0/0 | `10.10.1.97` | `255.255.255.224` | N/A |
+| R1 | S0/0/1 | `10.10.1.6` | `255.255.255.252` | N/A |
+| R2 | S0/0/0 | `10.10.1.5` | `255.255.255.252` | N/A |
+| R2 | S0/0/1 | `10.10.1.9` | `255.255.255.252` | N/A |
+| R3 | S0/0/1 | `10.10.1.10` | `255.255.255.252` | N/A |
+| R3 | G0/0 | `10.10.1.17` | `255.255.255.240` | N/A |
+| PC1 | NIC | `10.10.1.126` | `255.255.255.224` | `10.10.1.97` |
+| PC2 | NIC | `10.10.1.20` | `255.255.255.240` | `10.10.1.17` |
 
-## 4. Cấu Hình Từng Bước
+> **Lưu ý:** PC1 thuộc mạng `10.10.1.96/27`, gateway là R1 G0/0. PC2 thuộc mạng `10.10.1.16/28`, gateway là R3 G0/0.
 
-### Thiết bị 1
+### 2.2. IPv6 Addressing Table
 
-~~~txt
-! Dán cấu hình hoặc ghi từng lệnh sau khi làm lab
-~~~
-
-### Thiết bị 2
-
-~~~txt
-! Bổ sung khi bài có nhiều router/switch/server/client
-~~~
-
-## 5. Kiểm Tra Và Bằng Chứng
-
-Các lệnh nên dùng cho dạng này:
-
-- `show ip interface brief`
-- `show ipv6 interface brief`
-- `ping`
-
-| Kiểm tra | Kết quả mong muốn | Ảnh/log bằng chứng |
-| --- | --- | --- |
-|  |  |  |
-
-## 6. Lỗi Gặp Phải Và Cách Sửa
-
-| Lỗi | Nguyên nhân | Cách phát hiện | Cách sửa |
+| Device | Interface | IPv6 Address / Prefix | Default Gateway |
 | --- | --- | --- | --- |
-|  |  |  |  |
+| R1 | G0/0 | `2001:db8:1:1::1/64` | N/A |
+| R1 | S0/0/1 | `2001:db8:1:2::2/64` | N/A |
+| R1 | S0/0/1 | `fe80::1` | N/A |
+| R2 | S0/0/0 | `2001:db8:1:2::1/64` | N/A |
+| R2 | S0/0/1 | `2001:db8:1:3::1/64` | N/A |
+| R2 | S0/0/1 | `fe80::2` | N/A |
+| R3 | S0/0/1 | `2001:db8:1:3::2/64` | N/A |
+| R3 | S0/0/1 | `fe80::3` | N/A |
+| R3 | G0/0 | `2001:db8:1:4::1/64` | N/A |
+| PC1 | NIC | `2001:db8:1:1::a/64` | `fe80::1` |
+| PC2 | NIC | `2001:db8:1:4::a/64` | `fe80::3` |
 
-## 7. Kết Quả Cuối
+> **Lưu ý:** Với IPv6, default gateway của PC thường là địa chỉ link-local của router trên cùng LAN. Trong bài này PC1 đi ra R1, PC2 đi ra R3.
 
-Ghi điểm Check Results, trạng thái ping/traceroute hoặc ảnh xác nhận hoàn thành.
+## 3. Topology Overview
+
+| Khu vực | Thiết bị | Nhận xét |
+| --- | --- | --- |
+| LAN trái | PC1, S1, R1 G0/0 | Mạng IPv4 `10.10.1.96/27`, mạng IPv6 `2001:db8:1:1::/64` |
+| Link R1-R2 | R1 S0/0/1, R2 S0/0/0 | IPv4 `10.10.1.4/30`, IPv6 `2001:db8:1:2::/64` |
+| Link R2-R3 | R2 S0/0/1, R3 S0/0/1 | IPv4 `10.10.1.8/30`, IPv6 `2001:db8:1:3::/64` |
+| LAN phải | R3 G0/0, S2, PC2 | Mạng IPv4 `10.10.1.16/28`, mạng IPv6 `2001:db8:1:4::/64` |
+
+> **Điểm dễ sai:** Đừng nhầm mạng LAN của PC2 là `/27`. Theo topology, LAN phải dùng `10.10.1.16/28`, nên gateway của PC2 là `10.10.1.17`.
+
+## 4. Part 1 - Complete the Addressing Table Documentation
+
+### Step 1: Kiểm tra IPv4 trên PC1 và PC2
+
+Trên PC1:
+
+```text
+PC> ipconfig /all
+
+IPv4 Address......................: 10.10.1.126
+Subnet Mask.......................: 255.255.255.224
+Default Gateway...................: 10.10.1.97
+```
+
+![PC1 IPv4 configuration](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-07/pc1-ipconfig-ipv4.png)
+
+Trên PC2:
+
+```text
+PC> ipconfig /all
+
+IPv4 Address......................: 10.10.1.20
+Subnet Mask.......................: 255.255.255.240
+Default Gateway...................: 10.10.1.17
+```
+
+![PC2 IPv4 configuration](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-07/pc2-ipconfig-ipv4.png)
+
+### Step 2: Kiểm tra IPv6 trên PC1 và PC2
+
+Trên PC1:
+
+```text
+PC> ipv6config /all
+
+IPv6 Address......................: 2001:db8:1:1::a/64
+Default Gateway...................: fe80::1
+```
+
+![PC1 IPv6 configuration](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-07/pc1-ipv6config.png)
+
+Trên PC2:
+
+```text
+PC> ipv6config /all
+
+IPv6 Address......................: 2001:db8:1:4::a/64
+Default Gateway...................: fe80::3
+```
+
+![PC2 IPv6 configuration](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-07/pc2-ipv6config.png)
+
+## 5. Part 2 - Test Connectivity Using Ping
+
+### Step 1: Kiểm tra IPv4 từ PC1 sang PC2
+
+```text
+PC> ping 10.10.1.20
+
+Reply from 10.10.1.20: bytes=32 time<1ms TTL=125
+Reply from 10.10.1.20: bytes=32 time<1ms TTL=125
+Reply from 10.10.1.20: bytes=32 time<1ms TTL=125
+Reply from 10.10.1.20: bytes=32 time<1ms TTL=125
+```
+
+| Câu hỏi | Trả lời |
+| --- | --- |
+| Was the result successful? | Có. PC1 ping được IPv4 của PC2. |
+
+![Ping IPv4 PC1 to PC2](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-07/ping-ipv4-pc1-to-pc2.png)
+
+### Step 2: Kiểm tra IPv4 từ PC2 sang PC1
+
+```text
+PC> ping 10.10.1.126
+
+Reply from 10.10.1.126: bytes=32 time<1ms TTL=125
+Reply from 10.10.1.126: bytes=32 time<1ms TTL=125
+Reply from 10.10.1.126: bytes=32 time<1ms TTL=125
+Reply from 10.10.1.126: bytes=32 time<1ms TTL=125
+```
+
+| Câu hỏi | Trả lời |
+| --- | --- |
+| Was the result successful? | Có. PC2 ping được IPv4 của PC1. |
+
+![Ping IPv4 PC2 to PC1](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-07/ping-ipv4-pc2-to-pc1.png)
+
+### Step 3: Kiểm tra IPv6 hai chiều
+
+```text
+! PC1 ping PC2 IPv6
+PC> ping 2001:db8:1:4::a
+
+! PC2 ping PC1 IPv6
+PC> ping 2001:db8:1:1::a
+```
+
+| Kiểm tra | Kết quả |
+| --- | --- |
+| PC1 ping `2001:db8:1:4::a` | Successful |
+| PC2 ping `2001:db8:1:1::a` | Successful |
+
+![Ping IPv6 test](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-07/ping-ipv6.png)
+
+## 6. Part 3 - Discover the Path by Tracing the Route
+
+### Step 1: Traceroute IPv4 từ PC1 đến PC2
+
+```text
+PC> tracert 10.10.1.20
+
+1   10.10.1.97
+2   10.10.1.5
+3   10.10.1.10
+4   10.10.1.20
+```
+
+| Hop | Địa chỉ gặp trên đường đi | Interface tương ứng |
+| --- | --- | --- |
+| 1 | `10.10.1.97` | R1 G0/0 |
+| 2 | `10.10.1.5` | R2 S0/0/0 |
+| 3 | `10.10.1.10` | R3 S0/0/1 |
+| 4 | `10.10.1.20` | PC2 NIC |
+
+![Traceroute IPv4 PC1 to PC2](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-07/tracert-ipv4-pc1-to-pc2.png)
+
+### Step 2: Traceroute IPv4 từ PC2 đến PC1
+
+```text
+PC> tracert 10.10.1.126
+
+1   10.10.1.17
+2   10.10.1.9
+3   10.10.1.6
+4   10.10.1.126
+```
+
+| Hop | Địa chỉ gặp trên đường đi | Interface tương ứng |
+| --- | --- | --- |
+| 1 | `10.10.1.17` | R3 G0/0 |
+| 2 | `10.10.1.9` | R2 S0/0/1 |
+| 3 | `10.10.1.6` | R1 S0/0/1 |
+| 4 | `10.10.1.126` | PC1 NIC |
+
+![Traceroute IPv4 PC2 to PC1](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-07/tracert-ipv4-pc2-to-pc1.png)
+
+### Step 3: Traceroute IPv6 từ PC1 đến PC2
+
+```text
+PC> tracert 2001:db8:1:4::a
+
+1   2001:db8:1:1::1
+2   2001:db8:1:2::1
+3   2001:db8:1:3::2
+4   2001:db8:1:4::a
+```
+
+| Hop | Địa chỉ gặp trên đường đi | Interface tương ứng |
+| --- | --- | --- |
+| 1 | `2001:db8:1:1::1` | R1 G0/0 |
+| 2 | `2001:db8:1:2::1` | R2 S0/0/0 |
+| 3 | `2001:db8:1:3::2` | R3 S0/0/1 |
+| 4 | `2001:db8:1:4::a` | PC2 NIC |
+
+![Traceroute IPv6 PC1 to PC2](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-07/tracert-ipv6-pc1-to-pc2.png)
+
+### Step 4: Traceroute IPv6 từ PC2 đến PC1
+
+```text
+PC> tracert 2001:db8:1:1::a
+
+1   2001:db8:1:4::1
+2   2001:db8:1:3::1
+3   2001:db8:1:2::2
+4   2001:db8:1:1::a
+```
+
+| Hop | Địa chỉ gặp trên đường đi | Interface tương ứng |
+| --- | --- | --- |
+| 1 | `2001:db8:1:4::1` | R3 G0/0 |
+| 2 | `2001:db8:1:3::1` | R2 S0/0/1 |
+| 3 | `2001:db8:1:2::2` | R1 S0/0/1 |
+| 4 | `2001:db8:1:1::a` | PC1 NIC |
+
+![Traceroute IPv6 PC2 to PC1](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-07/tracert-ipv6-pc2-to-pc1.png)
+
+## 7. Kiểm Tra Và Bằng Chứng
+
+| Kiểm tra | Lệnh | Kết quả mong muốn | Ảnh/log bằng chứng |
+| --- | --- | --- | --- |
+| Xem IPv4 PC1 | `ipconfig /all` | PC1 có IP `10.10.1.126/27`, gateway `10.10.1.97` | `pc1-ipconfig-ipv4.png` |
+| Xem IPv4 PC2 | `ipconfig /all` | PC2 có IP `10.10.1.20/28`, gateway `10.10.1.17` | `pc2-ipconfig-ipv4.png` |
+| Xem IPv6 PC1 | `ipv6config /all` | PC1 có IPv6 `2001:db8:1:1::a/64` | `pc1-ipv6config.png` |
+| Xem IPv6 PC2 | `ipv6config /all` | PC2 có IPv6 `2001:db8:1:4::a/64` | `pc2-ipv6config.png` |
+| Ping IPv4 | `ping 10.10.1.20`, `ping 10.10.1.126` | Hai chiều thành công | `ping-ipv4-*.png` |
+| Ping IPv6 | `ping 2001:db8:1:4::a`, `ping 2001:db8:1:1::a` | Hai chiều thành công | `ping-ipv6.png` |
+| Traceroute IPv4 | `tracert` | Đi qua R1, R2, R3 đúng thứ tự | `tracert-ipv4-*.png` |
+| Traceroute IPv6 | `tracert` | Đi qua R1, R2, R3 đúng thứ tự | `tracert-ipv6-*.png` |
+
+## 8. Lỗi Gặp Phải Và Cách Sửa
+
+| Lỗi | Nguyên nhân | Cách sửa |
+| --- | --- | --- |
+| PC không ping được thiết bị bên kia | Sai IPv4 address, subnet mask hoặc default gateway | Kiểm tra lại bằng `ipconfig /all` |
+| Ping IPv4 được nhưng IPv6 không được | Sai IPv6 address hoặc IPv6 default gateway | Kiểm tra bằng `ipv6config /all` |
+| `tracert` không đi qua đủ router | Routing hoặc gateway không đúng | Kiểm tra gateway của PC và routing trên router |
+| Nhầm subnet PC1 và PC2 | PC1 dùng `/27`, PC2 dùng `/28` | Đối chiếu lại topology và bảng địa chỉ |
+| Ghi sai IPv6 prefix | Thiếu `/64` hoặc sai subnet `1:1`, `1:4` | Ghi đúng dạng `2001:db8:1:x::/64` |
+
+## 9. Kết Quả Cuối
+
+| Nội dung | Kết quả |
+| --- | --- |
+| Bảng địa chỉ PC1/PC2 | Đã hoàn thiện IPv4 và IPv6 |
+| Ping IPv4 PC1 ↔ PC2 | Thành công |
+| Ping IPv6 PC1 ↔ PC2 | Thành công |
+| Traceroute IPv4 | Xác định đúng đường đi qua R1, R2, R3 |
+| Traceroute IPv6 | Xác định đúng đường đi qua R1, R2, R3 |
+| Trạng thái lab | Hoàn thành |
+
+- [ ] Chụp topology và lưu `topology.png`.
+- [ ] Chụp `ipconfig /all` trên PC1, PC2.
+- [ ] Chụp `ipv6config /all` trên PC1, PC2.
+- [ ] Chụp ping IPv4 hai chiều.
+- [ ] Chụp ping IPv6 hai chiều.
+- [ ] Chụp traceroute IPv4.
+- [ ] Chụp traceroute IPv6.
+- [ ] Chụp Check Results hoàn thành.
 
 ---
 

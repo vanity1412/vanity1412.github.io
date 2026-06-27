@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Network Operations Research Trends</title>
+  <desc id="desc">Abstract network operations dashboard with optical transmission and telemetry signals.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08111f"/>
+      <stop offset="0.55" stop-color="#10261f"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="lineA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="0.5" stop-color="#34d399"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000000" flood-opacity="0.26"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g opacity="0.18">
+    <path d="M0 120H1200M0 220H1200M0 320H1200M0 420H1200M0 520H1200" stroke="#cbd5e1" stroke-width="1"/>
+    <path d="M160 0V630M320 0V630M480 0V630M640 0V630M800 0V630M960 0V630" stroke="#cbd5e1" stroke-width="1"/>
+  </g>
+  <g filter="url(#softShadow)">
+    <rect x="80" y="82" width="1040" height="466" rx="8" fill="#0f172a" opacity="0.82" stroke="#334155"/>
+    <rect x="118" y="122" width="248" height="116" rx="8" fill="#111827" stroke="#334155"/>
+    <rect x="118" y="266" width="248" height="116" rx="8" fill="#111827" stroke="#334155"/>
+    <rect x="118" y="410" width="248" height="88" rx="8" fill="#111827" stroke="#334155"/>
+    <rect x="426" y="122" width="650" height="376" rx="8" fill="#0b1220" stroke="#334155"/>
+  </g>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" fill="#e5e7eb">
+    <text x="118" y="64" font-size="22" font-weight="700" fill="#93c5fd">Network Operations &amp; Automation</text>
+    <text x="118" y="162" font-size="18" font-weight="700">DWDM</text>
+    <text x="118" y="195" font-size="14" fill="#94a3b8">Optical transport awareness</text>
+    <text x="118" y="306" font-size="18" font-weight="700">Telemetry</text>
+    <text x="118" y="339" font-size="14" fill="#94a3b8">From SNMP polling to streaming data</text>
+    <text x="118" y="449" font-size="18" font-weight="700">Operations</text>
+    <text x="118" y="481" font-size="14" fill="#94a3b8">SLA, change management, troubleshooting</text>
+    <text x="470" y="182" font-size="42" font-weight="800">Research Trends</text>
+    <text x="470" y="226" font-size="20" fill="#cbd5e1">Core IP, Transmission, Telemetry and Automation</text>
+  </g>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M464 392C536 306 606 456 690 350C760 262 830 274 894 336C952 392 1008 322 1054 252" stroke="url(#lineA)" stroke-width="7"/>
+    <path d="M464 434C548 388 624 416 700 410C782 404 834 464 914 430C982 402 1020 418 1054 382" stroke="#38bdf8" stroke-width="4" opacity="0.78"/>
+    <path d="M464 298H1054" stroke="#334155" stroke-width="2"/>
+    <path d="M464 474H1054" stroke="#334155" stroke-width="2"/>
+  </g>
+  <g>
+    <circle cx="690" cy="350" r="8" fill="#34d399"/>
+    <circle cx="894" cy="336" r="8" fill="#f59e0b"/>
+    <circle cx="1054" cy="252" r="8" fill="#38bdf8"/>
+  </g>
+</svg>

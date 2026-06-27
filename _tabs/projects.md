@@ -22,6 +22,20 @@ Public writeup collections grouped by platform and event.
 
 Selected public repositories that are relevant to cybersecurity, tooling, or applied software work.
 
+### Network Operations & Automation
+
+- [Network Operations & Automation Portfolio](/writeups/network-operations-portfolio/) - hub for the CCNA capstone, troubleshooting case studies, and automation project.
+- [Xu hướng Research: Core IP, Transmission & Network Automation](/posts/xu-huong-research-network-operations/) - blog post introducing the research direction for Core IP, transmission, telemetry, and automation.
+- [CCNA Enterprise Network Capstone Lab](/writeups/network-operations-portfolio/ccna-enterprise-network-capstone/) - featured lab plan covering VLAN, trunk, inter-VLAN routing, STP, EtherChannel, DHCP, NAT, ACL, OSPF, and HSRP.
+- [Network Troubleshooting Case Study Template](/posts/network-troubleshooting-case-study-template/) - blog post and reusable template for writing troubleshooting cases with operations/SLA impact.
+- [OSPF Neighbor Down](/writeups/network-operations-portfolio/troubleshooting-case-studies/ospf-neighbor-down/) - troubleshooting case study with technical lessons and operations/SLA impact.
+- [VLAN Connectivity Issue](/writeups/network-operations-portfolio/troubleshooting-case-studies/vlan-connectivity-issue/) - campus switching case study focused on VLAN, trunk, SVI, and STP checks.
+- [NAT Translation Failure](/writeups/network-operations-portfolio/troubleshooting-case-studies/nat-translation-failure/) - edge connectivity case study focused on NAT ACL, inside/outside roles, and verification.
+- [Cisco Config Backup Tool with Python & Netmiko](/projects/cisco-config-backup-netmiko/) - automation starter project for config backup, config diff, logs, and CSV reports.
+- [SOC vs NOC](/writeups/network-operations-portfolio/research-notes/soc-vs-noc/) - related operations note explaining how NOC and SOC differ and collaborate.
+- [DWDM for IP Network Engineers](/writeups/network-operations-portfolio/research-notes/dwdm-for-ip-network-engineers/) - research note connecting optical transmission concepts with Core IP operations.
+- [SNMP vs Streaming Telemetry](/writeups/network-operations-portfolio/research-notes/snmp-vs-streaming-telemetry/) - research note on monitoring data, YANG/gNMI, telemetry pipelines, and AI/Ops.
+
 ### Security Tools & Research
 
 - [Automated YARA Rule Generation Tool](https://github.com/vanity1412/Automated-YARA-Rule-Generation-Tool) - malware-analysis project for generating YARA detection rules.

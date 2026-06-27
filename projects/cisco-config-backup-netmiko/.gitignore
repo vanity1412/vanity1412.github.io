@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+devices.yaml
+backups/**/*.txt
+logs/*.log
+reports/*.csv
+reports/*.diff
+!backups/.gitkeep
+!logs/.gitkeep
+!reports/.gitkeep

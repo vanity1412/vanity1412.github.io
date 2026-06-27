@@ -13,70 +13,246 @@ toc: true
 | File lab | `12.9.1 Packet Tracer - Implement a Subnetted IPv6 Addressing Scheme.pka` |
 | Loại file | `PKA` |
 | Thư mục ảnh | `labs/lab-06/` |
+| Trạng thái | Hoàn thành khi PC1, PC2, PC3, PC4 ping IPv6 được nhau |
+
+> **Ghi chú:** Lab này tập trung vào chia các subnet IPv6 liên tiếp từ prefix ban đầu `2001:db8:acad:00c8::/64`, sau đó cấu hình IPv6 trên R1, R2 và để PC tự lấy địa chỉ bằng Auto Config.
 
 ## 1. Mục Tiêu Bài Lab
 
-Ghi lại yêu cầu chính của bài: cần cấu hình gì, cần kiểm tra gì, thiết bị nào liên quan và tiêu chí hoàn thành là gì.
-
-## 2. Topology Và Quan Sát Ban Đầu
-
-Đặt ảnh chụp cho bài này vào `labs/lab-06/`. Ví dụ:
+- Xác định 5 subnet IPv6 liên tiếp cho 4 LAN và 1 WAN link.
+- Cấu hình IPv6 global unicast và link-local address trên R1, R2.
+- Bật IPv6 routing trên các router.
+- Cấu hình PC ở chế độ Auto Config.
+- Bổ sung route IPv6 giữa R1 và R2 để các LAN liên thông.
+- Kiểm tra kết nối IPv6 end-to-end giữa các PC.
 
 ![Topology lab 06](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-06/topology.png)
-![Instructions lab 06](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-06/instructions.png)
 
-| Thành phần | Ghi chú |
+## 2. Bảng Subnet IPv6
+
+| Khu vực | IPv6 Subnet |
 | --- | --- |
-| Thiết bị chính |  |
-| Kết nối quan trọng |  |
-| VLAN/Subnet/Route liên quan |  |
-| Điểm dễ sai |  |
+| R1 G0/0 LAN | `2001:db8:acad:00c8::/64` |
+| R1 G0/1 LAN | `2001:db8:acad:00c9::/64` |
+| R2 G0/0 LAN | `2001:db8:acad:00ca::/64` |
+| R2 G0/1 LAN | `2001:db8:acad:00cb::/64` |
+| R1 ↔ R2 WAN link | `2001:db8:acad:00cc::/64` |
 
-## 3. Kế Hoạch Làm Bài
+> **Lưu ý:** IPv6 subnet được tăng theo hệ thập lục phân: `00c8`, `00c9`, `00ca`, `00cb`, `00cc`.
 
-| Bước | Việc cần làm | Ghi chú |
+## 3. Bảng Địa Chỉ IPv6
+
+| Device | Interface | IPv6 Address / Prefix | Link-local Address | Ghi chú |
+| --- | --- | --- | --- | --- |
+| R1 | G0/0 | `2001:db8:acad:00c8::1/64` | `fe80::1` | Gateway LAN PC1 |
+| R1 | G0/1 | `2001:db8:acad:00c9::1/64` | `fe80::1` | Gateway LAN PC2 |
+| R1 | S0/0/0 | `2001:db8:acad:00cc::1/64` | `fe80::1` | WAN sang R2 |
+| R2 | G0/0 | `2001:db8:acad:00ca::1/64` | `fe80::2` | Gateway LAN PC3 |
+| R2 | G0/1 | `2001:db8:acad:00cb::1/64` | `fe80::2` | Gateway LAN PC4 |
+| R2 | S0/0/0 | `2001:db8:acad:00cc::2/64` | `fe80::2` | WAN sang R1 |
+| PC1 | NIC | Auto Config | Auto từ RA | LAN `00c8::/64` |
+| PC2 | NIC | Auto Config | Auto từ RA | LAN `00c9::/64` |
+| PC3 | NIC | Auto Config | Auto từ RA | LAN `00ca::/64` |
+| PC4 | NIC | Auto Config | Auto từ RA | LAN `00cb::/64` |
+
+> **Lưu ý:** Link-local `fe80::1` có thể dùng lặp lại trên nhiều interface của R1 vì link-local chỉ có hiệu lực trong phạm vi từng link.
+
+## 4. Topology Overview
+
+| Khu vực | Thiết bị | Nhận xét |
 | --- | --- | --- |
-| 1 | Đọc yêu cầu và đánh dấu dữ kiện |  |
-| 2 | Lập bảng địa chỉ/cổng/VLAN/route nếu có |  |
-| 3 | Cấu hình từng thiết bị theo thứ tự |  |
-| 4 | Kiểm tra từng phần trước khi làm tiếp |  |
-| 5 | Chạy kiểm tra cuối cùng và ghi kết quả |  |
+| LAN PC1 | PC1 - Switch - R1 G0/0 | Dùng subnet `2001:db8:acad:00c8::/64` |
+| LAN PC2 | PC2 - Switch - R1 G0/1 | Dùng subnet `2001:db8:acad:00c9::/64` |
+| LAN PC3 | PC3 - Switch - R2 G0/0 | Dùng subnet `2001:db8:acad:00ca::/64` |
+| LAN PC4 | PC4 - Switch - R2 G0/1 | Dùng subnet `2001:db8:acad:00cb::/64` |
+| WAN | R1 S0/0/0 ↔ R2 S0/0/0 | Dùng subnet `2001:db8:acad:00cc::/64` |
 
-## 4. Cấu Hình Từng Bước
+> **Điểm dễ sai:** Chỉ cấu hình địa chỉ IPv6 trên router chưa đủ. Muốn các PC ở hai phía R1/R2 ping được nhau thì phải có IPv6 routing và route tới các mạng remote.
 
-### Thiết bị 1
+## 5. Cấu Hình R1
 
-~~~txt
-! Dán cấu hình hoặc ghi từng lệnh sau khi làm lab
-~~~
+```text
+R1> enable
+R1# configure terminal
 
-### Thiết bị 2
+! Bật định tuyến IPv6 trên router
+R1(config)# ipv6 unicast-routing
 
-~~~txt
-! Bổ sung khi bài có nhiều router/switch/server/client
-~~~
+! LAN PC1 - subnet 2001:db8:acad:00c8::/64
+R1(config)# interface gigabitEthernet0/0
+R1(config-if)# description LAN to PC1
+R1(config-if)# ipv6 address 2001:db8:acad:00c8::1/64
+R1(config-if)# ipv6 address fe80::1 link-local
+R1(config-if)# no shutdown
+R1(config-if)# exit
 
-## 5. Kiểm Tra Và Bằng Chứng
+! LAN PC2 - subnet 2001:db8:acad:00c9::/64
+R1(config)# interface gigabitEthernet0/1
+R1(config-if)# description LAN to PC2
+R1(config-if)# ipv6 address 2001:db8:acad:00c9::1/64
+R1(config-if)# ipv6 address fe80::1 link-local
+R1(config-if)# no shutdown
+R1(config-if)# exit
 
-Các lệnh nên dùng cho dạng này:
+! WAN link sang R2 - subnet 2001:db8:acad:00cc::/64
+R1(config)# interface serial0/0/0
+R1(config-if)# description WAN link to R2
+R1(config-if)# ipv6 address 2001:db8:acad:00cc::1/64
+R1(config-if)# ipv6 address fe80::1 link-local
+R1(config-if)# no shutdown
+R1(config-if)# exit
 
-- `show ip interface brief`
-- `show ipv6 interface brief`
-- `ping`
+! Static route tới các LAN phía R2
+R1(config)# ipv6 route 2001:db8:acad:00ca::/64 2001:db8:acad:00cc::2
+R1(config)# ipv6 route 2001:db8:acad:00cb::/64 2001:db8:acad:00cc::2
+
+R1(config)# end
+R1# copy running-config startup-config
+```
+
+> **Lưu ý:** Nếu cổng serial của R1 là DCE và trạng thái line protocol vẫn down, cấu hình thêm `clock rate 64000` trên interface serial DCE.
+
+### Kiểm tra trên R1
+
+```text
+R1# show ipv6 interface brief
+R1# show ipv6 route
+
+! Ping địa chỉ serial của R2
+R1# ping 2001:db8:acad:00cc::2
+
+! Ping thử LAN phía R2 sau khi PC đã Auto Config
+R1# ping 2001:db8:acad:00ca::1
+R1# ping 2001:db8:acad:00cb::1
+```
+
+![R1 IPv6 brief](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-06/r1-show-ipv6-brief.png)
+![R1 IPv6 route](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-06/r1-show-ipv6-route.png)
+
+## 6. Cấu Hình R2
+
+```text
+R2> enable
+R2# configure terminal
+
+! Bật định tuyến IPv6 trên router
+R2(config)# ipv6 unicast-routing
+
+! LAN PC3 - subnet 2001:db8:acad:00ca::/64
+R2(config)# interface gigabitEthernet0/0
+R2(config-if)# description LAN to PC3
+R2(config-if)# ipv6 address 2001:db8:acad:00ca::1/64
+R2(config-if)# ipv6 address fe80::2 link-local
+R2(config-if)# no shutdown
+R2(config-if)# exit
+
+! LAN PC4 - subnet 2001:db8:acad:00cb::/64
+R2(config)# interface gigabitEthernet0/1
+R2(config-if)# description LAN to PC4
+R2(config-if)# ipv6 address 2001:db8:acad:00cb::1/64
+R2(config-if)# ipv6 address fe80::2 link-local
+R2(config-if)# no shutdown
+R2(config-if)# exit
+
+! WAN link sang R1 - subnet 2001:db8:acad:00cc::/64
+R2(config)# interface serial0/0/0
+R2(config-if)# description WAN link to R1
+R2(config-if)# ipv6 address 2001:db8:acad:00cc::2/64
+R2(config-if)# ipv6 address fe80::2 link-local
+R2(config-if)# no shutdown
+R2(config-if)# exit
+
+! Static route tới các LAN phía R1
+R2(config)# ipv6 route 2001:db8:acad:00c8::/64 2001:db8:acad:00cc::1
+R2(config)# ipv6 route 2001:db8:acad:00c9::/64 2001:db8:acad:00cc::1
+
+R2(config)# end
+R2# copy running-config startup-config
+```
+
+### Kiểm tra trên R2
+
+```text
+R2# show ipv6 interface brief
+R2# show ipv6 route
+
+! Ping địa chỉ serial của R1
+R2# ping 2001:db8:acad:00cc::1
+
+! Ping thử LAN phía R1
+R2# ping 2001:db8:acad:00c8::1
+R2# ping 2001:db8:acad:00c9::1
+```
+
+![R2 IPv6 brief](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-06/r2-show-ipv6-brief.png)
+![R2 IPv6 route](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-06/r2-show-ipv6-route.png)
+
+## 7. Cấu Hình PC
+
+| PC | Cách cấu hình | Kết quả mong muốn |
+| --- | --- | --- |
+| PC1 | Desktop → IP Configuration → IPv6 → Auto Config | Nhận địa chỉ thuộc `2001:db8:acad:00c8::/64` |
+| PC2 | Desktop → IP Configuration → IPv6 → Auto Config | Nhận địa chỉ thuộc `2001:db8:acad:00c9::/64` |
+| PC3 | Desktop → IP Configuration → IPv6 → Auto Config | Nhận địa chỉ thuộc `2001:db8:acad:00ca::/64` |
+| PC4 | Desktop → IP Configuration → IPv6 → Auto Config | Nhận địa chỉ thuộc `2001:db8:acad:00cb::/64` |
+
+> **Lưu ý:** PC chỉ Auto Config đúng khi router interface cùng LAN đã `no shutdown` và router đã bật `ipv6 unicast-routing`.
+
+![PC Auto Config](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-06/pc-auto-config.png)
+
+## 8. Kiểm Tra Kết Nối
+
+```text
+! Trên PC1 - kiểm tra sang các LAN khác
+PC> ping 2001:db8:acad:00c9::1
+PC> ping 2001:db8:acad:00ca::1
+PC> ping 2001:db8:acad:00cb::1
+
+! Trên PC1 ping PC2, PC3, PC4 bằng địa chỉ IPv6 đã Auto Config
+PC> ping <IPv6-cua-PC2>
+PC> ping <IPv6-cua-PC3>
+PC> ping <IPv6-cua-PC4>
+```
+
+![Ping PC1 to PC4](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-06/ping-pc1-pc4.png)
 
 | Kiểm tra | Kết quả mong muốn | Ảnh/log bằng chứng |
 | --- | --- | --- |
-|  |  |  |
+| `show ipv6 interface brief` trên R1 | G0/0, G0/1, S0/0/0 có IPv6 đúng và trạng thái up/up | `r1-show-ipv6-brief.png` |
+| `show ipv6 interface brief` trên R2 | G0/0, G0/1, S0/0/0 có IPv6 đúng và trạng thái up/up | `r2-show-ipv6-brief.png` |
+| `show ipv6 route` trên R1 | Có route connected và static route tới `00ca`, `00cb` | `r1-show-ipv6-route.png` |
+| `show ipv6 route` trên R2 | Có route connected và static route tới `00c8`, `00c9` | `r2-show-ipv6-route.png` |
+| PC Auto Config | PC nhận IPv6 đúng subnet | `pc-auto-config.png` |
+| PC1 ping PC4 | Ping thành công | `ping-pc1-pc4.png` |
 
-## 6. Lỗi Gặp Phải Và Cách Sửa
+## 9. Lỗi Gặp Phải Và Cách Sửa
 
-| Lỗi | Nguyên nhân | Cách phát hiện | Cách sửa |
-| --- | --- | --- | --- |
-|  |  |  |  |
+| Lỗi | Nguyên nhân | Cách sửa |
+| --- | --- | --- |
+| PC không nhận IPv6 Auto Config | Router interface chưa bật hoặc chưa có RA | Kiểm tra `no shutdown`, `ipv6 unicast-routing` |
+| Router có IPv6 nhưng PC khác mạng không ping được | Thiếu static route giữa R1 và R2 | Thêm `ipv6 route` tới các LAN remote |
+| Serial link không up | Một đầu serial shutdown hoặc thiếu clock rate ở DCE | `no shutdown`, thêm `clock rate 64000` nếu cần |
+| Gõ sai subnet `00c8`, `00c9`, `00ca`, `00cb`, `00cc` | Nhầm hệ hex khi tăng subnet | Đối chiếu lại bảng subnet IPv6 |
+| Có nhiều IPv6 sai trên cùng interface | Chưa xoá IPv6 cũ trước khi cấu hình lại | Dùng `no ipv6 address <địa-chỉ-sai>/64` |
 
-## 7. Kết Quả Cuối
+## 10. Kết Quả Cuối
 
-Ghi điểm Check Results, trạng thái ping/traceroute hoặc ảnh xác nhận hoàn thành.
+| Hạng mục | Trạng thái mong muốn |
+| --- | --- |
+| Chia subnet IPv6 | 5 subnet liên tiếp từ `00c8` đến `00cc` |
+| R1 | Cấu hình IPv6 đầy đủ trên G0/0, G0/1, S0/0/0 |
+| R2 | Cấu hình IPv6 đầy đủ trên G0/0, G0/1, S0/0/0 |
+| PC1-PC4 | Đặt IPv6 Auto Config |
+| Routing | R1 và R2 có route tới mạng remote |
+| Connectivity | Tất cả PC ping IPv6 được nhau |
+
+- [ ] Chụp topology sau khi hoàn thành.
+- [ ] Chụp bảng Auto Config của ít nhất một PC.
+- [ ] Chụp `show ipv6 interface brief` trên R1.
+- [ ] Chụp `show ipv6 interface brief` trên R2.
+- [ ] Chụp `show ipv6 route` trên R1/R2.
+- [ ] Chụp ping PC1 sang PC4 thành công.
+- [ ] Chụp Check Results nếu Packet Tracer có chấm điểm.
 
 ---
 

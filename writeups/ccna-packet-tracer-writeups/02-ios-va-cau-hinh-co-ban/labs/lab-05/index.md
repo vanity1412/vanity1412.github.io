@@ -13,71 +13,256 @@ toc: true
 | File lab | `10.1.4 Packet Tracer - Configure Initial Router Settings.pka` |
 | Loại file | `PKA` |
 | Thư mục ảnh | `labs/lab-05/` |
+| Trạng thái | Hoàn tất cấu hình ban đầu cho router R1, kiểm tra bảo mật đăng nhập và lưu cấu hình vào NVRAM |
+
+> Bài lab tập trung vào cấu hình khởi tạo router: đặt hostname, cấu hình banner MOTD, đặt mật khẩu console, cấu hình `enable password`, `enable secret`, mã hóa mật khẩu dạng clear text và lưu cấu hình.
 
 ## 1. Mục Tiêu Bài Lab
 
-Ghi lại yêu cầu chính của bài: cần cấu hình gì, cần kiểm tra gì, thiết bị nào liên quan và tiêu chí hoàn thành là gì.
-
-## 2. Topology Và Quan Sát Ban Đầu
-
-Đặt ảnh chụp cho bài này vào `labs/lab-05/`. Ví dụ:
+- Kết nối console từ PCA vào R1.
+- Kiểm tra cấu hình mặc định của router.
+- Cấu hình hostname cho router là `R1`.
+- Cấu hình mật khẩu console, `enable password` và `enable secret`.
+- Mã hóa các mật khẩu dạng clear text trong running-config.
+- Cấu hình MOTD banner cảnh báo truy cập trái phép.
+- Kiểm tra lại cấu hình sau khi đăng xuất/đăng nhập lại.
+- Lưu running-config vào NVRAM.
+- Tùy chọn: sao lưu startup-config vào flash.
 
 ![Topology lab 05](/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/labs/lab-05/topology.png)
-![Instructions lab 05](/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/labs/lab-05/instructions.png)
 
-| Thành phần | Ghi chú |
+## 2. Topology Overview
+
+| Khu vực | Thiết bị | Nhận xét |
+| --- | --- | --- |
+| End device | `PCA` | Dùng Terminal để truy cập CLI của router thông qua cổng console |
+| Network device | `R1` | Router cần cấu hình ban đầu và bảo vệ truy cập CLI |
+| Kết nối quản trị | Console cable | Nối từ `PCA RS-232` sang `R1 Console` |
+| Cấu hình IP | Không yêu cầu | Bài này không cấu hình IP cho interface router hoặc PCA |
+
+> **Lưu ý:** Đây là kết nối console để cấu hình thiết bị, không phải kết nối Ethernet để truyền dữ liệu mạng.
+
+## 3. Part 1 - Verify the Default Router Configuration
+
+### Step 1 - Truy cập router qua console
+
+| Thao tác | Giá trị cần chọn |
 | --- | --- |
-| Thiết bị chính |  |
-| Kết nối quan trọng |  |
-| VLAN/Subnet/Route liên quan |  |
-| Điểm dễ sai |  |
+| Cable | Console cable |
+| PCA port | `RS-232` |
+| R1 port | `Console` |
+| Ứng dụng trên PCA | Desktop → Terminal |
+| Terminal setting | Giữ mặc định, chọn OK |
 
-## 3. Kế Hoạch Làm Bài
+![Console connection](/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/labs/lab-05/console-connection.png)
 
-| Bước | Việc cần làm | Ghi chú |
+### Step 2 - Kiểm tra cấu hình mặc định
+
+```text
+Router> enable
+Router# show running-config
+Router# show startup-config
+```
+
+| Câu hỏi | Đáp án |
+| --- | --- |
+| Hostname mặc định của router là gì? | `Router` |
+| Router có bao nhiêu Fast Ethernet interface? | `0` |
+| Router có bao nhiêu Gigabit Ethernet interface? | `2` |
+| Router có bao nhiêu Serial interface? | `2` |
+| Range của vty lines là gì? | `line vty 0 4` |
+| Lệnh hiển thị nội dung NVRAM là gì? | `show startup-config` |
+| Vì sao báo `startup-config is not present`? | Vì router chưa được lưu cấu hình vào NVRAM bằng lệnh `copy running-config startup-config` |
+
+> **Lưu ý:** Số lượng interface có thể khác nếu Packet Tracer dùng model router khác. Trong bài này, kiểm tra trực tiếp bằng `show running-config` hoặc `show ip interface brief`.
+
+![Show running config default](/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/labs/lab-05/show-run-default.png)
+
+## 4. Part 2 - Configure and Verify the Initial Router Configuration
+
+### Step 1 - Cấu hình ban đầu cho R1
+
+```text
+Router> enable
+Router# configure terminal
+Router(config)# hostname R1
+R1(config)# banner motd "Unauthorized access is strictly prohibited."
+R1(config)# service password-encryption
+R1(config)# enable password cisco
+R1(config)# enable secret itsasecret
+R1(config)# line console 0
+R1(config-line)# password letmein
+R1(config-line)# login
+R1(config-line)# exit
+R1(config)# end
+```
+
+> **Lưu ý:** `enable secret` có độ ưu tiên cao hơn `enable password`. Khi cả hai cùng tồn tại, IOS sẽ yêu cầu mật khẩu `enable secret` để vào privileged EXEC mode.
+
+![Configure R1 initial settings](/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/labs/lab-05/configure-r1-initial-settings.png)
+
+### Step 2 - Kiểm tra cấu hình trên R1
+
+```text
+R1# show running-config
+```
+
+| Nội dung cần thấy | Giá trị mong muốn |
+| --- | --- |
+| Hostname | `hostname R1` |
+| MOTD banner | `Unauthorized access is strictly prohibited.` |
+| Password encryption | `service password-encryption` |
+| Enable password | Hiển thị dạng mã hóa type 7 |
+| Enable secret | Hiển thị dạng hash, thường là type 5 |
+| Console line | Có `password` và `login` dưới `line con 0` |
+
+```text
+hostname R1
+!
+service password-encryption
+!
+enable secret 5 <encrypted-secret>
+enable password 7 <encrypted-password>
+!
+banner motd ^CUnauthorized access is strictly prohibited.^C
+!
+line con 0
+ password 7 <encrypted-password>
+ login
+```
+
+![Show running config after initial setup](/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/labs/lab-05/show-run-after-config.png)
+
+### Step 3 - Kiểm tra banner và mật khẩu console
+
+```text
+R1# exit
+
+R1 con0 is now available
+
+Press RETURN to get started.
+
+Unauthorized access is strictly prohibited.
+
+User Access Verification
+
+Password:
+```
+
+| Câu hỏi | Đáp án |
+| --- | --- |
+| Lệnh nào dùng để xem cấu hình hiện tại của R1? | `show running-config` hoặc viết tắt `show run` |
+| Vì sao router nên có MOTD banner? | Để hiển thị cảnh báo truy cập, nhắc người dùng rằng chỉ truy cập được ủy quyền mới được phép |
+| Nếu không bị hỏi password trước khi vào user EXEC, đã quên lệnh nào? | Quên lệnh `login` trong `line console 0` |
+| Vì sao `enable secret` dùng được còn `enable password` không còn hiệu lực? | Vì `enable secret` bảo mật hơn và được IOS ưu tiên hơn `enable password` |
+| Mật khẩu cấu hình thêm sau `service password-encryption` sẽ hiển thị thế nào? | Không hiển thị plain text; các mật khẩu dạng clear text sẽ được mã hóa type 7 trong file cấu hình |
+
+> **Lưu ý:** `service password-encryption` giúp tránh lộ mật khẩu trực tiếp khi xem cấu hình, nhưng mã hóa type 7 không phải cơ chế bảo mật mạnh. Với privileged EXEC nên ưu tiên `enable secret`.
+
+![Console password verification](/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/labs/lab-05/console-password-verification.png)
+
+## 5. Part 3 - Save the Running Configuration File
+
+### Step 1 - Lưu cấu hình vào NVRAM
+
+```text
+R1> enable
+Password:
+R1# copy running-config startup-config
+Destination filename [startup-config]? 
+Building configuration...
+[OK]
+```
+
+| Câu hỏi | Đáp án |
+| --- | --- |
+| Lệnh lưu cấu hình vào NVRAM là gì? | `copy running-config startup-config` |
+| Phiên bản viết tắt thường dùng là gì? | `copy run start` |
+| Lệnh kiểm tra startup-config là gì? | `show startup-config` |
+| Các thay đổi đã nhập có được ghi lại không? | Có, nếu đã copy running-config sang startup-config thành công |
+
+```text
+R1# show startup-config
+```
+
+![Save running config to NVRAM](/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/labs/lab-05/save-running-config.png)
+
+### Step 2 - Tùy chọn: sao lưu startup-config vào flash
+
+```text
+R1# show flash:
+R1# copy startup-config flash:
+Destination filename [startup-config]? 
+R1# show flash:
+```
+
+| Câu hỏi | Đáp án |
+| --- | --- |
+| Có bao nhiêu file trong flash? | Phụ thuộc vào router trong Packet Tracer; kiểm tra bằng `show flash:` |
+| File nào có khả năng là IOS image? | File có đuôi `.bin` |
+| Vì sao xác định đó là IOS image? | Vì IOS image thường là file `.bin`, tên có dạng platform + IOS version và dung lượng lớn hơn file cấu hình |
+| Sau khi copy, cần thấy file nào trong flash? | `startup-config` |
+
+> **Lưu ý:** Router vẫn boot cấu hình từ NVRAM. Bản `startup-config` trong flash chỉ là bản sao lưu bổ sung để phục hồi khi cần.
+
+![Startup config backup in flash](/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/labs/lab-05/startup-config-flash-backup.png)
+
+## 6. Cấu Hình Hoàn Chỉnh Trên R1
+
+```text
+Router> enable
+Router# configure terminal
+Router(config)# hostname R1
+R1(config)# banner motd "Unauthorized access is strictly prohibited."
+R1(config)# service password-encryption
+R1(config)# enable password cisco
+R1(config)# enable secret itsasecret
+R1(config)# line console 0
+R1(config-line)# password letmein
+R1(config-line)# login
+R1(config-line)# exit
+R1(config)# end
+R1# copy running-config startup-config
+Destination filename [startup-config]? 
+Building configuration...
+[OK]
+```
+
+## 7. Lỗi Thường Gặp Và Cách Sửa
+
+| Lỗi | Nguyên nhân | Cách sửa |
 | --- | --- | --- |
-| 1 | Đọc yêu cầu và đánh dấu dữ kiện |  |
-| 2 | Lập bảng địa chỉ/cổng/VLAN/route nếu có |  |
-| 3 | Cấu hình từng thiết bị theo thứ tự |  |
-| 4 | Kiểm tra từng phần trước khi làm tiếp |  |
-| 5 | Chạy kiểm tra cuối cùng và ghi kết quả |  |
+| Không thấy thông báo hỏi password khi vào console | Đã đặt `password letmein` nhưng quên `login` | Vào `line console 0`, nhập lại `login` |
+| Không vào được privileged EXEC bằng `cisco` | Đã cấu hình `enable secret itsasecret`, IOS ưu tiên secret | Dùng `itsasecret` khi gõ `enable` |
+| Mật khẩu vẫn hiện plain text trong `show run` | Chưa bật `service password-encryption` | Vào global config và nhập `service password-encryption` |
+| Sau khi reload bị mất cấu hình | Chưa lưu running-config vào startup-config | Chạy `copy running-config startup-config` |
+| Banner không đúng yêu cầu | Sai nội dung hoặc sai delimiter | Cấu hình lại `banner motd "Unauthorized access is strictly prohibited."` |
+| Gõ `show startup-config` báo không có file | Chưa có cấu hình trong NVRAM | Lưu cấu hình bằng `copy run start` |
 
-## 4. Cấu Hình Từng Bước
+## 8. Kết Quả Cuối
 
-### Thiết bị 1
+| Hạng mục kiểm tra | Kết quả mong muốn |
+| --- | --- |
+| Console từ PCA vào R1 | Truy cập được Terminal của R1 |
+| Hostname | Prompt chuyển thành `R1#` |
+| MOTD banner | Hiển thị `Unauthorized access is strictly prohibited.` trước khi đăng nhập |
+| Console password | Khi nhấn Enter vào console sẽ yêu cầu password |
+| Enable secret | Dùng `itsasecret` để vào privileged EXEC mode |
+| Password encryption | `enable password` và `line console password` không còn hiện plain text |
+| Startup-config | `show startup-config` hiển thị cấu hình đã lưu |
+| Backup flash tùy chọn | `show flash:` có thêm file `startup-config` sau khi copy |
 
-~~~txt
-! Dán cấu hình hoặc ghi từng lệnh sau khi làm lab
-~~~
+Checklist ảnh minh chứng nên chèn vào writeup:
 
-### Thiết bị 2
-
-~~~txt
-! Bổ sung khi bài có nhiều router/switch/server/client
-~~~
-
-## 5. Kiểm Tra Và Bằng Chứng
-
-Các lệnh nên dùng cho dạng này:
-
-- `show running-config`
-- `show ip interface brief`
-- `ping`
-
-| Kiểm tra | Kết quả mong muốn | Ảnh/log bằng chứng |
-| --- | --- | --- |
-|  |  |  |
-
-## 6. Lỗi Gặp Phải Và Cách Sửa
-
-| Lỗi | Nguyên nhân | Cách phát hiện | Cách sửa |
-| --- | --- | --- | --- |
-|  |  |  |  |
-
-## 7. Kết Quả Cuối
-
-Ghi điểm Check Results, trạng thái ping/traceroute hoặc ảnh xác nhận hoàn thành.
-
+- [ ] Ảnh topology ban đầu.
+- [ ] Ảnh kết nối console PCA → R1.
+- [ ] Ảnh `show running-config` mặc định.
+- [ ] Ảnh cấu hình hostname, banner, password.
+- [ ] Ảnh kiểm tra banner và console password sau khi đăng xuất.
+- [ ] Ảnh `show running-config` sau khi mã hóa mật khẩu.
+- [ ] Ảnh `copy running-config startup-config` báo `[OK]`.
+- [ ] Ảnh `show startup-config`.
+- [ ] Ảnh `show flash:` nếu làm phần optional.
 ---
 
 ## Các Lab Khác Trong Dạng Này

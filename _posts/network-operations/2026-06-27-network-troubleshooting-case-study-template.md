@@ -55,13 +55,3 @@ Hiện tại mình đã áp dụng template này cho:
 - [VLAN Connectivity Issue](/writeups/network-operations-portfolio/troubleshooting-case-studies/vlan-connectivity-issue/)
 - [NAT Translation Failure](/writeups/network-operations-portfolio/troubleshooting-case-studies/nat-translation-failure/)
 
-## Tại sao làm thế này?
-
-Ban đầu mình nghĩ chỉ cần show được "mình biết command" là đủ. Nhưng sau khi đọc mấy incident report thật thì mình thấy người ta cần nhiều hơn vậy:
-
-- **Impact**: Lỗi này ảnh hưởng bao nhiêu user? Downtime bao lâu? Vi phạm SLA không?
-- **Root Cause**: Nguyên nhân thật sự là gì? Không phải "link down" mà là "area ID mismatch".
-- **Verification**: Làm sao chứng minh đã fix xong? Không phải chỉ "ping được" mà còn phải check routing table, neighbor state.
-- **Prevention**: Làm sao tránh lặp lại? Checklist trước khi thay đổi config? Monitoring để bắt sớm?
-
-Khi viết case study theo cấu trúc này, mình hy vọng người đọc (hoặc mentor) sẽ thấy mình không chỉ biết config mà còn hiểu mindset của một NOC engineer.

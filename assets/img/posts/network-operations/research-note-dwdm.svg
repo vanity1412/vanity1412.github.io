@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">DWDM research note thumbnail</title>
+  <desc id="desc">Optical wavelengths feeding a core IP router.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#123d52"/>
+    </linearGradient>
+    <linearGradient id="fiber" x1="0" x2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.45" stop-color="#a3e635"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#bg)"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M42 116 C172 70 252 178 382 126 S550 96 604 154" stroke="#38bdf8" stroke-width="8"/>
+    <path d="M42 174 C174 126 250 238 382 184 S544 152 604 206" stroke="#a3e635" stroke-width="8"/>
+    <path d="M42 232 C174 184 250 296 382 242 S544 210 604 264" stroke="#f59e0b" stroke-width="8"/>
+    <path d="M42 290 C174 242 250 354 382 300 S544 268 604 322" stroke="#fb7185" stroke-width="8"/>
+  </g>
+  <rect x="222" y="118" width="196" height="184" rx="18" fill="#0b1120" stroke="#67e8f9" stroke-width="3"/>
+  <g fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-weight="700">
+    <text x="320" y="185" font-size="34" text-anchor="middle">DWDM</text>
+    <text x="320" y="230" font-size="23" text-anchor="middle">Core IP</text>
+  </g>
+  <g fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="18">
+    <text x="58" y="366">wavelength</text>
+    <text x="438" y="366">optical layer</text>
+  </g>
+</svg>

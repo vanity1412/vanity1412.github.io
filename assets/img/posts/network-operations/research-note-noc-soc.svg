@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">NOC and SOC research note thumbnail</title>
+  <desc id="desc">NOC availability and SOC security views connected by incident workflow.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="#263247"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#bg)"/>
+  <rect x="58" y="88" width="226" height="222" rx="18" fill="#0b1120" stroke="#2dd4bf" stroke-width="3"/>
+  <rect x="356" y="88" width="226" height="222" rx="18" fill="#0b1120" stroke="#fb7185" stroke-width="3"/>
+  <path d="M284 198 H356" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-width="6"/>
+  <path d="M332 176 L356 198 L332 220" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+  <g fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-weight="700">
+    <text x="171" y="151" font-size="42" text-anchor="middle">NOC</text>
+    <text x="469" y="151" font-size="42" text-anchor="middle">SOC</text>
+  </g>
+  <g fill="none" stroke-linecap="round" stroke-width="5">
+    <path d="M100 238 H142 L158 206 L184 270 L206 238 H244" stroke="#2dd4bf"/>
+    <path d="M405 232 L469 198 L533 232 V270 H405 Z" stroke="#fb7185" stroke-linejoin="round"/>
+    <path d="M469 198 V270" stroke="#fb7185"/>
+  </g>
+  <g fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="18">
+    <text x="97" y="366">availability</text>
+    <text x="412" y="366">threat response</text>
+  </g>
+</svg>

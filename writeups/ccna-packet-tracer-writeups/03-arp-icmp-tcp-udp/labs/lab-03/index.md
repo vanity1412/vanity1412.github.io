@@ -28,6 +28,10 @@ toc: true
 
 ![Topology lab 03](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-03/topology.png)
 
+Ảnh 
+![Topology lab 03](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-03/topology1.png)
+
+
 ## 2. Bảng Địa Chỉ MAC Theo Đề
 
 | Thiết bị | Interface | MAC Address | Switch Interface |
@@ -65,7 +69,6 @@ PC> ping 172.16.31.3
 
 > `arp -d` dùng để xóa ARP cache, giúp mình quan sát lại quá trình hỏi MAC từ đầu.
 
-![Clear ARP and ping](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-03/part1-clear-arp-ping.png)
 
 | Nội dung quan sát | Giá trị / nhận xét |
 | --- | --- |
@@ -84,7 +87,6 @@ PC> ping 172.16.31.3
 | Thiết bị nào chấp nhận PDU? | `172.16.31.3` |
 | Các thiết bị không phải đích xử lý thế nào? | Nhận frame broadcast nhưng loại bỏ nếu Target IP không khớp |
 
-![ARP request at Switch1](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-03/part1-arp-request-switch1.png)
 
 ### Step 3 - Quan sát ARP Reply
 
@@ -119,8 +121,6 @@ PC> arp -a
 | MAC entry mới tương ứng với IP nào? | `172.16.31.3` |
 | Khi nào end device gửi ARP Request? | Khi cần gửi đến một IPv4 next-hop nhưng chưa biết MAC tương ứng trong ARP cache |
 
-![ARP table after local ping](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-03/part1-arp-a-local.png)
-
 ## 5. Part 2 - Examine a Switch MAC Address Table
 
 ### Step 1 - Tạo thêm traffic để switch học MAC
@@ -139,7 +139,6 @@ PC> ping 10.10.10.3
 | Ping `10.10.10.2` → `10.10.10.3` | Reply thành công |
 | Số reply gửi/nhận | 4 sent, 4 received trong mỗi lần ping thành công |
 
-![Generate traffic for MAC table](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-03/part2-generate-traffic.png)
 
 ### Step 2 - Kiểm tra MAC Address Table trên Switch1
 
@@ -159,7 +158,6 @@ Switch1# show mac-address-table
 | --- | --- |
 | Các entry có tương ứng bảng đề không? | Có, MAC học được phải khớp với MAC của thiết bị trong bảng đề |
 
-![Switch1 MAC address table](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-03/part2-switch1-mac-table.png)
 
 ### Step 3 - Kiểm tra MAC Address Table trên Switch0
 
@@ -179,7 +177,6 @@ Switch0# show mac-address-table
 | Các entry có tương ứng bảng đề không? | Có |
 | Vì sao có hai MAC cùng nằm trên một port? | Vì `10.10.10.2` và `10.10.10.3` đi qua Access Point, còn Access Point nối vào Switch0 bằng cùng một cổng |
 
-![Switch0 MAC address table](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-03/part2-switch0-mac-table.png)
 
 ## 6. Part 3 - Examine the ARP Process in Remote Communications
 
@@ -197,7 +194,6 @@ PC> arp -a
 
 > **Lưu ý:** Khi gửi đến mạng từ xa, host không ARP trực tiếp địa chỉ IP đích. Host ARP địa chỉ **default gateway** trong cùng LAN.
 
-![Remote ping ARP entry](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-03/part3-remote-arp-entry.png)
 
 ### Step 2 - Xóa ARP và quan sát lại trong Simulation Mode
 
@@ -211,8 +207,6 @@ PC> ping 10.10.10.1
 | Có bao nhiêu PDU xuất hiện? | 2 PDU: ARP và ICMP |
 | Target IP của ARP Request là gì? | `172.16.31.1` hoặc default gateway của PC |
 | Vì sao Target IP không phải `10.10.10.1`? | Vì thiết bị đích nằm ở remote network, next-hop đầu tiên là router gateway |
-
-![Remote ARP request in Simulation Mode](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-03/part3-remote-arp-request.png)
 
 ### Step 3 - Kiểm tra trên Router1
 
@@ -229,7 +223,6 @@ Router1# show arp
 | `show arp` có entry cho `172.16.31.2` không? | Có, sau khi PC gửi traffic đến router |
 | Điều gì xảy ra với ping đầu tiên khi router phải trả lời ARP? | Ping đầu tiên có thể timeout vì thiết bị đang xử lý ARP trước, các gói sau mới thành công |
 
-![Router1 ARP table](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-03/part3-router1-show-arp.png)
 
 ## 7. Tổng Hợp Đáp Án Nhanh
 
@@ -268,18 +261,6 @@ Router1# show arp
 | `show mac-address-table` trên Switch0 | Học được MAC của router và các wireless client |
 | Ping remote `172.16.31.2` → `10.10.10.1` | PC ARP default gateway trước |
 | `show arp` trên Router1 | Có entry của host `172.16.31.2` |
-
-Checklist ảnh minh chứng nên chụp:
-
-- [ ] `topology.png` - sơ đồ tổng quan lab.
-- [ ] `part1-clear-arp-ping.png` - xóa ARP và ping local.
-- [ ] `part1-arp-request-switch1.png` - ARP Request tại Switch1.
-- [ ] `part1-arp-a-local.png` - ARP table sau ping local.
-- [ ] `part2-switch1-mac-table.png` - MAC table trên Switch1.
-- [ ] `part2-switch0-mac-table.png` - MAC table trên Switch0.
-- [ ] `part3-remote-arp-entry.png` - ARP entry khi ping mạng từ xa.
-- [ ] `part3-router1-show-arp.png` - ARP table trên Router1.
-- [ ] `check-results.png` - kết quả Check Results nếu cần.
 
 ---
 

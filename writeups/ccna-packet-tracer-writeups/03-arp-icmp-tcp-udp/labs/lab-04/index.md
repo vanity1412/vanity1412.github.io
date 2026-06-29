@@ -26,6 +26,8 @@ toc: true
 - Ghi lại các PDU quan trọng trong Simulation Mode để làm bằng chứng.
 
 ![Topology lab 04](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-04/topology.png)
+Ảnh
+![Topology lab 04](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-04/topology1.png)
 
 ## 2. Bảng Địa Chỉ IPv6
 
@@ -63,7 +65,6 @@ RTA# show ipv6 neighbors
 
 > `clear ipv6 neighbors` giúp xóa neighbor cache để khi ping lại, Packet Tracer sinh ra NDP PDU mới và dễ quan sát hơn.
 
-![RTA show IPv6 neighbors empty](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-04/rta-show-ipv6-neighbors-empty.png)
 
 ### Step 2 - Ping từ PCA1 sang PCA2 trong cùng LAN
 
@@ -84,6 +85,10 @@ Trong Simulation Mode:
 
 ![Simulation filter ICMPv6 NDP](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-04/simulation-filter-icmpv6-ndp.png)
 
+![Simulation filter ICMPv6 NDP](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-04/simulation-filter-icmpv6-ndp1.png)
+
+![Simulation filter ICMPv6 NDP](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-04/simulation-filter-icmpv6-ndp2.png)
+
 ### Step 3 - Quan sát ICMPv6 Echo Request đầu tiên
 
 | Câu hỏi | Trả lời |
@@ -92,7 +97,6 @@ Trong Simulation Mode:
 | ICMPv6 Message Type đầu tiên là gì? | `Echo Request`, thường hiển thị là ICMPv6 Type `128`. |
 | Vì sao chưa có Layer 2 address? | PCA1 mới có IPv6 đích, chưa biết MAC đích nên chưa đóng gói Ethernet hoàn chỉnh được. |
 
-![First ICMPv6 event at PCA1](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-04/first-icmpv6-pca1.png)
 
 ### Step 4 - Quan sát NDP tại PCA1
 
@@ -106,7 +110,6 @@ Trong Simulation Mode:
 
 > **Lưu ý:** IPv6 Neighbor Discovery không broadcast như ARP. Nó dùng solicited-node multicast để giảm số lượng host phải xử lý gói tin.
 
-![NDP event at PCA1](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-04/ndp-event-pca1.png)
 
 ### Step 5 - Quan sát NDP tại SwitchA, PCA2 và RTA
 
@@ -116,7 +119,6 @@ Trong Simulation Mode:
 | PCA2 | PCA2 nhận Neighbor Solicitation và gửi Neighbor Advertisement trả lời PCA1. |
 | RTA | RTA không phải IPv6 đích của Neighbor Solicitation nên không có Out Layers để forward tiếp. |
 
-![NDP event at PCA2](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-04/ndp-event-pca2.png)
 
 ### Step 6 - Thông tin PDU trả lời từ PCA2
 
@@ -142,7 +144,6 @@ Trong Simulation Mode:
 ping -n 1 2001:db8:acad:1::b
 ```
 
-![ICMPv6 echo reply PCA1 PCA2](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-04/icmpv6-echo-reply-local.png)
 
 ## 5. Part 2 - IPv6 Neighbor Discovery Remote Network
 
@@ -162,7 +163,6 @@ ping -n 1 2001:db8:acad:2::a
 
 > Đích lần này là PCB1 ở mạng khác. PCA1 sẽ không tìm MAC của PCB1 trực tiếp, mà tìm MAC của default gateway trước.
 
-![Remote ping PCA1 to PCB1](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-04/remote-ping-pca1-pcb1.png)
 
 ### Step 2 - Quan sát NDP tại PCA1 khi đi remote LAN
 
@@ -174,7 +174,6 @@ ping -n 1 2001:db8:acad:2::a
 
 > **Lưu ý:** Khi gửi sang mạng khác, host chỉ cần biết MAC của default gateway. IPv6 đích vẫn là PCB1, nhưng Ethernet destination MAC là MAC của router.
 
-![NDP to default gateway](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-04/ndp-default-gateway.png)
 
 ### Step 3 - Quan sát RTA xử lý gói đi sang LAN phải
 
@@ -184,7 +183,6 @@ ping -n 1 2001:db8:acad:2::a
 | RTA định tuyến | Router giữ IPv6 source/destination, nhưng thay frame Layer 2 cho chặng tiếp theo |
 | RTA gửi sang PCB1 | Nếu chưa biết MAC của PCB1, RTA phải dùng NDP trên LAN phải |
 
-![RTA forwards IPv6 packet](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-04/rta-forward-ipv6.png)
 
 ### Step 4 - Quan sát PCB1 trả lời về PCA1
 
@@ -195,7 +193,6 @@ ping -n 1 2001:db8:acad:2::a
 | Destination MAC trong event của PCB1 tương ứng với thiết bị nào? | MAC của interface RTA nối với SwitchB/LAN phải. |
 | Vì sao PCB1 dùng MAC của router? | Vì PCA1 nằm ở mạng khác, PCB1 phải gửi Echo Reply về default gateway trước. |
 
-![PCB1 reply through router](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-04/pcb1-reply-router-mac.png)
 
 ## 6. Kiểm Tra Bảng IPv6 Neighbor Trên Router
 
@@ -211,8 +208,6 @@ RTA# show ipv6 neighbors
 | Các địa chỉ đó gắn với thiết bị nào? | PCA1 ở LAN trái và PCB1 ở LAN phải. |
 | Có entry của PCA2 không? | Không, nếu RTA chưa trực tiếp giao tiếp với PCA2 sau khi xóa neighbor cache. |
 
-![RTA neighbors after remote ping](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-04/rta-neighbors-after-remote.png)
-
 ### Step 2 - Ping PCA2 từ router và kiểm tra lại
 
 ```text
@@ -224,7 +219,6 @@ RTA# show ipv6 neighbors
 | --- | --- |
 | Sau khi ping PCA2, có entry cho PCA2 không? | Có. RTA phải học MAC của PCA2 để gửi ICMPv6 trực tiếp trong LAN trái. |
 
-![RTA neighbors after ping PCA2](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-04/rta-neighbors-after-pca2.png)
 
 ## 7. Tổng Hợp Đáp Án Reflection Questions
 
@@ -254,18 +248,6 @@ RTA# show ipv6 neighbors
 | RTA `show ipv6 neighbors` | Hiển thị các neighbor đã giao tiếp trực tiếp |
 | Ping lại cùng địa chỉ | Không tạo NDP mới nếu neighbor cache còn hiệu lực |
 | Simulation Mode | Quan sát được ICMPv6 và NDP theo từng thiết bị |
-
-Checklist ảnh minh chứng:
-
-- [ ] `topology.png` - ảnh topology tổng quan
-- [ ] `simulation-filter-icmpv6-ndp.png` - bộ lọc ICMPv6/NDP
-- [ ] `first-icmpv6-pca1.png` - ICMPv6 Echo Request đầu tiên
-- [ ] `ndp-event-pca1.png` - Neighbor Solicitation tại PCA1
-- [ ] `ndp-event-pca2.png` - Neighbor Advertisement tại PCA2
-- [ ] `icmpv6-echo-reply-local.png` - Echo Reply trong cùng LAN
-- [ ] `ndp-default-gateway.png` - PCA1 học MAC default gateway khi ping remote LAN
-- [ ] `rta-neighbors-after-remote.png` - bảng neighbor sau khi ping remote
-- [ ] `rta-neighbors-after-pca2.png` - bảng neighbor sau khi RTA ping PCA2
 
 ---
 

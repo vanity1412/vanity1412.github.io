@@ -27,6 +27,8 @@ toc: true
 
 ![Topology lab 02](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-02/topology.png)
 
+![Topology lab 02](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-02/topology1.png)
+
 ## 2. Topology Overview
 
 | Khu vực | Thiết bị | Nhận xét |
@@ -70,7 +72,6 @@ PC> ping 172.16.31.2
 
 > **Lưu ý:** Khi ping trong cùng LAN, MAC đích là MAC của chính thiết bị nhận. Gói tin không cần đi qua router.
 
-![PDU local details](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-02/pdu-local-details.png)
 
 ### Step 2 - Ping bổ sung trong cùng LAN
 
@@ -87,7 +88,6 @@ PC> ping 172.16.31.4
 | `172.16.31.3` ping `172.16.31.2` | MAC của `172.16.31.2` | `172.16.31.3` → `172.16.31.2` | Giao tiếp nội bộ LAN |
 | `172.16.31.5` ping `172.16.31.4` | MAC của `172.16.31.4` | `172.16.31.5` → `172.16.31.4` | Không đổi IP khi đi qua switch/hub |
 
-![Additional local ping tests](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-02/additional-local-ping-tests.png)
 
 ## 5. Part 2 - Gather PDU Information for Remote Network Communication
 
@@ -109,6 +109,9 @@ PC> ping 10.10.10.2
 > **Lưu ý:** Ở bước đầu, MAC đích `00D0:BA8E:741A` là MAC của router ở phía mạng `172.16.31.0`. Vì `10.10.10.2` nằm khác mạng, PC gửi frame đến default gateway thay vì gửi trực tiếp đến MAC của `10.10.10.2`.
 
 ![PDU remote details](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-02/pdu-remote-details.png)
+
+![PDU remote details](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-02/pdu-remote-details1.png)
+
 
 ### Câu hỏi trong Part 2
 
@@ -173,13 +176,6 @@ PC> ping 10.10.10.2
 | Xác định điểm thay đổi MAC | Router |
 | Xác định IP nguồn/đích | Giữ nguyên trong chiều request, đảo chiều trong reply |
 | Trả lời reflection questions | Hoàn thành |
-
-- [ ] Chụp topology: `topology.png`
-- [ ] Chụp ping nội bộ LAN: `ping-local-172-16-31-5-to-172-16-31-2.png`
-- [ ] Chụp PDU local: `pdu-local-details.png`
-- [ ] Chụp ping remote: `ping-remote-172-to-10.png`
-- [ ] Chụp PDU tại router: `pdu-at-router.png`
-- [ ] Chụp bảng Reflection/Check Results: `check-results.png`
 
 ---
 

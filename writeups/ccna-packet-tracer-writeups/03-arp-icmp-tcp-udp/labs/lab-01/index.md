@@ -29,6 +29,9 @@ toc: true
 
 ![Topology lab 01](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-01/topology.png)
 
+Ảnh topology
+![Topology lab 01](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-01/topology1.png)
+
 ## 2. Topology Overview
 
 | Khu vực | Thiết bị | Nhận xét |
@@ -90,8 +93,6 @@ toc: true
 | Tab xuất hiện | OSI Model và Outbound PDU Details |
 | Lý do chưa có Inbound PDU Details | Đây là điểm bắt đầu gửi dữ liệu, Web Client chưa nhận phản hồi |
 
-![HTTP first PDU](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-01/http-first-pdu.png)
-
 | Layer | Câu hỏi | Trả lời |
 | --- | --- | --- |
 | Layer 7 | Thông tin trong numbered steps là gì? | HTTP client tạo HTTP request để gửi đến Web Server. |
@@ -131,7 +132,6 @@ toc: true
 | --- | --- |
 | Khác biệt lớn giữa In Layers và Out Layers là gì? | Chiều truyền bị đảo lại: request đi vào server, response đi ra từ server về client. IP, MAC và TCP port nguồn/đích cũng đổi vai trò. |
 
-![HTTP server response](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-01/http-server-response.png)
 
 ### Step 6 - Quan sát event cuối cùng của HTTP stream
 
@@ -140,7 +140,6 @@ toc: true
 | Có bao nhiêu tab được hiển thị ở event cuối? | 2 tab |
 | Giải thích | Vì đây là điểm cuối của luồng HTTP tại Web Client, PDU chỉ còn chiều đi vào thiết bị nên thường chỉ có OSI Model và Inbound PDU Details. |
 
-![HTTP last PDU](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-01/http-last-pdu.png)
 
 ## 5. Part 2 - Display Elements of the TCP/IP Protocol Suite
 
@@ -180,9 +179,6 @@ toc: true
 | --- | --- |
 | Items 4 và 5 ở TCP event cho biết gì? | TCP connection đã được chấp nhận và trạng thái phiên chuyển sang **ESTABLISHED**. |
 | Mục đích của TCP event cuối là gì? | Đóng/kết thúc phiên TCP giữa Web Client và Web Server. |
-
-![TCP established](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-01/tcp-established.png)
-![TCP closing](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-01/tcp-closing.png)
 
 ## 6. Challenge Questions
 
@@ -226,15 +222,6 @@ toc: true
 | DNS answer | ADDRESS là IP Web Server |
 | TCP session | Có trạng thái established và closing |
 | Challenge | HTTP port `80`, DNS port `53` |
-
-- [ ] Ảnh topology: `topology.png`
-- [ ] Ảnh HTTP filter: `http-filter.png`
-- [ ] Ảnh Web Browser truy cập `www.osi.local`: `web-browser-osi-local.png`
-- [ ] Ảnh HTTP first PDU: `http-first-pdu.png`
-- [ ] Ảnh Outbound PDU Details: `outbound-pdu-details.png`
-- [ ] Ảnh DNS query/answer: `dns-query.png`, `dns-answer.png`
-- [ ] Ảnh TCP established/closing: `tcp-established.png`, `tcp-closing.png`
-- [ ] Ảnh Check Results hoàn thành: `check-results.png`
 
 ---
 

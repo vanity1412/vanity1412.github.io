@@ -28,7 +28,7 @@ toc: true
 
 ![Topology lab 05](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-05/topology.png)
 
-![Topology lab 05](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-05/topology1.png)
+![Topology lab 05](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-05/topology.png)
 
 ## 2. Topology Overview
 
@@ -69,6 +69,7 @@ ping -n 1 192.168.1.255
 | --- | --- |
 | `ping -n 1 192.168.1.255` | Gửi 1 gói ICMP tới broadcast address để các host phản hồi và bảng ARP được học trước |
 
+![ARP warmup](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-05/arp-warmup.png)
 
 ### Step 2: Tạo HTTP traffic
 
@@ -86,6 +87,8 @@ Go
 | Protocol chính | HTTP + TCP |
 | Port đích | TCP/80 |
 
+![HTTP traffic generated](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-05/http-traffic.png)
+
 ### Step 3: Tạo FTP traffic
 
 ```text
@@ -101,6 +104,7 @@ ftp 192.168.1.254
 | Protocol chính | FTP + TCP |
 | Port đích | TCP/21 |
 
+![FTP traffic generated](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-05/ftp-traffic.png)
 
 ### Step 4: Tạo DNS traffic
 
@@ -118,6 +122,7 @@ nslookup multiserver.pt.ptu
 | Protocol chính | DNS + UDP |
 | Port đích | UDP/53 |
 
+![DNS traffic generated](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-05/dns-traffic.png)
 
 ### Step 5: Tạo Email traffic
 
@@ -128,6 +133,7 @@ nslookup multiserver.pt.ptu
 | Body | Có thể tự đặt |
 | Hành động | Click `Send` |
 
+![Email traffic generated](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-05/email-traffic.png)
 
 ### Step 6: Kiểm tra Event List đã có đủ traffic
 
@@ -138,6 +144,7 @@ nslookup multiserver.pt.ptu
 | DNS Client | DNS/UDP |
 | E-Mail Client | SMTP/POP3/TCP |
 
+![Simulation event list all traffic](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-05/event-list-all-traffic.png)
 
 ### Step 7: Quan sát multiplexing
 
@@ -180,6 +187,7 @@ ACK NUM: thường là 0 ở gói SYN đầu tiên
 FLAGS: SYN
 ```
 
+![HTTP TCP SYN](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-05/http-tcp-syn.png)
 
 | PDU | Port | Sequence/Ack | Ý nghĩa |
 | --- | --- | --- | --- |
@@ -218,6 +226,7 @@ ACK NUM: thường là 0 ở gói SYN đầu tiên
 FLAGS: SYN
 ```
 
+![FTP TCP details](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-05/ftp-tcp-details.png)
 
 | PDU | Điểm khác biệt cần ghi |
 | --- | --- |
@@ -259,6 +268,7 @@ DEST PORT: ephemeral/random
 ANSWER: 192.168.1.254
 ```
 
+![DNS UDP details](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-05/dns-udp-details.png)
 
 > **Lưu ý:** DNS thường dùng UDP/53 cho truy vấn thông thường. Khi phản hồi quay về, port nguồn và port đích đảo chiều so với gói query ban đầu.
 
@@ -291,6 +301,7 @@ ACK NUM: thường là 0 ở gói SYN đầu tiên
 FLAGS: SYN
 ```
 
+![Email TCP details](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/labs/lab-05/email-tcp-details.png)
 
 | Luồng | Port server | Vai trò |
 | --- | --- | --- |
@@ -341,6 +352,17 @@ FLAGS: SYN
 | Quan sát UDP | Thấy source port, destination port; không có sequence/ack |
 | Phân giải DNS | `multiserver.pt.ptu` trả về `192.168.1.254` |
 | Kết luận | TCP dùng cho HTTP/FTP/Email; UDP dùng cho DNS query trong bài |
+
+Checklist ảnh minh chứng nên chụp:
+
+- [ ] `topology.png` - sơ đồ MultiServer và các client.
+- [ ] `arp-warmup.png` - lệnh ping broadcast từ MultiServer.
+- [ ] `event-list-all-traffic.png` - Event List có nhiều loại traffic.
+- [ ] `http-tcp-syn.png` - TCP details của HTTP.
+- [ ] `ftp-tcp-details.png` - TCP details của FTP.
+- [ ] `dns-udp-details.png` - UDP details của DNS.
+- [ ] `email-tcp-details.png` - TCP details của Email.
+- [ ] `final-check.png` - ảnh tổng hợp hoặc ghi chú hoàn thành bài quan sát.
 
 ---
 

@@ -82,8 +82,8 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     @include mx.mt-mb(2.5rem);
     @extend %clickable-transition;
 
-    padding-left: 2.5rem;
-    padding-right: 1.25rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
     width: 100%;
 
     @include bp.lg {
@@ -93,7 +93,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     @include bp.xxxl {
       margin-top: 3.5rem;
       margin-bottom: 2.5rem;
-      padding-left: 3.5rem;
+      padding-left: 2.25rem;
     }
   }
 
@@ -132,10 +132,10 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
       opacity: 0.9;
       width: 100%;
 
-      @include mx.pl-pr(1.5rem);
+      @include mx.pl-pr(1.25rem);
 
       @include bp.xxxl {
-        @include mx.pl-pr(2.75rem);
+        @include mx.pl-pr(1.5rem);
       }
 
       a.nav-link {
@@ -180,12 +180,12 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
   }
 
   .sidebar-bottom {
-    padding-left: 2rem;
+    padding-left: 1.5rem;
     padding-right: 1rem;
     margin-bottom: 1.5rem;
 
     @include bp.xxxl {
-      padding-left: 2.75rem;
+      padding-left: 1.75rem;
       margin-bottom: 1.75rem;
     }
 

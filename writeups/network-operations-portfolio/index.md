@@ -32,6 +32,8 @@ Khu vực này gom các project và case study phục vụ hướng **Network Op
 - [SOC vs NOC](/writeups/network-operations-portfolio/research-notes/soc-vs-noc/)
 - [DWDM for IP Network Engineers](/writeups/network-operations-portfolio/research-notes/dwdm-for-ip-network-engineers/)
 - [SNMP vs Streaming Telemetry](/writeups/network-operations-portfolio/research-notes/snmp-vs-streaming-telemetry/)
+- [Segment Routing (SR-MPLS / SRv6)](/writeups/network-operations-portfolio/research-notes/segment-routing-sr-mpls-srv6/)
+- [MPLS L3VPN: VRF, RD, RT](/writeups/network-operations-portfolio/research-notes/mpls-l3vpn-vrf-rd-rt/)
 
 ## Writing Principle
 

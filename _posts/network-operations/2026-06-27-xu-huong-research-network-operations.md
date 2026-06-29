@@ -226,6 +226,38 @@ Sau khi làm xong mấy lab CCNA, mình bắt đầu tự hỏi: OK vậy ngoài
       <a href="/writeups/network-operations-portfolio/research-notes/soc-vs-noc/">Read research note</a>
     </div>
   </article>
+
+  <article class="research-card">
+    <div class="research-card__image">
+      <img src="/assets/img/posts/network-operations/research-trends.png" alt="Segment Routing research note">
+    </div>
+    <div class="research-card__body">
+      <div class="research-card__meta">
+        <span class="research-chip">Core IP</span>
+        <span class="research-chip">SR-MPLS</span>
+        <span class="research-chip">SRv6</span>
+      </div>
+      <h3>Segment Routing (SR-MPLS / SRv6)</h3>
+      <p>Research note về hướng đi mới của lớp truyền tải core: vì sao LDP/RSVP-TE dần được thay bằng Segment Routing, cách SID stack hoạt động, SR Policy, TI-LFA, SRv6 Network Programming và lộ trình triển khai thực tế.</p>
+      <a href="/writeups/network-operations-portfolio/research-notes/segment-routing-sr-mpls-srv6/">Read research note</a>
+    </div>
+  </article>
+
+  <article class="research-card">
+    <div class="research-card__image">
+      <img src="/assets/img/posts/network-operations/research-trends.png" alt="MPLS L3VPN research note">
+    </div>
+    <div class="research-card__body">
+      <div class="research-card__meta">
+        <span class="research-chip">MPLS</span>
+        <span class="research-chip">L3VPN</span>
+        <span class="research-chip">BGP</span>
+      </div>
+      <h3>MPLS L3VPN: VRF, RD, RT</h3>
+      <p>Research note đi từ bài toán multi-tenant trong mạng ISP đến kiến trúc CE-PE-P, VRF, Route Distinguisher, Route Target, MP-BGP VPNv4, data-plane label stack, topology hub-and-spoke/extranet và checklist troubleshooting.</p>
+      <a href="/writeups/network-operations-portfolio/research-notes/mpls-l3vpn-vrf-rd-rt/">Read research note</a>
+    </div>
+  </article>
 </div>
 
 ## Tại sao chọn mấy topic này?

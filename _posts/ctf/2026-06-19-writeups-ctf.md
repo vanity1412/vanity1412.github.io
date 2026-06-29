@@ -67,6 +67,13 @@ CTF writeup collection for competition solves. Each event page is organized for 
 
 <div class="ctf-grid">
   <article class="ctf-card">
+    <div class="ctf-card__meta"><span>2026</span><span>Top 11</span></div>
+    <h3>V1T CTF 2026</h3>
+    <p>Writeups for V1T CTF 2026: OSINT/steganography, network forensics, hardware/BLE forensics, firmware reverse, crypto, and pwn.</p>
+    <a href="/writeups/v1t-ctf-2026/">Open event</a>
+  </article>
+
+  <article class="ctf-card">
     <div class="ctf-card__meta"><span>2026</span><span>Planned</span></div>
     <h3>Google Capture The Flag 2026</h3>
     <p>Google CTF challenge writeups for web, crypto, reversing, pwn, forensics, scripts, and solve notes.</p>

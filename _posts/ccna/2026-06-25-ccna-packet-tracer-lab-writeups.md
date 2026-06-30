@@ -14,9 +14,51 @@ pin: true
 
 Đây là trang tổng hợp các bài **CCNA Packet Tracer Lab Writeups**. Mỗi card bên dưới là một dạng lab riêng. Nút **Read writeup** mở mục lục của từng dạng; trong đó mỗi bài lab có trang riêng và mở ở tab mới. Nút **Download labs** mở trang tải file .pka/.pkt để tự làm trước.
 
+<div class="ccna-theory-callout">
+  <div>
+    <strong>CCNA Theory Documents</strong>
+    <p>Phần lý thuyết đi kèm các lab CCNA đã được chuyển thành trang đọc trực tiếp trên website, không cần tải file document xuống.</p>
+  </div>
+  <a href="/writeups/ccna-theory/">Đọc lý thuyết CCNA</a>
+</div>
+
 ## Lab Tracks
 
 <style>
+.ccna-theory-callout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 1.25rem 0 1.5rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--main-border-color);
+  border-radius: 8px;
+  background: var(--card-bg);
+}
+
+.ccna-theory-callout p {
+  margin: 0.35rem 0 0;
+  color: var(--text-muted-color);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.ccna-theory-callout a {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.3rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  background: #0f766e;
+  color: #fff;
+  font-size: 0.86rem;
+  font-weight: 600;
+  text-align: center;
+}
+
 .ccna-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -118,6 +160,11 @@ pin: true
 }
 
 @media (max-width: 640px) {
+  .ccna-theory-callout {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
   .ccna-card__inner {
     grid-template-columns: 1fr;
   }

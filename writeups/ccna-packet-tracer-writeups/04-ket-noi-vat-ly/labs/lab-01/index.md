@@ -28,6 +28,8 @@ toc: true
 - Cấu hình địa chỉ IP quản trị trên `interface vlan 1` của `S1` và `S2`.
 - Kiểm tra cấu hình bằng `show ip interface brief`, `show running-config` và `ping`.
 
+![lab 01](/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/labs/lab-01/topology1.png)
+
 ![Topology lab 01](/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/labs/lab-01/topology.png)
 
 ## 2. Bảng Địa Chỉ IPv4
@@ -101,7 +103,6 @@ Building configuration...
 [OK]
 ```
 
-![S1 basic configuration](/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/labs/lab-01/s1-basic-config.png)
 ![S2 basic configuration](/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/labs/lab-01/s2-basic-config.png)
 
 ### Kiểm tra Part 1
@@ -129,6 +130,8 @@ line con 0
 ```
 
 ![Verify basic configuration](/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/labs/lab-01/verify-basic-config.png)
+
+![Verify basic configuration](/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/labs/lab-01/verify-basic-config1.png)
 
 ## 5. Part 2 - Cấu Hình IP Cho PC
 
@@ -210,7 +213,6 @@ Building configuration...
 ```
 
 ![S1 VLAN 1 IP configuration](/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/labs/lab-01/s1-vlan1-ip.png)
-![S2 VLAN 1 IP configuration](/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/labs/lab-01/s2-vlan1-ip.png)
 
 ### Step 3-4 - Kiểm tra IP và lưu cấu hình
 
@@ -239,7 +241,6 @@ S2# copy running-config startup-config
 | --- | --- |
 | Lệnh nào lưu file cấu hình trong RAM sang NVRAM? | `copy running-config startup-config` |
 
-![Show IP interface brief](/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/labs/lab-01/show-ip-interface-brief.png)
 
 ### Step 5 - Kiểm tra kết nối toàn mạng
 
@@ -265,7 +266,6 @@ PC> ping 192.168.1.254
 
 > Nếu lần ping đầu tiên chỉ đạt khoảng `80%`, chạy lại lệnh ping. Gói đầu có thể mất do thiết bị cần học MAC hoặc xử lý ARP trước khi gửi ICMP thành công.
 
-![Final ping test](/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/labs/lab-01/final-ping-test.png)
 
 ## 7. Lỗi Thường Gặp Và Cách Sửa
 
@@ -296,15 +296,7 @@ PC> ping 192.168.1.254
 | Ping PC tới S1/S2 | Thành công | Đạt |
 | Lưu cấu hình | `copy running-config startup-config` hoàn tất | Đạt |
 
-- [ ] Ảnh topology ban đầu
-- [ ] Ảnh cấu hình hostname/password/banner trên S1
-- [ ] Ảnh cấu hình hostname/password/banner trên S2
-- [ ] Ảnh IP Configuration của PC1
-- [ ] Ảnh IP Configuration của PC2
-- [ ] Ảnh `show ip interface brief` trên S1/S2
-- [ ] Ảnh ping từ PC1 tới PC2, S1, S2
-- [ ] Ảnh Check Results đạt 100%
-
+![Final ping test](/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/labs/lab-01/final.png)
 ---
 
 ## Các Lab Khác Trong Dạng Này

@@ -28,6 +28,8 @@ toc: true
 
 ![Topology lab 02](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-02/topology.png)
 
+![Ảnh](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-02/topology1.png)
+
 ## 2. Thiết Kế Subnet
 
 | Yêu cầu | Giá trị |
@@ -228,8 +230,6 @@ S3# show ip interface brief
 Vlan1                 192.168.100.66     YES manual up up
 ```
 
-![Show IP interface brief lab 02](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-02/show-ip-interface-brief.png)
-
 ## 7. Part 2 - Các Địa Chỉ Còn Lại Trong Bài
 
 ### R2
@@ -295,8 +295,6 @@ R1# ping 192.168.100.126
 R1# ping 192.168.100.158
 ```
 
-![R1 ping result lab 02](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-02/r1-ping-result.png)
-
 ### Kiểm Tra Từ S3
 
 ```text
@@ -306,7 +304,6 @@ S3# ping 192.168.100.30
 S3# ping 192.168.100.126
 ```
 
-![S3 ping result lab 02](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-02/s3-ping-result.png)
 
 ### Kiểm Tra Từ PC4
 
@@ -317,8 +314,6 @@ PC> ping 192.168.100.94
 PC> ping 192.168.100.30
 PC> ping 192.168.100.62
 ```
-
-![PC4 ping result lab 02](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-02/pc4-ping-result.png)
 
 ## 9. Lỗi Thường Gặp Và Cách Sửa
 
@@ -349,19 +344,7 @@ PC> ping 192.168.100.62
 | PC4 | Có IP `192.168.100.126/27`, gateway `192.168.100.97` |
 | Kết nối cuối | R1, S3 và PC4 ping được các IP trong bảng |
 
-Checklist ảnh minh chứng:
-
-- [ ] `topology.png` - sơ đồ mạng của bài.
-- [ ] `addressing-table.png` - bảng địa chỉ sau khi điền.
-- [ ] `subnet-table.png` - bảng chia subnet `/27`.
-- [ ] `r1-config.png` - cấu hình R1.
-- [ ] `s3-config.png` - cấu hình S3.
-- [ ] `pc4-ip-config.png` - cấu hình IP PC4.
-- [ ] `show-ip-interface-brief.png` - kết quả kiểm tra interface.
-- [ ] `r1-ping-result.png` - ping từ R1.
-- [ ] `s3-ping-result.png` - ping từ S3.
-- [ ] `pc4-ping-result.png` - ping từ PC4.
-- [ ] `check-results.png` - điểm hoàn thành trong Packet Tracer.
+![S3 config lab 02](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-02/final.png)
 
 ---
 

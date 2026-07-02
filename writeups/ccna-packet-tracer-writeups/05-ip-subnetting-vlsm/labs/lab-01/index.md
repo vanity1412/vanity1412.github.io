@@ -30,6 +30,9 @@ toc: true
 
 ![Topology lab 01](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-01/topology.png)
 
+Ảnh
+![anh](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-01/topology1.png)
+
 ## 2. Bảng Tính Subnet
 
 | Yêu cầu | Giá trị |
@@ -108,7 +111,6 @@ toc: true
 | WAN | `CustomerRouter S0/1/0` ↔ `ISPRouter S0/1/0` | Dùng mạng `209.165.201.0/30` |
 | ISP LAN | `ISPSwitch`, `ISP Workstation`, `ISP Server` | Đã có địa chỉ mẫu theo đề |
 
-![Instructions lab 01](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-01/instructions.png)
 
 ## 5. Cấu Hình CustomerRouter
 
@@ -176,7 +178,6 @@ LAN-B-Switch(config)# end
 LAN-B-Switch# copy running-config startup-config
 ```
 
-![LAN-B switch VLAN 1](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-01/lan-b-switch-vlan1.png)
 
 ## 8. Cấu Hình PC
 
@@ -187,7 +188,6 @@ LAN-B-Switch# copy running-config startup-config
 
 ![PC-A IP Configuration](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-01/pc-a-ip-configuration.png)
 
-![PC-B IP Configuration](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-01/pc-b-ip-configuration.png)
 
 ## 9. Kiểm Tra Cấu Hình
 
@@ -207,7 +207,6 @@ CustomerRouter# show running-config
 ! kiểm tra hostname, enable secret, console password và IP trên G0/0, G0/1
 ```
 
-![CustomerRouter running config](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-01/customerrouter-running-config.png)
 
 ### Kiểm tra ping từ PC-A
 
@@ -219,7 +218,6 @@ PC-A> ping 192.168.0.126
 ! ping PC-B khác subnet
 ```
 
-![PC-A ping results](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-01/pc-a-ping-results.png)
 
 ### Kiểm tra ping từ PC-B
 
@@ -272,18 +270,7 @@ PC-B> ping 192.168.0.62
 | Ping PC-B → gateway | Thành công |
 | Ping PC-A ↔ PC-B | Thành công |
 
-Checklist ảnh minh chứng:
-
-- [ ] `topology.png`
-- [ ] `instructions.png`
-- [ ] `customerrouter-show-ip-interface-brief.png`
-- [ ] `customerrouter-running-config.png`
-- [ ] `lan-a-switch-vlan1.png`
-- [ ] `lan-b-switch-vlan1.png`
-- [ ] `pc-a-ip-configuration.png`
-- [ ] `pc-b-ip-configuration.png`
-- [ ] `pc-a-ping-results.png`
-- [ ] `pc-b-ping-results.png`
+![results](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-01/final.png)
 
 ---
 

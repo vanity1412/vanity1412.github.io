@@ -28,6 +28,8 @@ toc: true
 
 ![Topology lab 03](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-03/topology.png)
 
+![Ảnh](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-03/topology1.png)
+
 ## 2. Topology Và Yêu Cầu Subnet
 
 | Khu vực | Thiết bị liên quan | Số host cần | Ghi chú |
@@ -237,13 +239,7 @@ C:\> ping 10.11.48.118
 | PC-D | Có IP `10.11.48.62/26`, gateway `10.11.48.1` |
 | Ping cuối cùng | Ping được mọi IP trong Addressing Table |
 
-- [ ] Ảnh topology ban đầu: `topology.png`
-- [ ] Ảnh bảng VLSM: `vlsm-design.png`
-- [ ] Ảnh cấu hình `Branch1`: `branch1-config.png`
-- [ ] Ảnh cấu hình `Room-312`: `room-312-config.png`
-- [ ] Ảnh IP Configuration của `PC-D`: `pc-d-ip-config.png`
-- [ ] Ảnh ping kiểm tra cuối: `pc-d-ping.png`
-- [ ] Ảnh Check Results hoàn thành: `check-results.png`
+![PC-D ping lab 03](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-03/final.png)
 
 ---
 

@@ -5,6 +5,11 @@ permalink: /writeups/ccna-packet-tracer-writeups/15-wireless-wlan/
 toc: true
 ---
 
+## Bài Lý Thuyết Tổng Hợp
+
+- [CCNA 15 - Lý thuyết tổng hợp](/writeups/ccna-packet-tracer-writeups/15-wireless-wlan/theory/)
+
+
 ## Tổng Quan
 
 Cấu hình WLAN, WLC, WPA2 Enterprise và troubleshoot kết nối không dây.

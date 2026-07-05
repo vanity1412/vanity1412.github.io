@@ -5,6 +5,11 @@ permalink: /writeups/ccna-packet-tracer-writeups/12-dhcp/
 toc: true
 ---
 
+## Bài Lý Thuyết Tổng Hợp
+
+- [CCNA 12 - Lý thuyết tổng hợp](/writeups/ccna-packet-tracer-writeups/12-dhcp/theory/)
+
+
 ## Tổng Quan
 
 Cấu hình DHCPv4 pool, excluded address, gateway, DNS và kiểm tra lease.

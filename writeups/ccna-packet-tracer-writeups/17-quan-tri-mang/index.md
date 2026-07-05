@@ -5,6 +5,11 @@ permalink: /writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/
 toc: true
 ---
 
+## Bài Lý Thuyết Tổng Hợp
+
+- [CCNA 17 - Lý thuyết tổng hợp](/writeups/ccna-packet-tracer-writeups/17-quan-tri-mang/theory/)
+
+
 ## Tổng Quan
 
 Dùng CDP, LLDP, NTP, TFTP, backup config và nâng cấp IOS.

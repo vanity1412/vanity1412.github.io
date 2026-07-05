@@ -5,6 +5,11 @@ permalink: /writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/
 toc: true
 ---
 
+## Bài Lý Thuyết Tổng Hợp
+
+- [CCNA 05 - Lý thuyết tổng hợp](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/theory/)
+
+
 ## Tổng Quan
 
 Thiết kế IPv4/IPv6, chia subnet, VLSM và gán địa chỉ đúng yêu cầu.

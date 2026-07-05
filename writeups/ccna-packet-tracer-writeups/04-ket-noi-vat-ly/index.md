@@ -5,6 +5,11 @@ permalink: /writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/
 toc: true
 ---
 
+## Bài Lý Thuyết Tổng Hợp
+
+- [CCNA 04 - Lý thuyết tổng hợp](/writeups/ccna-packet-tracer-writeups/04-ket-noi-vat-ly/theory/)
+
+
 ## Tổng Quan
 
 Chọn cáp, chọn cổng, kiểm tra interface và xác minh end-to-end connectivity.

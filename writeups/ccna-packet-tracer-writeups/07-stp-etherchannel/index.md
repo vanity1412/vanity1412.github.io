@@ -5,6 +5,11 @@ permalink: /writeups/ccna-packet-tracer-writeups/07-stp-etherchannel/
 toc: true
 ---
 
+## Bài Lý Thuyết Tổng Hợp
+
+- [CCNA 07 - Lý thuyết tổng hợp](/writeups/ccna-packet-tracer-writeups/07-stp-etherchannel/theory/)
+
+
 ## Tổng Quan
 
 Phân tích STP, root bridge, port role và triển khai EtherChannel.

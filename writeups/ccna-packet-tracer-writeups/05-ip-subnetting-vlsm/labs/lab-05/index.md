@@ -9,24 +9,26 @@ toc: true
 
 | Field | Value |
 | --- | --- |
-| Dạng lab | IP Addressing, Subnetting, VLSM |
+| Dạng lab | IPv6 Addressing |
 | File lab | `12.6.6 Packet Tracer - Configure IPv6 Addressing.pka` |
 | Loại file | `PKA` |
 | Thư mục ảnh | `labs/lab-05/` |
-| Trạng thái | Cấu hình IPv6 cho router, server, client và kiểm tra thông suốt |
+| Trạng thái | Cấu hình IPv6 cho router, server, client và kiểm tra kết nối bằng web/ping |
 
-> **Ghi chú:** Bài này tập trung vào IPv6. Router R1 cần bật `ipv6 unicast-routing`, sau đó cấu hình IPv6 global unicast và link-local trên từng interface. Các máy trạm dùng `fe80::1` làm default gateway.
+> Bài này tập trung vào IPv6. Điểm quan trọng nhất là R1 phải bật `ipv6 unicast-routing`, mỗi interface router có một địa chỉ IPv6 global unicast và một địa chỉ link-local `fe80::1`. Các server/client dùng `fe80::1` làm default gateway.
 
 ## 1. Mục Tiêu Bài Lab
 
-- Bật khả năng định tuyến IPv6 trên router R1.
-- Cấu hình IPv6 cho các interface `G0/0`, `G0/1`, `S0/0/0` của R1.
-- Cấu hình IPv6 cho các server Accounting và CAD.
-- Cấu hình IPv6 cho các client Sales, Billing, Design và Engineering.
-- Kiểm tra truy cập web server bằng địa chỉ IPv6.
-- Kiểm tra ping IPv6 từ các client đến ISP.
+- Bật IPv6 routing trên router `R1`.
+- Cấu hình IPv6 cho `G0/0`, `G0/1` và `S0/0/0` trên `R1`.
+- Cấu hình IPv6 cho hai server `Accounting` và `CAD`.
+- Cấu hình IPv6 cho các client `Sales`, `Billing`, `Design` và `Engineering`.
+- Kiểm tra truy cập website Accounting/CAD bằng IPv6.
+- Kiểm tra ping từ client đến ISP bằng IPv6.
 
 ![Topology lab 05](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-05/topology.png)
+
+![Topology lab 05](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-05/topology1.png)
 
 ## 2. Bảng Địa Chỉ IPv6
 
@@ -44,46 +46,59 @@ toc: true
 | Design | NIC | `2001:db8:1:2::2/64` | `fe80::1` |
 | Engineering | NIC | `2001:db8:1:2::3/64` | `fe80::1` |
 | CAD | NIC | `2001:db8:1:2::4/64` | `fe80::1` |
-| ISP | S0/0/0 | `2001:db8:1:a001::1/64` | N/A |
+| ISP | S0/0/0 | `2001:db8:1:a001::1/64` | Đã cấu hình sẵn |
 
-> **Lưu ý:** `fe80::1` là địa chỉ link-local của R1 trên từng LAN. Client có thể dùng link-local này làm default gateway vì gateway chỉ cần reachable trong cùng local link.
+> **Lưu ý:** `2001:db8:...` là địa chỉ global unicast dùng để định danh thiết bị trong mạng IPv6. `fe80::1` là địa chỉ link-local của R1 trên từng đường kết nối, dùng làm gateway cho máy trạm trong cùng LAN.
 
 ## 3. Topology Overview
 
-| Khu vực | Thiết bị | Nhận xét |
-| --- | --- | --- |
-| LAN trái | Sales, Billing, Accounting, S1 | Dùng prefix `2001:db8:1:1::/64`, gateway là R1 `G0/0` |
-| LAN phải | Design, Engineering, CAD, S2 | Dùng prefix `2001:db8:1:2::/64`, gateway là R1 `G0/1` |
-| WAN | R1 ↔ ISP | Dùng prefix `2001:db8:1:a001::/64` |
-| Router trung tâm | R1 | Cần bật IPv6 routing trước khi router chuyển tiếp gói IPv6 |
+| Khu vực | Thiết bị | Prefix sử dụng | Gateway |
+| --- | --- | --- | --- |
+| LAN trái | Sales, Billing, Accounting, S1 | `2001:db8:1:1::/64` | R1 `G0/0` - `fe80::1` |
+| LAN phải | Design, Engineering, CAD, S2 | `2001:db8:1:2::/64` | R1 `G0/1` - `fe80::1` |
+| WAN | R1 ↔ ISP | `2001:db8:1:a001::/64` | R1 `S0/0/0` ↔ ISP `S0/0/0` |
+| Router trung tâm | R1 | Định tuyến giữa các IPv6 prefix | Cần bật `ipv6 unicast-routing` |
 
-> **Điểm dễ sai:** Cấu hình IPv6 đúng trên interface nhưng quên `ipv6 unicast-routing` thì router vẫn không forward IPv6 giữa các mạng.
+> **Điểm dễ sai:** Cấu hình IPv6 trên interface chưa đủ để router định tuyến IPv6. Nếu thiếu `ipv6 unicast-routing`, R1 có địa chỉ IPv6 nhưng không chuyển tiếp gói tin IPv6 giữa các mạng.
 
-## 4. Part 1 - Configure IPv6 Addressing on R1
+## 4. Giải Thích Nhanh Cách Nhìn Bài IPv6 Này
 
-### Bước 1: Bật IPv6 routing và cấu hình các interface
+| Thành phần | Ý nghĩa trong bài |
+| --- | --- |
+| `2001:db8:1:1::/64` | Mạng IPv6 của LAN trái: Sales, Billing, Accounting |
+| `2001:db8:1:2::/64` | Mạng IPv6 của LAN phải: Design, Engineering, CAD |
+| `2001:db8:1:a001::/64` | Mạng IPv6 của đường WAN giữa R1 và ISP |
+| `::1`, `::2`, `::3`, `::4` | Cách viết rút gọn phần host trong địa chỉ IPv6 |
+| `/64` | Prefix phổ biến cho LAN IPv6, tương tự phần network của subnet |
+| `fe80::1` | Gateway link-local của R1 trên từng interface |
+
+> **Lưu ý:** Cùng là `fe80::1` nhưng không bị trùng lỗi vì link-local chỉ có hiệu lực trong phạm vi từng link/interface. R1 có thể dùng `fe80::1` trên nhiều interface khác nhau.
+
+## 5. Part 1 - Configure IPv6 Addressing on R1
+
+### Step 1: Bật IPv6 routing và cấu hình các interface
 
 ```text
 R1> enable
 R1# configure terminal
 R1(config)# ipv6 unicast-routing
 
-R1(config)# interface gigabitethernet0/0
+R1(config)# interface g0/0
 R1(config-if)# description LAN 2001:db8:1:1::/64 - Sales Billing Accounting
 R1(config-if)# ipv6 address 2001:db8:1:1::1/64
 R1(config-if)# ipv6 address fe80::1 link-local
 R1(config-if)# no shutdown
 R1(config-if)# exit
 
-R1(config)# interface gigabitethernet0/1
+R1(config)# interface g0/1
 R1(config-if)# description LAN 2001:db8:1:2::/64 - Design Engineering CAD
 R1(config-if)# ipv6 address 2001:db8:1:2::1/64
 R1(config-if)# ipv6 address fe80::1 link-local
 R1(config-if)# no shutdown
 R1(config-if)# exit
 
-R1(config)# interface serial0/0/0
-R1(config-if)# description WAN connection to ISP
+R1(config)# interface s0/0/0
+R1(config-if)# description WAN to ISP
 R1(config-if)# ipv6 address 2001:db8:1:a001::2/64
 R1(config-if)# ipv6 address fe80::1 link-local
 R1(config-if)# no shutdown
@@ -93,9 +108,9 @@ R1(config)# end
 R1# copy running-config startup-config
 ```
 
-> **Lưu ý:** Khi nhập sai IPv6 address, cần xóa địa chỉ sai bằng `no ipv6 address <address>/<prefix>`, vì một interface có thể giữ nhiều IPv6 address cùng lúc.
+> **Lưu ý:** Nếu nhập sai IPv6 address, phải xóa địa chỉ sai bằng `no ipv6 address <address>/<prefix>`. Nếu chỉ nhập địa chỉ đúng thêm vào, interface có thể giữ cả địa chỉ sai và địa chỉ đúng.
 
-### Kiểm tra cấu hình IPv6 trên R1
+### Step 2: Kiểm tra IPv6 trên R1
 
 ```text
 R1# show ipv6 interface brief
@@ -113,7 +128,9 @@ Serial0/0/0               [up/up]
 
 ![R1 IPv6 brief](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-05/r1-show-ipv6-brief.png)
 
-## 5. Part 2 - Configure IPv6 Addressing on Servers
+## 6. Part 2 - Configure IPv6 Addressing on Servers
+
+### Step 1: Cấu hình IPv6 cho Accounting và CAD
 
 | Server | IPv6 Address | Prefix | Default Gateway |
 | --- | --- | --- | --- |
@@ -124,9 +141,11 @@ Serial0/0/0               [up/up]
 
 ![CAD IPv6 config](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-05/cad-ipv6-config.png)
 
-> **Lưu ý:** Accounting nằm cùng mạng với Sales/Billing. CAD nằm cùng mạng với Design/Engineering.
+> Accounting nằm ở LAN trái nên dùng prefix `2001:db8:1:1::/64`. CAD nằm ở LAN phải nên dùng prefix `2001:db8:1:2::/64`.
 
-## 6. Part 3 - Configure IPv6 Addressing on Clients
+## 7. Part 3 - Configure IPv6 Addressing on Clients
+
+### Step 1: Cấu hình IPv6 cho các client
 
 | Client | IPv6 Address | Prefix | Default Gateway |
 | --- | --- | --- | --- |
@@ -135,17 +154,12 @@ Serial0/0/0               [up/up]
 | Design | `2001:db8:1:2::2` | `/64` | `fe80::1` |
 | Engineering | `2001:db8:1:2::3` | `/64` | `fe80::1` |
 
-![Sales IPv6 config](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-05/sales-ipv6-config.png)
 
-![Billing IPv6 config](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-05/billing-ipv6-config.png)
+> Client ở LAN nào thì IPv6 global unicast phải cùng prefix với LAN đó. Gateway vẫn là `fe80::1` vì đó là link-local của R1 trên cùng LAN.
 
-![Design IPv6 config](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-05/design-ipv6-config.png)
+## 8. Part 4 - Test and Verify Network Connectivity
 
-![Engineering IPv6 config](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-05/engineering-ipv6-config.png)
-
-## 7. Part 4 - Test and Verify Network Connectivity
-
-### Bước 1: Kiểm tra truy cập web server bằng IPv6
+### Step 1: Kiểm tra truy cập web server bằng IPv6
 
 | Thiết bị test | URL nhập trong Web Browser | Kết quả mong muốn |
 | --- | --- | --- |
@@ -154,15 +168,17 @@ Serial0/0/0               [up/up]
 | Billing | `2001:db8:1:1::4` | Mở được website Accounting |
 | Billing | `2001:db8:1:2::4` | Mở được website CAD |
 | Design | `2001:db8:1:1::4` | Mở được website Accounting |
+| Design | `2001:db8:1:2::4` | Mở được website CAD |
+| Engineering | `2001:db8:1:1::4` | Mở được website Accounting |
 | Engineering | `2001:db8:1:2::4` | Mở được website CAD |
 
-![Sales access Accounting](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-05/sales-access-accounting.png)
 
 ![Sales access CAD](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-05/sales-access-cad.png)
 
-### Bước 2: Kiểm tra ping đến ISP
+### Step 2: Kiểm tra ping đến ISP
 
 ```text
+! Thực hiện trên một client bất kỳ
 PC> ping 2001:db8:1:a001::1
 
 Pinging 2001:db8:1:a001::1 with 32 bytes of data:
@@ -174,7 +190,7 @@ Reply from 2001:db8:1:a001::1: time<1ms
 
 ![Client ping ISP IPv6](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-05/client-ping-isp-ipv6.png)
 
-### Bước 3: Kiểm tra route IPv6 trên R1
+### Step 3: Kiểm tra bảng định tuyến IPv6 trên R1
 
 ```text
 R1# show ipv6 route
@@ -182,49 +198,39 @@ R1# show ipv6 route
 
 | Route cần thấy | Ý nghĩa |
 | --- | --- |
-| `C 2001:DB8:1:1::/64` | LAN Sales/Billing/Accounting kết nối trực tiếp |
-| `C 2001:DB8:1:2::/64` | LAN Design/Engineering/CAD kết nối trực tiếp |
+| `C 2001:DB8:1:1::/64` | LAN trái kết nối trực tiếp vào R1 G0/0 |
+| `C 2001:DB8:1:2::/64` | LAN phải kết nối trực tiếp vào R1 G0/1 |
 | `C 2001:DB8:1:A001::/64` | WAN R1 ↔ ISP kết nối trực tiếp |
 
 ![R1 IPv6 route](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-05/r1-show-ipv6-route.png)
 
-## 8. Lỗi Gặp Phải Và Cách Sửa
+## 9. Lỗi Gặp Phải Và Cách Sửa
 
 | Lỗi | Nguyên nhân | Cách phát hiện | Cách sửa |
 | --- | --- | --- | --- |
 | Client không ping được mạng khác | Quên bật `ipv6 unicast-routing` trên R1 | `show running-config` không có dòng `ipv6 unicast-routing` | Vào global config và nhập `ipv6 unicast-routing` |
 | Interface R1 không up | Chưa nhập `no shutdown` | `show ipv6 interface brief` thấy `[administratively down/down]` | Vào interface và nhập `no shutdown` |
-| Client không đi ra được khỏi LAN | Sai default gateway IPv6 | IP Configuration của PC không phải `fe80::1` | Sửa IPv6 Gateway thành `fe80::1` |
-| Server không truy cập được từ client khác LAN | Server sai IPv6 hoặc sai prefix | Ping cùng LAN hoặc khác LAN đều fail | Sửa IPv6 đúng bảng địa chỉ |
-| R1 có nhiều địa chỉ IPv6 không mong muốn | Nhập sai địa chỉ nhưng chưa xóa | `show ipv6 interface brief` hiện nhiều địa chỉ global trên cùng interface | Dùng `no ipv6 address <địa-chỉ-sai>/<prefix>` |
+| Client không đi ra ngoài LAN | Sai IPv6 gateway | IP Configuration không phải `fe80::1` | Sửa IPv6 Gateway thành `fe80::1` |
+| Server không mở được web từ client khác LAN | Server sai IPv6/prefix/gateway | Ping hoặc Web Browser fail | Sửa IPv6 theo đúng bảng địa chỉ |
+| R1 có nhiều IPv6 global address không mong muốn | Nhập sai địa chỉ nhưng chưa xóa | `show ipv6 interface brief` hiện nhiều địa chỉ trên cùng interface | Dùng `no ipv6 address <địa-chỉ-sai>/<prefix>` |
+| Ping ISP fail dù LAN ping được gateway | Serial R1 chưa up hoặc sai IPv6 WAN | `show ipv6 interface brief` thấy `S0/0/0` down/sai IP | Sửa `S0/0/0`, nhập `no shutdown` |
 
-## 9. Kết Quả Cuối
+## 10. Kết Quả Cuối
 
-| Hạng mục | Kết quả mong muốn | Trạng thái |
-| --- | --- | --- |
-| R1 bật IPv6 routing | Có dòng `ipv6 unicast-routing` | Hoàn thành |
-| R1 G0/0 | `2001:db8:1:1::1/64`, `fe80::1`, trạng thái up/up | Hoàn thành |
-| R1 G0/1 | `2001:db8:1:2::1/64`, `fe80::1`, trạng thái up/up | Hoàn thành |
-| R1 S0/0/0 | `2001:db8:1:a001::2/64`, `fe80::1`, trạng thái up/up | Hoàn thành |
-| Accounting/CAD | Đúng IPv6 và gateway `fe80::1` | Hoàn thành |
-| Sales/Billing/Design/Engineering | Đúng IPv6 và gateway `fe80::1` | Hoàn thành |
-| Web test | Client mở được Accounting và CAD bằng IPv6 | Hoàn thành |
-| Ping ISP | Client ping được `2001:db8:1:a001::1` | Hoàn thành |
+| Hạng mục | Kết quả mong muốn |
+| --- | --- |
+| R1 bật IPv6 routing | Có dòng `ipv6 unicast-routing` |
+| R1 G0/0 | `2001:db8:1:1::1/64`, `fe80::1`, trạng thái `up/up` |
+| R1 G0/1 | `2001:db8:1:2::1/64`, `fe80::1`, trạng thái `up/up` |
+| R1 S0/0/0 | `2001:db8:1:a001::2/64`, `fe80::1`, trạng thái `up/up` |
+| Accounting | `2001:db8:1:1::4/64`, gateway `fe80::1` |
+| CAD | `2001:db8:1:2::4/64`, gateway `fe80::1` |
+| Sales/Billing | Thuộc prefix `2001:db8:1:1::/64`, gateway `fe80::1` |
+| Design/Engineering | Thuộc prefix `2001:db8:1:2::/64`, gateway `fe80::1` |
+| Web test | Client mở được website Accounting và CAD bằng IPv6 |
+| Ping ISP | Client ping được `2001:db8:1:a001::1` |
 
-Checklist ảnh minh chứng cần chụp:
-
-- [ ] `topology.png` - sơ đồ tổng quan.
-- [ ] `r1-show-ipv6-brief.png` - trạng thái IPv6 trên R1.
-- [ ] `accounting-ipv6-config.png` - IP Configuration của Accounting.
-- [ ] `cad-ipv6-config.png` - IP Configuration của CAD.
-- [ ] `sales-ipv6-config.png` - IP Configuration của Sales.
-- [ ] `billing-ipv6-config.png` - IP Configuration của Billing.
-- [ ] `design-ipv6-config.png` - IP Configuration của Design.
-- [ ] `engineering-ipv6-config.png` - IP Configuration của Engineering.
-- [ ] `sales-access-accounting.png` - truy cập Accounting web bằng IPv6.
-- [ ] `sales-access-cad.png` - truy cập CAD web bằng IPv6.
-- [ ] `client-ping-isp-ipv6.png` - ping ISP IPv6 thành công.
-- [ ] `r1-show-ipv6-route.png` - bảng định tuyến IPv6 trên R1.
+![result](/writeups/ccna-packet-tracer-writeups/05-ip-subnetting-vlsm/labs/lab-05/final.png)
 
 ---
 

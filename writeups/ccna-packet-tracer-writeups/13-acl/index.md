@@ -5,6 +5,11 @@ permalink: /writeups/ccna-packet-tracer-writeups/13-acl/
 toc: true
 ---
 
+## Bài Lý Thuyết Tổng Hợp
+
+- [CCNA 13 - Lý thuyết tổng hợp](/writeups/ccna-packet-tracer-writeups/13-acl/theory/)
+
+
 ## Tổng Quan
 
 Cấu hình standard, extended, named ACL và đặt đúng interface/direction.

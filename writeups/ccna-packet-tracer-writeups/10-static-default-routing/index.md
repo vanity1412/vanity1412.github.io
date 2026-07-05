@@ -5,6 +5,11 @@ permalink: /writeups/ccna-packet-tracer-writeups/10-static-default-routing/
 toc: true
 ---
 
+## Bài Lý Thuyết Tổng Hợp
+
+- [CCNA 10 - Lý thuyết tổng hợp](/writeups/ccna-packet-tracer-writeups/10-static-default-routing/theory/)
+
+
 ## Tổng Quan
 
 Cấu hình static route, default route IPv4/IPv6 và troubleshoot routing table.

@@ -5,6 +5,11 @@ permalink: /writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/
 toc: true
 ---
 
+## Bài Lý Thuyết Tổng Hợp
+
+- [CCNA 03 - Lý thuyết tổng hợp](/writeups/ccna-packet-tracer-writeups/03-arp-icmp-tcp-udp/theory/)
+
+
 ## Tổng Quan
 
 Quan sát cách host giao tiếp qua MAC/IP, ARP, ICMP, TCP và UDP.

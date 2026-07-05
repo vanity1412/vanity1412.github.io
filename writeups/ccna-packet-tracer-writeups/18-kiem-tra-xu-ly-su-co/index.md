@@ -5,6 +5,11 @@ permalink: /writeups/ccna-packet-tracer-writeups/18-kiem-tra-xu-ly-su-co/
 toc: true
 ---
 
+## Bài Lý Thuyết Tổng Hợp
+
+- [CCNA 18 - Lý thuyết tổng hợp](/writeups/ccna-packet-tracer-writeups/18-kiem-tra-xu-ly-su-co/theory/)
+
+
 ## Tổng Quan
 
 Dùng ping, traceroute và show commands để tìm lỗi theo từng lớp.

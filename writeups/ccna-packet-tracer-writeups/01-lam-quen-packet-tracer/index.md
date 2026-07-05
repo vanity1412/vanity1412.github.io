@@ -5,6 +5,11 @@ permalink: /writeups/ccna-packet-tracer-writeups/01-lam-quen-packet-tracer/
 toc: true
 ---
 
+## Bài Lý Thuyết Tổng Hợp
+
+- [CCNA 01 - Lý thuyết tổng hợp](/writeups/ccna-packet-tracer-writeups/01-lam-quen-packet-tracer/theory/)
+
+
 ## Tổng Quan
 
 Nhận diện thiết bị, đường kết nối, topology và cách đọc bài lab Packet Tracer.

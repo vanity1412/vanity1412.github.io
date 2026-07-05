@@ -5,6 +5,11 @@ permalink: /writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching
 toc: true
 ---
 
+## Bài Lý Thuyết Tổng Hợp
+
+- [CCNA 08 - Lý thuyết tổng hợp](/writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching/theory/)
+
+
 ## Tổng Quan
 
 Cấu hình router-on-a-stick, SVI, Layer 3 switching và xử lý lỗi liên VLAN.

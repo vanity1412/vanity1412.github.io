@@ -5,6 +5,11 @@ permalink: /writeups/ccna-packet-tracer-writeups/11-ospf/
 toc: true
 ---
 
+## Bài Lý Thuyết Tổng Hợp
+
+- [CCNA 11 - Lý thuyết tổng hợp](/writeups/ccna-packet-tracer-writeups/11-ospf/theory/)
+
+
 ## Tổng Quan
 
 Triển khai single-area OSPFv2, router ID, neighbor, DR/BDR và default route.

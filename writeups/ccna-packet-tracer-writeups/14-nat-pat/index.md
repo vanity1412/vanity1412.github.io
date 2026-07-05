@@ -5,6 +5,11 @@ permalink: /writeups/ccna-packet-tracer-writeups/14-nat-pat/
 toc: true
 ---
 
+## Bài Lý Thuyết Tổng Hợp
+
+- [CCNA 14 - Lý thuyết tổng hợp](/writeups/ccna-packet-tracer-writeups/14-nat-pat/theory/)
+
+
 ## Tổng Quan
 
 Thực hành static NAT, dynamic NAT, PAT và kiểm tra translation.

@@ -5,6 +5,11 @@ permalink: /writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/
 toc: true
 ---
 
+## Bài Lý Thuyết Tổng Hợp
+
+- [CCNA 02 - Lý thuyết tổng hợp](/writeups/ccna-packet-tracer-writeups/02-ios-va-cau-hinh-co-ban/theory/)
+
+
 ## Tổng Quan
 
 Thao tác CLI, cấu hình switch/router ban đầu, interface, password và lưu cấu hình.

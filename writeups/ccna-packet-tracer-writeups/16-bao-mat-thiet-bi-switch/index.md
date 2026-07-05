@@ -5,6 +5,11 @@ permalink: /writeups/ccna-packet-tracer-writeups/16-bao-mat-thiet-bi-switch/
 toc: true
 ---
 
+## Bài Lý Thuyết Tổng Hợp
+
+- [CCNA 16 - Lý thuyết tổng hợp](/writeups/ccna-packet-tracer-writeups/16-bao-mat-thiet-bi-switch/theory/)
+
+
 ## Tổng Quan
 
 Cấu hình SSH, password an toàn, port security và hardening cơ bản.

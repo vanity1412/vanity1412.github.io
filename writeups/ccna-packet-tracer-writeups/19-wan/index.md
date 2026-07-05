@@ -5,6 +5,11 @@ permalink: /writeups/ccna-packet-tracer-writeups/19-wan/
 toc: true
 ---
 
+## Bài Lý Thuyết Tổng Hợp
+
+- [CCNA 19 - Lý thuyết tổng hợp](/writeups/ccna-packet-tracer-writeups/19-wan/theory/)
+
+
 ## Tổng Quan
 
 Ghi chú khái niệm WAN và cách đọc kết nối giữa các mạng ở phạm vi rộng.

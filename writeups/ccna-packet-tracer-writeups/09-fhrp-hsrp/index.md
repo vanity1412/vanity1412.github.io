@@ -5,6 +5,11 @@ permalink: /writeups/ccna-packet-tracer-writeups/09-fhrp-hsrp/
 toc: true
 ---
 
+## Bài Lý Thuyết Tổng Hợp
+
+- [CCNA 09 - Lý thuyết tổng hợp](/writeups/ccna-packet-tracer-writeups/09-fhrp-hsrp/theory/)
+
+
 ## Tổng Quan
 
 Cấu hình gateway dự phòng với HSRP và kiểm tra active/standby.

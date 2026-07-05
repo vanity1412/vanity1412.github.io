@@ -5,6 +5,11 @@ permalink: /writeups/ccna-packet-tracer-writeups/06-vlan-trunk-dtp/
 toc: true
 ---
 
+## Bài Lý Thuyết Tổng Hợp
+
+- [CCNA 06 - Lý thuyết tổng hợp](/writeups/ccna-packet-tracer-writeups/06-vlan-trunk-dtp/theory/)
+
+
 ## Tổng Quan
 
 Tạo VLAN, gán access port, cấu hình trunk và kiểm tra DTP.

@@ -397,8 +397,6 @@ PC4> ping 2001:db8:acad:10::2
 PC3> ping 2001:db8:acad:a::2
 ```
 
-![IPv6 inter VLAN ping](/writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching/labs/lab-02/ipv6-inter-vlan-ping.png)
-
 ## 7. Kiểm Tra Và Bằng Chứng
 
 | Kiểm tra | Lệnh | Kết quả mong muốn | Ảnh/log bằng chứng |
@@ -438,19 +436,7 @@ PC3> ping 2001:db8:acad:a::2
 | Kết nối Cloud | Ping IPv4/IPv6 tới Cloud thành công | Hoàn thành |
 | Lưu cấu hình | `copy running-config startup-config` trên MLS/S1/S2/S3 | Hoàn thành |
 
-Checklist ảnh minh chứng cần chèn:
-
-- [ ] `topology.png`
-- [ ] `show-vlan-brief.png`
-- [ ] `show-trunk.png`
-- [ ] `show-ip-int-brief.png`
-- [ ] `show-ip-route-mls.png`
-- [ ] `show-ipv6-route-mls.png`
-- [ ] `ipv4-inter-vlan-ping.png`
-- [ ] `ipv6-inter-vlan-ping.png`
-- [ ] `ping-cloud.png`
-- [ ] `check-results.png`
-
+![Show IPv6 route MLS](/writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching/labs/lab-02/final.png)
 ---
 
 ## Các Lab Khác Trong Dạng Này

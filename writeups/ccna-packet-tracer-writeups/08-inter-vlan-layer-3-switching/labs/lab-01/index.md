@@ -29,6 +29,9 @@ toc: true
 
 ![Topology lab 01](/writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching/labs/lab-01/topology.png)
 
+![Topology lab 01](/writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching/labs/lab-01/intruction.png)
+
+
 ## 2. Bảng Địa Chỉ IPv4
 
 | Device | Interface | IPv4 Address | Subnet Mask | Default Gateway |
@@ -249,9 +252,6 @@ Gi0/1       1-1005
 | PC1 | 172.17.10.10 | 255.255.255.0 | 172.17.10.1 |
 | PC3 | 172.17.30.10 | 255.255.255.0 | 172.17.30.1 |
 
-![PC1 IP configuration](/writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching/labs/lab-01/pc1-ip-configuration.png)
-
-![PC3 IP configuration](/writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching/labs/lab-01/pc3-ip-configuration.png)
 
 ### Step 5 - Kiểm tra ping sau khi hoàn tất trunk
 
@@ -278,7 +278,6 @@ PC3> ping 172.17.10.10
 | PC3 dùng default gateway nào? | `172.17.30.1` |
 | Khi cấu hình đúng, PC1 và PC3 có ping được nhau không? | Có |
 
-![PC1 ping PC3 success](/writeups/ccna-packet-tracer-writeups/08-inter-vlan-layer-3-switching/labs/lab-01/pc1-ping-pc3-success.png)
 
 ## 7. Cấu Hình Hoàn Chỉnh
 
@@ -373,16 +372,6 @@ R1# copy running-config startup-config
 | PC1 ping được PC3 | Hoàn thành |
 | Cấu hình đã lưu vào NVRAM | Hoàn thành |
 
-Checklist ảnh minh chứng cần chụp:
-
-- [ ] `topology.png` - sơ đồ lab.
-- [ ] `s1-show-vlan-brief.png` - VLAN 10, VLAN 30 và port access.
-- [ ] `r1-show-ip-interface-brief.png` - subinterface up/up.
-- [ ] `s1-show-interfaces-trunk.png` - trunk G0/1 hoạt động.
-- [ ] `pc1-ip-configuration.png` - IP và gateway của PC1.
-- [ ] `pc3-ip-configuration.png` - IP và gateway của PC3.
-- [ ] `pc1-ping-pc3-success.png` - ping liên VLAN thành công.
-- [ ] `check-results.png` - điểm hoàn thành trong Packet Tracer.
 
 ---
 

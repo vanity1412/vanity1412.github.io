@@ -2,14 +2,14 @@
 title: "Learn Juniper"
 date: 2026-07-09 08:00:00 +0700
 categories: [Juniper, Learning]
-tags: [juniper, junos, jncia, is-is, noc, troubleshooting, networking, routing]
-description: "Trang điều hướng học Juniper: nền tảng JNCIA/Junos, IS-IS trên Junos và checklist vận hành NOC/Service Operation."
+tags: [juniper, junos, jncia, is-is, noc, troubleshooting, networking, routing, roadmap]
+description: "Trang điều hướng học Juniper: lộ trình học Junos, nền tảng JNCIA/Junos, IS-IS trên Junos và checklist vận hành NOC/Service Operation."
 pin: false
 ---
 
 ## Overview
 
-Post này là điểm bắt đầu cho hướng **Learn Juniper**. Mình chia thành 3 nhánh học chính: nền tảng Junos/JNCIA để quen hệ điều hành, CLI và mô hình cấu hình; **IS-IS trên Junos** để đi sâu vào core routing; và checklist **NOC/Service Operation** để dùng trong vận hành, kiểm tra nhanh và troubleshooting.
+Post này là điểm bắt đầu cho hướng **Learn Juniper**. Mình chia thành 4 nhánh học chính: lộ trình Junos tổng quan để biết nên học gì theo từng giai đoạn; nền tảng Junos/JNCIA để quen hệ điều hành, CLI và mô hình cấu hình; **IS-IS trên Junos** để đi sâu vào core routing; và checklist **NOC/Service Operation** để dùng trong vận hành, kiểm tra nhanh và troubleshooting.
 
 <div class="juniper-paths" markdown="1">
 
@@ -34,19 +34,27 @@ Post này là điểm bắt đầu cho hướng **Learn Juniper**. Mình chia th
   <em>Đọc hướng NOC/Operation →</em>
 </a>
 
+<a class="juniper-path-card" href="/writeups/learn-juniper/lo-trinh-hoc-junos/">
+  <span class="juniper-path-card__kicker">Path 04</span>
+  <strong>Lộ trình học Juniper Junos</strong>
+  <span>Khung học đầy đủ theo giai đoạn: Junos cơ bản, switching, routing, MPLS/core, vận hành, automation, lab thực hành và case troubleshooting.</span>
+  <em>Đọc lộ trình Junos →</em>
+</a>
+
 </div>
 
 ## Gợi ý thứ tự học
 
-1. Đọc **JNCIA Junos - Lý thuyết trọng tâm** trước để quen cách Junos tổ chức control plane, forwarding plane, cấu hình candidate/commit và các lệnh kiểm tra cơ bản.
-2. Sau đó chuyển sang **IS-IS User Guide Juniper/Junos** để học routing ở mức core network, đặc biệt khi cần hiểu MPLS, SR-MPLS/SRv6 hoặc vận hành mạng nhà mạng.
-3. Đọc tiếp **Juniper Junos cho NOC / Service Operation** để gom các lệnh kiểm tra nhanh, log, interface, routing và quy trình xử lý sự cố vào một checklist vận hành.
-4. Khi đọc xong mỗi phần, tự tạo checklist lệnh `show`, `monitor`, `traceoptions` tương ứng để biến lý thuyết thành thói quen troubleshooting.
+1. Đọc **Lộ trình học Juniper Junos** trước để có bản đồ tổng quan: học Junos cơ bản, switching, routing, MPLS/core, vận hành, automation và lab theo thứ tự.
+2. Đọc **JNCIA Junos - Lý thuyết trọng tâm** để quen cách Junos tổ chức control plane, forwarding plane, cấu hình candidate/commit và các lệnh kiểm tra cơ bản.
+3. Sau đó chuyển sang **IS-IS User Guide Juniper/Junos** để học routing ở mức core network, đặc biệt khi cần hiểu MPLS, SR-MPLS/SRv6 hoặc vận hành mạng nhà mạng.
+4. Đọc tiếp **Juniper Junos cho NOC / Service Operation** để gom các lệnh kiểm tra nhanh, log, interface, routing và quy trình xử lý sự cố vào một checklist vận hành.
+5. Khi đọc xong mỗi phần, tự tạo checklist lệnh `show`, `monitor`, `traceoptions` tương ứng để biến lý thuyết thành thói quen troubleshooting.
 
 <style>
 .juniper-paths {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1rem;
   margin: 1.25rem 0 1.75rem;
 }

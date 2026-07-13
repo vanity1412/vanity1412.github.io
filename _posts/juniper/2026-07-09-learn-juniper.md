@@ -2,14 +2,14 @@
 title: "Learn Juniper"
 date: 2026-07-09 08:00:00 +0700
 categories: [Juniper, Learning]
-tags: [juniper, junos, jncia, is-is, noc, troubleshooting, networking, routing, roadmap]
-description: "Trang điều hướng học Juniper: lộ trình học Junos, nền tảng JNCIA/Junos, IS-IS trên Junos và checklist vận hành NOC/Service Operation."
+tags: [juniper, junos, jncia, is-is, bgp, isp, noc, troubleshooting, networking, routing, roadmap]
+description: "Trang điều hướng học Juniper: lộ trình học Junos, nền tảng JNCIA/Junos, IS-IS, BGP và checklist vận hành NOC/Service Operation."
 pin: false
 ---
 
 ## Overview
 
-Post này là điểm bắt đầu cho hướng **Learn Juniper**. Mình chia thành 4 nhánh học chính: lộ trình Junos tổng quan để biết nên học gì theo từng giai đoạn; nền tảng Junos/JNCIA để quen hệ điều hành, CLI và mô hình cấu hình; **IS-IS trên Junos** để đi sâu vào core routing; và checklist **NOC/Service Operation** để dùng trong vận hành, kiểm tra nhanh và troubleshooting.
+Post này là điểm bắt đầu cho hướng **Learn Juniper**. Mình chia thành 6 nhánh học chính: lộ trình Junos tổng quan để biết nên học gì theo từng giai đoạn; nền tảng Junos/JNCIA để quen hệ điều hành, CLI và mô hình cấu hình; **IS-IS trên Junos** và **BGP trên Junos** để đi sâu vào core routing; tài liệu ISP/FTEL để nối kiến thức giao thức với mô hình vận hành; và checklist **NOC/Service Operation** để dùng trong kiểm tra nhanh, xử lý sự cố và troubleshooting.
 
 <div class="juniper-paths" markdown="1">
 
@@ -41,6 +41,20 @@ Post này là điểm bắt đầu cho hướng **Learn Juniper**. Mình chia th
   <em>Đọc lộ trình Junos →</em>
 </a>
 
+<a class="juniper-path-card" href="/writeups/learn-juniper/bgp-junos-os/">
+  <span class="juniper-path-card__kicker">Path 05</span>
+  <strong>Giáo trình BGP trên Junos OS</strong>
+  <span>Giáo trình BGP có hệ thống: peering, route selection, policy, community, route reflector, MP-BGP, multipath, bảo mật, RPKI và troubleshooting.</span>
+  <em>Đọc giáo trình BGP →</em>
+</a>
+
+<a class="juniper-path-card" href="/writeups/learn-juniper/ftel-isis-bgp-van-hanh/">
+  <span class="juniper-path-card__kicker">Path 06</span>
+  <strong>Tài liệu tháng 1: FTEL IS-IS/BGP và vận hành</strong>
+  <span>Tổng quan mô hình ISP/FTEL tham chiếu, IS-IS, BGP, MPLS/MP-BGP, monitoring, troubleshooting và quy trình vận hành mạng.</span>
+  <em>Đọc tài liệu vận hành →</em>
+</a>
+
 </div>
 
 ## Gợi ý thứ tự học
@@ -48,13 +62,15 @@ Post này là điểm bắt đầu cho hướng **Learn Juniper**. Mình chia th
 1. Đọc **Lộ trình học Juniper Junos** trước để có bản đồ tổng quan: học Junos cơ bản, switching, routing, MPLS/core, vận hành, automation và lab theo thứ tự.
 2. Đọc **JNCIA Junos - Lý thuyết trọng tâm** để quen cách Junos tổ chức control plane, forwarding plane, cấu hình candidate/commit và các lệnh kiểm tra cơ bản.
 3. Sau đó chuyển sang **IS-IS User Guide Juniper/Junos** để học routing ở mức core network, đặc biệt khi cần hiểu MPLS, SR-MPLS/SRv6 hoặc vận hành mạng nhà mạng.
-4. Đọc tiếp **Juniper Junos cho NOC / Service Operation** để gom các lệnh kiểm tra nhanh, log, interface, routing và quy trình xử lý sự cố vào một checklist vận hành.
-5. Khi đọc xong mỗi phần, tự tạo checklist lệnh `show`, `monitor`, `traceoptions` tương ứng để biến lý thuyết thành thói quen troubleshooting.
+4. Đọc **Giáo trình BGP trên Junos OS** để nắm peering, policy, route reflector, MP-BGP, bảo mật, RPKI và cách troubleshoot BGP trên Junos.
+5. Dùng **Tài liệu tháng 1: FTEL IS-IS/BGP và vận hành** để nối IS-IS/BGP với mô hình ISP, luồng thuê bao, monitoring và quy trình vận hành thực tế.
+6. Đọc tiếp **Juniper Junos cho NOC / Service Operation** để gom các lệnh kiểm tra nhanh, log, interface, routing và quy trình xử lý sự cố vào một checklist vận hành.
+7. Khi đọc xong mỗi phần, tự tạo checklist lệnh `show`, `monitor`, `traceoptions` tương ứng để biến lý thuyết thành thói quen troubleshooting.
 
 <style>
 .juniper-paths {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
   margin: 1.25rem 0 1.75rem;
 }

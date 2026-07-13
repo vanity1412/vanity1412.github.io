@@ -3,6 +3,7 @@ layout: page-toc
 title: "Tài liệu tháng 1: FTEL IS-IS/BGP và vận hành"
 permalink: /writeups/learn-juniper/ftel-isis-bgp-van-hanh/
 toc: true
+mermaid: true
 ---
 
 # TÀI LIỆU THÁNG 1  

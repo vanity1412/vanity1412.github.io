@@ -3,6 +3,7 @@ layout: page-toc
 title: "Giáo trình BGP trên Junos OS"
 permalink: /writeups/learn-juniper/bgp-junos-os/
 toc: true
+mermaid: true
 ---
 
 # GIÁO TRÌNH BGP TRÊN JUNOS OS

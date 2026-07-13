@@ -400,7 +400,18 @@ main {
 
 /* mermaid */
 .mermaid {
+  margin: 1.25rem 0;
+  padding: 1rem;
+  overflow-x: auto;
+  border: 1px solid var(--main-border-color);
+  border-radius: 8px;
+  background: var(--card-bg);
   text-align: center;
+
+  svg {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 /* MathJax */

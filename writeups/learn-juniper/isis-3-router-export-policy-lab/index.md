@@ -31,9 +31,9 @@ Bài lab được thực hiện nhằm:
                           R3
 ```
 
-![Topology IS-IS 3 router đầy đủ](topology-isis-3-router-full.png)
+![Topology IS-IS 3 router đầy đủ](/writeups/learn-juniper/isis-3-router-export-policy-lab/topology-isis-3-router-full.png)
 
-![Topology IS-IS 3 router](topology-isis-3-router.png)
+![Topology IS-IS 3 router](/writeups/learn-juniper/isis-3-router-export-policy-lab/topology-isis-3-router.png)
 
 ---
 
@@ -100,6 +100,7 @@ set policy-options policy-statement R1-ISIS-EXPORT term BLOCK-LAN2 then reject
 set policy-options policy-statement R1-ISIS-EXPORT term REJECT-OTHER then reject
 set protocols isis export R1-ISIS-EXPORT
 ```
+![Topology IS-IS 1](/writeups/learn-juniper/isis-3-router-export-policy-lab/r1-isis-export-config.png)
 
 ### 4.2. R2
 
@@ -122,7 +123,7 @@ set protocols isis interface ge-0/0/0.0 point-to-point
 set protocols isis interface ge-0/0/1.0 point-to-point
 set protocols isis interface lo0.0 passive
 ```
-
+![Topology IS-IS 2](/writeups/learn-juniper/isis-3-router-export-policy-lab/r2-isis-config.png)
 ### 4.3. R3
 
 ```junos
@@ -146,7 +147,7 @@ set protocols isis interface lo0.0 passive
 ```
 
 ---
-
+![Topology IS-IS 2](/writeups/learn-juniper/isis-3-router-export-policy-lab/r3-isis-config.png)
 ## 5. Kết quả thực nghiệm
 
 ### 5.1. Kiểm tra láng giềng IS-IS

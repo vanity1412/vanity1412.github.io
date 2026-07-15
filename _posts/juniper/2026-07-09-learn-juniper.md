@@ -2,14 +2,14 @@
 title: "Learn Juniper"
 date: 2026-07-09 08:00:00 +0700
 categories: [Juniper, Learning]
-tags: [juniper, junos, jncia, is-is, bgp, isp, noc, troubleshooting, networking, routing, roadmap]
-description: "Trang điều hướng học Juniper: lộ trình học Junos, nền tảng JNCIA/Junos, IS-IS, BGP và checklist vận hành NOC/Service Operation."
+tags: [juniper, junos, jncia, is-is, bgp, isp, lab, noc, troubleshooting, networking, routing, roadmap]
+description: "Trang điều hướng học Juniper: lộ trình học Junos, nền tảng JNCIA/Junos, IS-IS, BGP, lab thực hành và checklist vận hành NOC/Service Operation."
 pin: false
 ---
 
 ## Overview
 
-Post này là điểm bắt đầu cho hướng **Learn Juniper**. Mình chia thành 6 nhánh học chính: lộ trình Junos tổng quan để biết nên học gì theo từng giai đoạn; nền tảng Junos/JNCIA để quen hệ điều hành, CLI và mô hình cấu hình; **IS-IS trên Junos** và **BGP trên Junos** để đi sâu vào core routing; tài liệu ISP/FTEL để nối kiến thức giao thức với mô hình vận hành; và checklist **NOC/Service Operation** để dùng trong kiểm tra nhanh, xử lý sự cố và troubleshooting.
+Post này là điểm bắt đầu cho hướng **Learn Juniper**. Mình chia thành 7 nhánh học chính: lộ trình Junos tổng quan để biết nên học gì theo từng giai đoạn; nền tảng Junos/JNCIA để quen hệ điều hành, CLI và mô hình cấu hình; **IS-IS trên Junos** và lab IS-IS để chuyển lý thuyết thành cấu hình thực tế; **BGP trên Junos** để đi sâu vào core routing; tài liệu ISP/FTEL để nối kiến thức giao thức với mô hình vận hành; và checklist **NOC/Service Operation** để dùng trong kiểm tra nhanh, xử lý sự cố và troubleshooting.
 
 <div class="juniper-paths" markdown="1">
 
@@ -55,6 +55,13 @@ Post này là điểm bắt đầu cho hướng **Learn Juniper**. Mình chia th
   <em>Đọc tài liệu vận hành →</em>
 </a>
 
+<a class="juniper-path-card" href="/writeups/learn-juniper/isis-3-router-export-policy-lab/">
+  <span class="juniper-path-card__kicker">Path 07</span>
+  <strong>Lab IS-IS 3 router và export policy</strong>
+  <span>Báo cáo thực nghiệm IS-IS trên 3 router Juniper: adjacency, route exchange, export policy chặn/quảng bá LAN và failover qua đường dự phòng.</span>
+  <em>Đọc lab IS-IS →</em>
+</a>
+
 </div>
 
 ## Gợi ý thứ tự học
@@ -62,10 +69,11 @@ Post này là điểm bắt đầu cho hướng **Learn Juniper**. Mình chia th
 1. Đọc **Lộ trình học Juniper Junos** trước để có bản đồ tổng quan: học Junos cơ bản, switching, routing, MPLS/core, vận hành, automation và lab theo thứ tự.
 2. Đọc **JNCIA Junos - Lý thuyết trọng tâm** để quen cách Junos tổ chức control plane, forwarding plane, cấu hình candidate/commit và các lệnh kiểm tra cơ bản.
 3. Sau đó chuyển sang **IS-IS User Guide Juniper/Junos** để học routing ở mức core network, đặc biệt khi cần hiểu MPLS, SR-MPLS/SRv6 hoặc vận hành mạng nhà mạng.
-4. Đọc **Giáo trình BGP trên Junos OS** để nắm peering, policy, route reflector, MP-BGP, bảo mật, RPKI và cách troubleshoot BGP trên Junos.
-5. Dùng **Tài liệu tháng 1: FTEL IS-IS/BGP và vận hành** để nối IS-IS/BGP với mô hình ISP, luồng thuê bao, monitoring và quy trình vận hành thực tế.
-6. Đọc tiếp **Juniper Junos cho NOC / Service Operation** để gom các lệnh kiểm tra nhanh, log, interface, routing và quy trình xử lý sự cố vào một checklist vận hành.
-7. Khi đọc xong mỗi phần, tự tạo checklist lệnh `show`, `monitor`, `traceoptions` tương ứng để biến lý thuyết thành thói quen troubleshooting.
+4. Làm **Lab IS-IS 3 router và export policy** để kiểm chứng adjacency, route, policy export và failover trên mô hình Juniper thực tế.
+5. Đọc **Giáo trình BGP trên Junos OS** để nắm peering, policy, route reflector, MP-BGP, bảo mật, RPKI và cách troubleshoot BGP trên Junos.
+6. Dùng **Tài liệu tháng 1: FTEL IS-IS/BGP và vận hành** để nối IS-IS/BGP với mô hình ISP, luồng thuê bao, monitoring và quy trình vận hành thực tế.
+7. Đọc tiếp **Juniper Junos cho NOC / Service Operation** để gom các lệnh kiểm tra nhanh, log, interface, routing và quy trình xử lý sự cố vào một checklist vận hành.
+8. Khi đọc xong mỗi phần, tự tạo checklist lệnh `show`, `monitor`, `traceoptions` tương ứng để biến lý thuyết thành thói quen troubleshooting.
 
 <style>
 .juniper-paths {

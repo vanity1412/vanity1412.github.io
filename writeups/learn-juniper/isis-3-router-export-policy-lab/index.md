@@ -101,6 +101,8 @@ set policy-options policy-statement R1-ISIS-EXPORT term REJECT-OTHER then reject
 set protocols isis export R1-ISIS-EXPORT
 ```
 
+![Cấu hình IS-IS export policy trên R1](/writeups/learn-juniper/isis-3-router-export-policy-lab/r1-isis-export-config.png)
+
 ### 4.2. R2
 
 ```junos
@@ -122,6 +124,8 @@ set protocols isis interface ge-0/0/0.0 point-to-point
 set protocols isis interface ge-0/0/1.0 point-to-point
 set protocols isis interface lo0.0 passive
 ```
+
+![Cấu hình IS-IS trên R2](/writeups/learn-juniper/isis-3-router-export-policy-lab/r2-isis-config.png)
 
 ### 4.3. R3
 
@@ -145,6 +149,8 @@ set protocols isis interface ge-0/0/1.0 point-to-point
 set protocols isis interface lo0.0 passive
 ```
 
+![Cấu hình IS-IS trên R3](/writeups/learn-juniper/isis-3-router-export-policy-lab/r3-isis-config.png)
+
 ---
 
 ## 5. Kết quả thực nghiệm
@@ -161,7 +167,7 @@ Kết quả:
 - R2 thấy R1 và R3 ở trạng thái `Up`.
 - R3 thấy R1 và R2 ở trạng thái `Up`.
 
-![Kết quả IS-IS adjacency](isis-adjacency-result.png)
+![Kết quả IS-IS adjacency](/writeups/learn-juniper/isis-3-router-export-policy-lab/isis-adjacency-result.png)
 
 ### 5.2. Kiểm tra route IS-IS
 
@@ -171,7 +177,7 @@ show route protocol isis
 
 Các router học được loopback và các mạng của nhau thông qua IS-IS.
 
-![Kết quả IS-IS route](isis-route-result.png)
+![Kết quả IS-IS route](/writeups/learn-juniper/isis-3-router-export-policy-lab/isis-route-result.png)
 
 ### 5.3. Kiểm tra Export Policy
 
@@ -196,7 +202,7 @@ Kết quả:
 - `172.16.1.0/24`: có route.
 - `172.16.2.0/24`: không có route.
 
-![Kết quả kiểm tra export policy](export-policy-result.png)
+![Kết quả kiểm tra export policy](/writeups/learn-juniper/isis-3-router-export-policy-lab/export-policy-result.png)
 
 
 ### 5.4. Kiểm tra đường dự phòng
@@ -222,7 +228,7 @@ Sau khi hội tụ, lưu lượng chuyển theo đường:
 R2 → R3 → R1
 ```
 
-![Kết quả failover R2 đi R3 tới R1](failover-r2-r3-r1-result.png)
+![Kết quả failover R2 đi R3 tới R1](/writeups/learn-juniper/isis-3-router-export-policy-lab/failover-r2-r3-r1-result.png)
 
 Khôi phục liên kết:
 

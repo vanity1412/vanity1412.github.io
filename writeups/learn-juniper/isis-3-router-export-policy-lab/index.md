@@ -101,8 +101,6 @@ set policy-options policy-statement R1-ISIS-EXPORT term REJECT-OTHER then reject
 set protocols isis export R1-ISIS-EXPORT
 ```
 
-![Cấu hình IS-IS export policy trên R1](/writeups/learn-juniper/isis-3-router-export-policy-lab/r1-isis-export-config.png)
-
 ### 4.2. R2
 
 ```junos
@@ -125,8 +123,6 @@ set protocols isis interface ge-0/0/1.0 point-to-point
 set protocols isis interface lo0.0 passive
 ```
 
-![Cấu hình IS-IS trên R2](/writeups/learn-juniper/isis-3-router-export-policy-lab/r2-isis-config.png)
-
 ### 4.3. R3
 
 ```junos
@@ -148,8 +144,6 @@ set protocols isis interface ge-0/0/3.0 point-to-point
 set protocols isis interface ge-0/0/1.0 point-to-point
 set protocols isis interface lo0.0 passive
 ```
-
-![Cấu hình IS-IS trên R3](/writeups/learn-juniper/isis-3-router-export-policy-lab/r3-isis-config.png)
 
 ---
 
